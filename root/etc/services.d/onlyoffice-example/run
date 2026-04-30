@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /usr/local/www/onlyoffice/example
+exec /usr/local/bin/s6-setuidgid bsd /usr/local/bin/node ./bin/www

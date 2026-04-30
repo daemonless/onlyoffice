@@ -1,0 +1,2 @@
+#!/bin/sh
+fetch -qo - "http://localhost:8080/healthcheck" > /dev/null 2>&1

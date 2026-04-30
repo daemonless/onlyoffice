@@ -1,0 +1,229 @@
+#!/bin/sh
+# OnlyOffice Document Server init script
+
+CONF_DIR="/usr/local/etc/onlyoffice/documentserver"
+NGINX_CONF="/usr/local/etc/nginx/nginx.conf"
+SUPERVISORD_CONF="/usr/local/etc/supervisord.conf"
+
+# --- 1. Create log directories ---
+mkdir -p \
+    /var/log/onlyoffice/documentserver/docservice \
+    /var/log/onlyoffice/documentserver/converter \
+    /var/log/onlyoffice/documentserver/metrics \
+    /var/log/onlyoffice/documentserver/nginx \
+    /var/log/nginx
+chown -R bsd:bsd /var/log/onlyoffice
+
+# --- 2. Fix /config data dir permissions ---
+mkdir -p /config/data /config/logs /config/fonts /config/cache /config/files
+chown -R bsd:bsd /config
+
+# --- 3. Write local.json from environment ---
+echo "[onlyoffice] Writing ${CONF_DIR}/local.json..."
+
+# Generate a JWT secret if not provided
+JWT_SECRET="${JWT_SECRET:-$(node -e "console.log(require('crypto').randomBytes(16).toString('hex'))")}"
+JWT_ENABLED="${JWT_ENABLED:-true}"
+
+cat > "${CONF_DIR}/local.json" << JSONEOF
+{
+  "services": {
+    "CoAuthoring": {
+      "sql": {
+        "type": "postgres",
+        "dbHost": "${DB_HOST:-onlyoffice-postgresql}",
+        "dbPort": ${DB_PORT:-5432},
+        "dbName": "${DB_NAME:-onlyoffice}",
+        "dbUser": "${DB_USER:-onlyoffice}",
+        "dbPass": "${DB_PWD:-onlyoffice}"
+      },
+      "token": {
+        "enable": {
+          "request": {
+            "inbox": ${JWT_ENABLED},
+            "outbox": ${JWT_ENABLED}
+          },
+          "browser": ${JWT_ENABLED}
+        },
+        "inbox": { "header": "${JWT_HEADER:-Authorization}" },
+        "outbox": { "header": "${JWT_HEADER:-Authorization}" }
+      },
+      "secret": {
+        "browser": { "string": "${JWT_SECRET}" },
+        "inbox":   { "string": "${JWT_SECRET}" },
+        "outbox":  { "string": "${JWT_SECRET}" },
+        "session": { "string": "${JWT_SECRET}" }
+      },
+      "request-filtering-agent": {
+        "allowPrivateIPAddress": true,
+        "allowMetaIPAddress": true
+      }
+    }
+  },
+  "rabbitmq": {
+    "url": "${AMQP_URI:-amqp://guest:guest@localhost}"
+  },
+  "storage": {
+    "fs": {
+      "secretString": "${JWT_SECRET}"
+    }
+  }
+}
+JSONEOF
+chown bsd:bsd "${CONF_DIR}/local.json"
+
+# Patch nginx ds.conf: set the JWT_SECRET as the secure_link_secret
+sed -i '' "s/set \$secure_link_secret .*;/set \$secure_link_secret ${JWT_SECRET};/" "${CONF_DIR}/nginx/ds.conf"
+
+# --- 4. Configure nginx ---
+echo "[onlyoffice] Configuring nginx..."
+cat > "${NGINX_CONF}" << 'NGINXEOF'
+user bsd;
+worker_processes auto;
+error_log /var/log/nginx/error.log warn;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    sendfile      on;
+    keepalive_timeout 65;
+
+    absolute_redirect off;
+    port_in_redirect on;
+
+    include /usr/local/etc/onlyoffice/documentserver/nginx/ds.conf;
+}
+NGINXEOF
+
+# Ensure connection_upgrade map is defined (needed by ds-example.conf WebSocket proxy)
+if ! grep -q 'map \$http_upgrade \$connection_upgrade' "${CONF_DIR}/nginx/includes/http-common.conf" 2>/dev/null; then
+    sed -i '' 's/map \$http_upgrade \$proxy_connection/map $http_upgrade $connection_upgrade {\n  websocket upgrade;\n  default close;\n}\nmap $http_upgrade $proxy_connection/' \
+        "${CONF_DIR}/nginx/includes/http-common.conf"
+fi
+
+# Proxy for the example app
+cat > "${CONF_DIR}/nginx/includes/ds-example.conf" << 'EXEOF'
+location /example/ {
+    proxy_pass http://localhost:3000/;
+    proxy_set_header Host $http_host;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $connection_upgrade;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For "::ffff:$remote_addr";
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-Host $http_host;
+}
+EXEOF
+
+# --- 4b. Run all docserver services as bsd, not onlyoffice ---
+for _conf in "${CONF_DIR}/supervisor/ds-docservice.conf" "${CONF_DIR}/supervisor/ds-converter.conf" "${CONF_DIR}/supervisor/ds-metrics.conf"; do
+    [ -f "$_conf" ] && sed -i '' 's/^user=onlyoffice/user=bsd/' "$_conf"
+done
+supervisorctl reread 2>/dev/null || true
+supervisorctl update 2>/dev/null || true
+chmod -R a+rX "${CONF_DIR}/"
+chown -R bsd:bsd /usr/local/www/onlyoffice/example
+
+# Create cache dir with correct ownership (docservice writes here as bsd)
+mkdir -p /var/db/onlyoffice/documentserver/App_Data/cache/files/data
+chown -R bsd:bsd /var/db/onlyoffice
+
+# --- 5. Enable onlyoffice services in supervisord ---
+echo "[onlyoffice] Configuring supervisord..."
+sed -i '' 's|;[[:space:]]*\[include\]|[include]|; s|;[[:space:]]*files = relative.*|files = /usr/local/etc/onlyoffice/documentserver/supervisor/*.conf|' "${SUPERVISORD_CONF}"
+
+# --- 6. Wait for DB and run schema init ---
+_db_host="${DB_HOST:-onlyoffice-postgresql}"
+_db_port="${DB_PORT:-5432}"
+_db_name="${DB_NAME:-onlyoffice}"
+_db_user="${DB_USER:-onlyoffice}"
+_db_pass="${DB_PWD:-onlyoffice}"
+
+echo "[onlyoffice] Waiting for postgres at ${_db_host}:${_db_port}..."
+i=0
+while ! nc -z "${_db_host}" "${_db_port}" > /dev/null 2>&1; do
+    i=$((i+1))
+    if [ $i -ge 15 ]; then
+        echo "[onlyoffice] WARNING: Database not reachable after 15s, continuing anyway"
+        break
+    fi
+    sleep 1
+done
+
+TABLE_EXISTS=$(PGPASSWORD="${_db_pass}" psql \
+    -h "${_db_host}" -p "${_db_port}" \
+    -U "${_db_user}" -d "${_db_name}" \
+    -tAc "SELECT 1 FROM information_schema.tables WHERE table_name='task_result'" 2>/dev/null)
+if [ "${TABLE_EXISTS}" != "1" ]; then
+    echo "[onlyoffice] Initializing database schema..."
+    PGPASSWORD="${_db_pass}" psql \
+        -h "${_db_host}" -p "${_db_port}" \
+        -U "${_db_user}" -d "${_db_name}" \
+        -f /usr/local/www/onlyoffice/documentserver/server/schema/postgresql/createdb.sql
+    echo "[onlyoffice] Schema initialized"
+else
+    echo "[onlyoffice] Schema already exists, skipping"
+fi
+
+# --- 7. WOPI keypair ---
+if [ "${WOPI_ENABLED:-false}" = "true" ]; then
+    WOPI_KEY_DIR="/config/data/wopi"
+    mkdir -p "${WOPI_KEY_DIR}"
+    if [ ! -f "${WOPI_KEY_DIR}/wopi_private.key" ]; then
+        echo "[onlyoffice] Generating WOPI RSA keypair..."
+        openssl genrsa -out "${WOPI_KEY_DIR}/wopi_private.key" 2048 2>/dev/null
+        openssl rsa -in "${WOPI_KEY_DIR}/wopi_private.key" \
+            -pubout -out "${WOPI_KEY_DIR}/wopi_public.key" 2>/dev/null
+    fi
+    WOPI_MODULUS=$(openssl rsa -in "${WOPI_KEY_DIR}/wopi_private.key" \
+        -modulus -noout 2>/dev/null | sed 's/Modulus=//')
+    node -e "
+const fs = require('fs');
+const cfg = JSON.parse(fs.readFileSync('${CONF_DIR}/local.json'));
+const key = fs.readFileSync('${WOPI_KEY_DIR}/wopi_private.key', 'utf8');
+cfg.wopi = cfg.wopi || {};
+cfg.wopi.privateKey = key;
+cfg.wopi.modulus = '${WOPI_MODULUS}';
+cfg.wopi.exponent = 'AQAB';
+fs.writeFileSync('${CONF_DIR}/local.json', JSON.stringify(cfg, null, 2));
+"
+    chown -R bsd:bsd "${WOPI_KEY_DIR}"
+    chown bsd:bsd "${CONF_DIR}/local.json"
+fi
+
+# --- 8. Configure example app ---
+echo "[onlyoffice] Configuring example app..."
+EXAMPLE_DIR=/usr/local/www/onlyoffice/example
+CLEAN_HOST=$(echo "${EXAMPLE_SERVER_URL:-localhost:8080}" | sed 's|http://||; s|https://||; s|/.*||')
+
+ln -sf /usr/local/www/onlyoffice/documentserver/document-formats/onlyoffice-docs-formats.json \
+    "${EXAMPLE_DIR}/public/assets/document-formats/onlyoffice-docs-formats.json"
+rm -rf "${EXAMPLE_DIR}/public/assets/document-templates"
+ln -sf /usr/local/www/onlyoffice/documentserver/document-templates \
+    "${EXAMPLE_DIR}/public/assets/document-templates"
+
+cat > "${EXAMPLE_DIR}/config/local.json" << EXEOF
+{
+  "server": {
+    "siteUrl": "http://${CLEAN_HOST}/",
+    "exampleUrl": "http://localhost/example",
+    "storageFolder": "/config/files",
+    "storagePath": "/config/files"
+  },
+  "token": {
+    "enable": ${JWT_ENABLED},
+    "useforrequest": true,
+    "secret": "${JWT_SECRET}"
+  },
+  "wopi": {
+    "enable": ${WOPI_ENABLED:-false}
+  }
+}
+EXEOF
+chown -R bsd:bsd "${EXAMPLE_DIR}/config" "${EXAMPLE_DIR}/files"
+
+echo "[onlyoffice] is ready"

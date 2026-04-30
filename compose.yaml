@@ -1,0 +1,70 @@
+name: onlyoffice
+
+x-daemonless:
+  title: "ONLYOFFICE Document Server"
+  icon: ":simple-onlyoffice:"
+  category: "Productivity"
+  description: "Online office suite providing collaborative editors for documents, spreadsheets, and presentations. Fully compatible with Office Open XML formats (.docx, .xlsx, .pptx). Requires PostgreSQL — see the onlyoffice-postgresql service below."
+  upstream_url: "https://github.com/ONLYOFFICE/DocumentServer"
+  web_url: "https://www.onlyoffice.com/"
+  freshports_url: "https://www.freshports.org/www/onlyoffice-documentserver/"
+  user: "bsd"
+  mlock: false
+  appjail: true
+
+  docs:
+    manual: true
+    env:
+      DB_HOST: "PostgreSQL hostname (default: onlyoffice-postgresql)"
+      DB_PORT: "PostgreSQL port (default: 5432)"
+      DB_NAME: "Database name"
+      DB_USER: "Database user"
+      DB_PWD: "Database password"
+      EXAMPLE_SERVER_URL: "Public hostname:port the browser uses to reach the document server (e.g. myhost:8080)"
+      AMQP_URI: "RabbitMQ URI (bundled RabbitMQ used by default)"
+      JWT_ENABLED: "Enable JWT token validation (true/false)"
+      JWT_SECRET: "JWT secret string"
+      JWT_HEADER: "JWT header name"
+      WOPI_ENABLED: "Enable WOPI protocol for Nextcloud/SharePoint integration (true/false)"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Persistent data, logs, and configuration"
+    ports:
+      80: "HTTP (document server + example app at /example/). Map host port 8080→80"
+
+services:
+  onlyoffice-documentserver:
+    image: ghcr.io/daemonless/onlyoffice:pkg
+    container_name: onlyoffice-documentserver
+    restart: unless-stopped
+    depends_on:
+      - onlyoffice-postgresql
+    environment:
+      - DB_HOST=onlyoffice-postgresql
+      - DB_PORT=5432
+      - DB_NAME=onlyoffice
+      - DB_USER=onlyoffice
+      - DB_PWD=onlyoffice
+      - EXAMPLE_SERVER_URL=your-hostname:8080
+      #- JWT_ENABLED=true
+      #- JWT_SECRET=your-secret-here
+      #- JWT_HEADER=Authorization
+      - TZ=UTC
+    volumes:
+      - /path/to/containers/onlyoffice:/config
+    ports:
+      - "8080:80"
+
+  onlyoffice-postgresql:
+    image: ghcr.io/daemonless/postgres:latest
+    container_name: onlyoffice-postgresql
+    restart: unless-stopped
+    annotations:
+      org.freebsd.jail.allow.sysvipc: "true"
+    environment:
+      - POSTGRES_DB=onlyoffice
+      - POSTGRES_USER=onlyoffice
+      - POSTGRES_PASSWORD=onlyoffice
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    volumes:
+      - /path/to/containers/onlyoffice-postgresql:/config

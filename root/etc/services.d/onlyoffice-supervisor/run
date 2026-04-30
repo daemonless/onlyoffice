@@ -1,0 +1,11 @@
+#!/bin/sh
+# Wait for RabbitMQ to be ready before starting onlyoffice services
+echo "[onlyoffice-supervisor] Waiting for RabbitMQ..."
+i=0
+while ! nc -z localhost 5672 2>/dev/null; do
+    i=$((i+1))
+    [ $i -ge 30 ] && echo "[onlyoffice-supervisor] WARNING: RabbitMQ not ready after 30s, starting anyway" && break
+    sleep 1
+done
+echo "[onlyoffice-supervisor] Starting supervisord..."
+exec /usr/local/bin/supervisord -n -c /usr/local/etc/supervisord.conf
