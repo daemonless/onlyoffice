@@ -50,27 +50,28 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
       onlyoffice-documentserver:
         image: ghcr.io/daemonless/onlyoffice:pkg
         container_name: onlyoffice-documentserver
+        network_mode: host
         restart: unless-stopped
         depends_on:
           - onlyoffice-postgresql
         environment:
-          - DB_HOST=onlyoffice-postgresql
+          - DB_HOST=127.0.0.1
           - DB_PORT=5432
           - DB_NAME=onlyoffice
           - DB_USER=onlyoffice
           - DB_PWD=onlyoffice
+          - HTTP_PORT=8080
           - EXAMPLE_SERVER_URL=your-hostname:8080
           #- JWT_ENABLED=true
           #- JWT_SECRET=your-secret-here
           - TZ=UTC
         volumes:
           - "/path/to/containers/onlyoffice:/config"
-        ports:
-          - "8080:80"
 
       onlyoffice-postgresql:
         image: ghcr.io/daemonless/postgres:latest
         container_name: onlyoffice-postgresql
+        network_mode: host
         restart: unless-stopped
         annotations:
           org.freebsd.jail.allow.sysvipc: "true"
@@ -93,15 +94,28 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 
     Access the editor at: **http://your-host:8080/example/**
 
+    ??? tip "Using a named network with cni-dnsname"
+        If `cni-dnsname` is installed (`pkg install cni-dnsname`), you can use a named network instead. Remove `network_mode: host`, set `DB_HOST=onlyoffice-postgresql`, remove `HTTP_PORT`, and add ports:
+
+        ```yaml
+        services:
+          onlyoffice-documentserver:
+            networks: [onlyoffice]
+            environment:
+              - DB_HOST=onlyoffice-postgresql
+            ports:
+              - "8080:80"
+          onlyoffice-postgresql:
+            networks: [onlyoffice]
+        networks:
+          onlyoffice:
+        ```
+
 === ":material-console: Podman CLI"
 
-    Start PostgreSQL first:
-
     ```bash
-    podman network create onlyoffice
-
     podman run -d --name onlyoffice-postgresql \
-      --network onlyoffice \
+      --network host \
       --restart unless-stopped \
       --annotation 'org.freebsd.jail.allow.sysvipc=true' \
       -e POSTGRES_DB=onlyoffice \
@@ -110,20 +124,16 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
       -e POSTGRES_HOST_AUTH_METHOD=trust \
       -v /path/to/containers/onlyoffice-postgresql:/config \
       ghcr.io/daemonless/postgres:latest
-    ```
 
-    Then start the document server:
-
-    ```bash
     podman run -d --name onlyoffice-documentserver \
-      --network onlyoffice \
+      --network host \
       --restart unless-stopped \
-      -p 8080:80 \
-      -e DB_HOST=onlyoffice-postgresql \
+      -e DB_HOST=127.0.0.1 \
       -e DB_PORT=5432 \
       -e DB_NAME=onlyoffice \
       -e DB_USER=onlyoffice \
       -e DB_PWD=onlyoffice \
+      -e HTTP_PORT=8080 \
       -e EXAMPLE_SERVER_URL=your-hostname:8080 \
       -e TZ=UTC \
       -v /path/to/containers/onlyoffice:/config \
@@ -139,6 +149,7 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 | `DB_NAME` | `onlyoffice` | Database name |
 | `DB_USER` | `onlyoffice` | Database user |
 | `DB_PWD` | `onlyoffice` | Database password |
+| `HTTP_PORT` | `80` | Port nginx listens on inside the container. Set to `8080` when using `network_mode: host` |
 | `EXAMPLE_SERVER_URL` | `your-hostname:8080` | Public hostname:port the browser uses to reach the document server |
 | `AMQP_URI` | `amqp://guest:guest@localhost` | RabbitMQ URI (bundled RabbitMQ used by default) |
 | `JWT_ENABLED` | `true` | Enable JWT token validation |
@@ -182,27 +193,28 @@ ONLYOFFICE Document Server integrates with Nextcloud via the official ONLYOFFICE
       onlyoffice-documentserver:
         image: ghcr.io/daemonless/onlyoffice:pkg
         container_name: onlyoffice-documentserver
+        network_mode: host
         restart: unless-stopped
         depends_on:
           - onlyoffice-postgresql
         environment:
-          - DB_HOST=onlyoffice-postgresql
+          - DB_HOST=127.0.0.1
           - DB_PORT=5432
           - DB_NAME=onlyoffice
           - DB_USER=onlyoffice
           - DB_PWD=onlyoffice
+          - HTTP_PORT=8080
           - EXAMPLE_SERVER_URL=your-hostname:8080
           - JWT_ENABLED=true
           - JWT_SECRET=your-secret-here
           - TZ=UTC
         volumes:
           - "/path/to/containers/onlyoffice:/config"
-        ports:
-          - "8080:80"
 
       onlyoffice-postgresql:
         image: ghcr.io/daemonless/postgres:latest
         container_name: onlyoffice-postgresql
+        network_mode: host
         restart: unless-stopped
         annotations:
           org.freebsd.jail.allow.sysvipc: "true"
@@ -217,28 +229,21 @@ ONLYOFFICE Document Server integrates with Nextcloud via the official ONLYOFFICE
       nextcloud:
         image: ghcr.io/daemonless/nextcloud:latest
         container_name: nextcloud
+        network_mode: host
         restart: unless-stopped
         environment:
-          - PUID=1000
-          - PGID=1000
           - TZ=UTC
         volumes:
           - "/path/to/containers/nextcloud/config:/config"
           - "/path/to/containers/nextcloud/data:/data"
-        ports:
-          - "8082:80"
     ```
 
 === ":material-console: Podman CLI"
 
-    Run all three on a shared network:
-
     ```bash
-    podman network create onlyoffice
-
     # PostgreSQL
     podman run -d --name onlyoffice-postgresql \
-      --network onlyoffice \
+      --network host \
       --restart unless-stopped \
       --annotation 'org.freebsd.jail.allow.sysvipc=true' \
       -e POSTGRES_DB=onlyoffice \
@@ -250,21 +255,21 @@ ONLYOFFICE Document Server integrates with Nextcloud via the official ONLYOFFICE
 
     # Document Server
     podman run -d --name onlyoffice-documentserver \
-      --network onlyoffice \
+      --network host \
       --restart unless-stopped \
-      -p 8080:80 \
-      -e DB_HOST=onlyoffice-postgresql \
+      -e DB_HOST=127.0.0.1 \
+      -e HTTP_PORT=8080 \
       -e JWT_ENABLED=true \
       -e JWT_SECRET=your-secret-here \
       -e EXAMPLE_SERVER_URL=your-hostname:8080 \
+      -e TZ=UTC \
       -v /path/to/containers/onlyoffice:/config \
       ghcr.io/daemonless/onlyoffice:pkg
 
     # Nextcloud
     podman run -d --name nextcloud \
-      --network onlyoffice \
+      --network host \
       --restart unless-stopped \
-      -p 8082:80 \
       -v /path/to/containers/nextcloud/config:/config \
       -v /path/to/containers/nextcloud/data:/data \
       ghcr.io/daemonless/nextcloud:latest

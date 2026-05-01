@@ -23,7 +23,6 @@ LABEL org.opencontainers.image.title="ONLYOFFICE Document Server" \
       org.opencontainers.image.vendor="daemonless" \
       org.opencontainers.image.authors="daemonless" \
       io.daemonless.category="Productivity" \
-      io.daemonless.port="8080" \
       io.daemonless.volumes="/config" \
       io.daemonless.arch="${FREEBSD_ARCH}" \
       io.daemonless.pkg-source="pkg" \
@@ -89,7 +88,6 @@ ENV DB_HOST=onlyoffice-postgresql \
     EXAMPLE_SERVER_URL=localhost
 
 # --- Expose (Injected by Generator) ---
-EXPOSE 8080
 
 # --- Volumes (Injected by Generator) ---
 VOLUME /config

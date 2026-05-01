@@ -75,6 +75,11 @@ chown bsd:bsd "${CONF_DIR}/local.json"
 # Patch nginx ds.conf: set the JWT_SECRET as the secure_link_secret
 sed -i '' "s/set \$secure_link_secret .*;/set \$secure_link_secret ${JWT_SECRET};/" "${CONF_DIR}/nginx/ds.conf"
 
+# Patch listen port — defaults to 80; set HTTP_PORT=8080 when using network_mode: host
+HTTP_PORT="${HTTP_PORT:-80}"
+sed -i '' "s/listen 0\.0\.0\.0:80;/listen 0.0.0.0:${HTTP_PORT};/" "${CONF_DIR}/nginx/ds.conf"
+sed -i '' "s/listen \[\:\:\]:80 /listen [::]:${HTTP_PORT} /" "${CONF_DIR}/nginx/ds.conf"
+
 # --- 4. Configure nginx ---
 echo "[onlyoffice] Configuring nginx..."
 cat > "${NGINX_CONF}" << 'NGINXEOF'
@@ -117,6 +122,16 @@ location /example/ {
     proxy_set_header X-Forwarded-Proto $scheme;
     proxy_set_header X-Forwarded-Host $http_host;
 }
+location /editor {
+    proxy_pass http://localhost:3000/editor;
+    proxy_set_header Host $http_host;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection $connection_upgrade;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For "::ffff:$remote_addr";
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-Host $http_host;
+}
 EXEOF
 
 # --- 4b. Run all docserver services as bsd, not onlyoffice ---
@@ -146,10 +161,12 @@ _db_reachable=true
 
 echo "[onlyoffice] Waiting for postgres at ${_db_host}:${_db_port}..."
 i=0
-while ! timeout 2 nc -z "${_db_host}" "${_db_port}" > /dev/null 2>&1; do
+while ! PGPASSWORD="${_db_pass}" PGCONNECT_TIMEOUT=2 psql \
+    -h "${_db_host}" -p "${_db_port}" -U "${_db_user}" -d "${_db_name}" \
+    -c "SELECT 1" > /dev/null 2>&1; do
     i=$((i+1))
-    if [ $i -ge 15 ]; then
-        echo "[onlyoffice] WARNING: Database not reachable after 15s, skipping schema init"
+    if [ $i -ge 30 ]; then
+        echo "[onlyoffice] WARNING: Database not reachable after 30s, skipping schema init"
         _db_reachable=false
         break
     fi
@@ -157,13 +174,13 @@ while ! timeout 2 nc -z "${_db_host}" "${_db_port}" > /dev/null 2>&1; do
 done
 
 if [ "${_db_reachable}" = "true" ]; then
-    TABLE_EXISTS=$(PGPASSWORD="${_db_pass}" psql --connect-timeout=5 \
+    TABLE_EXISTS=$(PGPASSWORD="${_db_pass}" PGCONNECT_TIMEOUT=5 psql \
         -h "${_db_host}" -p "${_db_port}" \
         -U "${_db_user}" -d "${_db_name}" \
         -tAc "SELECT 1 FROM information_schema.tables WHERE table_name='task_result'" 2>/dev/null)
     if [ "${TABLE_EXISTS}" != "1" ]; then
         echo "[onlyoffice] Initializing database schema..."
-        PGPASSWORD="${_db_pass}" psql --connect-timeout=5 \
+        PGPASSWORD="${_db_pass}" PGCONNECT_TIMEOUT=5 psql \
             -h "${_db_host}" -p "${_db_port}" \
             -U "${_db_user}" -d "${_db_name}" \
             -f /usr/local/www/onlyoffice/documentserver/server/schema/postgresql/createdb.sql
@@ -214,7 +231,7 @@ cat > "${EXAMPLE_DIR}/config/local.json" << EXEOF
 {
   "server": {
     "siteUrl": "http://${CLEAN_HOST}/",
-    "exampleUrl": "http://localhost/example",
+    "exampleUrl": "http://${CLEAN_HOST}/example",
     "storageFolder": "/config/files",
     "storagePath": "/config/files"
   },

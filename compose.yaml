@@ -36,15 +36,17 @@ services:
   onlyoffice-documentserver:
     image: ghcr.io/daemonless/onlyoffice:pkg
     container_name: onlyoffice-documentserver
+    network_mode: host
     restart: unless-stopped
     depends_on:
       - onlyoffice-postgresql
     environment:
-      - DB_HOST=onlyoffice-postgresql
+      - DB_HOST=127.0.0.1
       - DB_PORT=5432
       - DB_NAME=onlyoffice
       - DB_USER=onlyoffice
       - DB_PWD=onlyoffice
+      - HTTP_PORT=8080
       - EXAMPLE_SERVER_URL=your-hostname:8080
       #- JWT_ENABLED=true
       #- JWT_SECRET=your-secret-here
@@ -52,12 +54,11 @@ services:
       - TZ=UTC
     volumes:
       - /path/to/containers/onlyoffice:/config
-    ports:
-      - "8080:80"
 
   onlyoffice-postgresql:
     image: ghcr.io/daemonless/postgres:latest
     container_name: onlyoffice-postgresql
+    network_mode: host
     restart: unless-stopped
     annotations:
       org.freebsd.jail.allow.sysvipc: "true"
