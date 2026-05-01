@@ -145,7 +145,7 @@ _db_pass="${DB_PWD:-onlyoffice}"
 
 echo "[onlyoffice] Waiting for postgres at ${_db_host}:${_db_port}..."
 i=0
-while ! nc -z "${_db_host}" "${_db_port}" > /dev/null 2>&1; do
+while ! nc -z -w 1 "${_db_host}" "${_db_port}" > /dev/null 2>&1; do
     i=$((i+1))
     if [ $i -ge 15 ]; then
         echo "[onlyoffice] WARNING: Database not reachable after 15s, continuing anyway"

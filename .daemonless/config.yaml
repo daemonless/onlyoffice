@@ -3,7 +3,7 @@ icon: ':simple-onlyoffice:'
 cit:
   mode: port
   port: 80
-  wait: 120
+  wait: 180
   screenshot: /example/
 
 build:
