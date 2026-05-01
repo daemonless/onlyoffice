@@ -161,7 +161,7 @@ _db_reachable=true
 
 echo "[onlyoffice] Waiting for postgres at ${_db_host}:${_db_port}..."
 i=0
-while ! PGPASSWORD="${_db_pass}" PGCONNECT_TIMEOUT=2 psql \
+while ! PGPASSWORD="${_db_pass}" PGCONNECT_TIMEOUT=2 timeout 3 psql \
     -h "${_db_host}" -p "${_db_port}" -U "${_db_user}" -d "${_db_name}" \
     -c "SELECT 1" > /dev/null 2>&1; do
     i=$((i+1))

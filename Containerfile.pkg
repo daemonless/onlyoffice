@@ -34,7 +34,7 @@ LABEL org.opencontainers.image.title="ONLYOFFICE Document Server" \
 RUN pkg update && \
     pkg install -y ${PACKAGES} && \
     mkdir -p /app && \
-    pkg query '%v' ${PKG_NAME} | sed 's/_[0-9]*$//' > /app/version && \
+    pkg query '%v' ${PKG_NAME} > /app/version && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
