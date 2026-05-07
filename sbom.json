@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-01T20:38:15Z",
+  "generated": "2026-05-07T08:12:50Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.3.1",
       "arch": "amd64",
-      "generated": "2026-05-01T20:35:59Z",
+      "generated": "2026-05-07T08:10:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -131,7 +131,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "ImageMagick7",
@@ -191,7 +191,7 @@
           },
           {
             "name": "cups",
-            "version": "2.4.18"
+            "version": "2.4.19"
           },
           {
             "name": "curl",
@@ -287,7 +287,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "gpgme",
@@ -2789,7 +2789,7 @@
     "pkg-latest": {
       "app_version": "9.3.1_2",
       "arch": "amd64",
-      "generated": "2026-05-01T20:36:56Z",
+      "generated": "2026-05-07T08:11:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2887,7 +2887,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2915,7 +2915,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "ImageMagick7",
@@ -2963,7 +2963,7 @@
           },
           {
             "name": "cfitsio",
-            "version": "4.6.3"
+            "version": "4.6.4"
           },
           {
             "name": "cgif",
@@ -2975,11 +2975,11 @@
           },
           {
             "name": "cups",
-            "version": "2.4.18"
+            "version": "2.4.19"
           },
           {
             "name": "curl",
-            "version": "8.19.0_2"
+            "version": "8.20.0"
           },
           {
             "name": "dav1d",
@@ -3043,7 +3043,7 @@
           },
           {
             "name": "ghostscript10",
-            "version": "10.07.0"
+            "version": "10.07.0_1"
           },
           {
             "name": "giflib",
@@ -3051,7 +3051,7 @@
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmake",
@@ -3071,7 +3071,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "gpgme",
@@ -3207,7 +3207,7 @@
           },
           {
             "name": "libXt",
-            "version": "1.3.0,1"
+            "version": "1.3.1,1"
           },
           {
             "name": "libXv",
@@ -3215,7 +3215,7 @@
           },
           {
             "name": "libXxf86vm",
-            "version": "1.1.6"
+            "version": "1.1.7"
           },
           {
             "name": "libada",
@@ -3227,7 +3227,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.5,1"
+            "version": "3.8.7,1"
           },
           {
             "name": "libass",
@@ -3375,7 +3375,7 @@
           },
           {
             "name": "libpciaccess",
-            "version": "0.18.1_1"
+            "version": "0.19"
           },
           {
             "name": "libplacebo",
@@ -3495,7 +3495,7 @@
           },
           {
             "name": "llhttp",
-            "version": "9.3.1"
+            "version": "9.4.1"
           },
           {
             "name": "lzo2",
@@ -3535,11 +3535,11 @@
           },
           {
             "name": "nginx",
-            "version": "1.28.3,3"
+            "version": "1.30.0,3"
           },
           {
             "name": "node22",
-            "version": "22.22.2_1"
+            "version": "22.22.2_2"
           },
           {
             "name": "npm-node22",
@@ -3571,7 +3571,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.10_1"
+            "version": "3.4.11"
           },
           {
             "name": "openh264",
@@ -3607,7 +3607,7 @@
           },
           {
             "name": "pinentry",
-            "version": "1.3.2_1"
+            "version": "1.3.2_2"
           },
           {
             "name": "pinentry-curses",
@@ -3615,7 +3615,7 @@
           },
           {
             "name": "pixman",
-            "version": "0.46.2"
+            "version": "0.46.4"
           },
           {
             "name": "pkg",
@@ -3631,7 +3631,7 @@
           },
           {
             "name": "poppler",
-            "version": "25.10.0_1"
+            "version": "26.04.0"
           },
           {
             "name": "poppler-data",
@@ -3639,7 +3639,7 @@
           },
           {
             "name": "poppler-glib",
-            "version": "25.10.0_1"
+            "version": "26.04.0"
           },
           {
             "name": "postgresql18-client",
@@ -3659,7 +3659,7 @@
           },
           {
             "name": "py311-packaging",
-            "version": "26.1"
+            "version": "26.2"
           },
           {
             "name": "py311-setuptools",
@@ -3731,7 +3731,7 @@
           },
           {
             "name": "vips",
-            "version": "8.18.2"
+            "version": "8.18.2_1"
           },
           {
             "name": "vmaf",
@@ -3739,7 +3739,7 @@
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.336"
+            "version": "1.4.349"
           },
           {
             "name": "wayland",
@@ -3763,7 +3763,7 @@
           },
           {
             "name": "xorgproto",
-            "version": "2024.1"
+            "version": "2025.1"
           },
           {
             "name": "xxhash",
@@ -5490,7 +5490,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.1"
+            "version": "26.2"
           },
           {
             "name": "setuptools",
