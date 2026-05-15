@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-07T08:12:50Z",
+  "generated": "2026-05-15T22:57:19Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.3.1",
       "arch": "amd64",
-      "generated": "2026-05-07T08:10:14Z",
+      "generated": "2026-05-15T22:56:06Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -179,7 +179,7 @@
           },
           {
             "name": "cfitsio",
-            "version": "4.6.3"
+            "version": "4.6.4"
           },
           {
             "name": "cgif",
@@ -195,7 +195,7 @@
           },
           {
             "name": "curl",
-            "version": "8.19.0_2"
+            "version": "8.20.0"
           },
           {
             "name": "dav1d",
@@ -219,7 +219,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "ffmpeg",
@@ -791,7 +791,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.9"
+            "version": "3.4.11"
           },
           {
             "name": "openh264",
@@ -2789,7 +2789,7 @@
     "pkg-latest": {
       "app_version": "9.3.1_2",
       "arch": "amd64",
-      "generated": "2026-05-07T08:11:36Z",
+      "generated": "2026-05-15T22:54:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2923,7 +2923,7 @@
           },
           {
             "name": "Imath",
-            "version": "3.2.2_3"
+            "version": "3.2.2_4"
           },
           {
             "name": "aom",
@@ -3003,11 +3003,11 @@
           },
           {
             "name": "expat",
-            "version": "2.8.0"
+            "version": "2.8.1"
           },
           {
             "name": "ffmpeg",
-            "version": "8.1,1"
+            "version": "8.1.1,1"
           },
           {
             "name": "fftw3",
@@ -3039,7 +3039,7 @@
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "ghostscript10",
@@ -3087,7 +3087,7 @@
           },
           {
             "name": "gsed",
-            "version": "4.9"
+            "version": "4.10"
           },
           {
             "name": "gsfonts",
@@ -3111,7 +3111,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.406,1"
+            "version": "0.407,1"
           },
           {
             "name": "icu",
@@ -3143,7 +3143,7 @@
           },
           {
             "name": "lcms2",
-            "version": "2.19"
+            "version": "2.19.1"
           },
           {
             "name": "lerc",
@@ -3175,7 +3175,7 @@
           },
           {
             "name": "libXdamage",
-            "version": "1.1.6"
+            "version": "1.1.7"
           },
           {
             "name": "libXdmcp",
@@ -3307,7 +3307,7 @@
           },
           {
             "name": "libgpg-error",
-            "version": "1.60"
+            "version": "1.61"
           },
           {
             "name": "libheif",
@@ -3331,7 +3331,7 @@
           },
           {
             "name": "libksba",
-            "version": "1.6.8"
+            "version": "1.7.0"
           },
           {
             "name": "liblangtag",
@@ -3515,7 +3515,7 @@
           },
           {
             "name": "mkfontscale",
-            "version": "1.2.3"
+            "version": "1.2.4"
           },
           {
             "name": "mpc",
@@ -3543,7 +3543,7 @@
           },
           {
             "name": "npm-node22",
-            "version": "11.12.1"
+            "version": "11.14.0_1"
           },
           {
             "name": "npth",
@@ -3551,7 +3551,7 @@
           },
           {
             "name": "nspr",
-            "version": "4.38.2"
+            "version": "4.39"
           },
           {
             "name": "nss",
@@ -3583,7 +3583,7 @@
           },
           {
             "name": "openjph",
-            "version": "0.27.0"
+            "version": "0.27.1"
           },
           {
             "name": "opus",
@@ -3623,7 +3623,7 @@
           },
           {
             "name": "pkgconf",
-            "version": "2.4.3,1"
+            "version": "2.4.3_1,1"
           },
           {
             "name": "png",
@@ -3654,8 +3654,8 @@
             "version": "1.89.0"
           },
           {
-            "name": "py311-numpy1",
-            "version": "1.26.4_3"
+            "name": "py311-numpy",
+            "version": "2.4.4_2,1"
           },
           {
             "name": "py311-packaging",
@@ -3699,7 +3699,7 @@
           },
           {
             "name": "simdjson",
-            "version": "4.6.3"
+            "version": "4.6.4"
           },
           {
             "name": "skalibs",
@@ -3739,7 +3739,7 @@
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.349"
+            "version": "1.4.350"
           },
           {
             "name": "wayland",
@@ -3822,6 +3822,38 @@
             "version": "1.1.0"
           },
           {
+            "name": "@jupyterlite/app",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-consoles",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-edit",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-lab",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-notebooks",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-repl",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/app-tree",
+            "version": "0.5.1"
+          },
+          {
+            "name": "@jupyterlite/pyodide-kernel-extension",
+            "version": "0.5.2"
+          },
+          {
             "name": "@mercadoeletronico/wopi-proof-validator",
             "version": "1.0.2"
           },
@@ -3855,11 +3887,11 @@
           },
           {
             "name": "@npmcli/arborist",
-            "version": "9.4.2"
+            "version": "9.5.0"
           },
           {
             "name": "@npmcli/config",
-            "version": "10.8.1"
+            "version": "10.9.0"
           },
           {
             "name": "@npmcli/fs",
@@ -3923,7 +3955,7 @@
           },
           {
             "name": "@sigstore/protobuf-specs",
-            "version": "0.5.0"
+            "version": "0.5.1"
           },
           {
             "name": "@sigstore/sign",
@@ -4107,7 +4139,7 @@
           },
           {
             "name": "cidr-regex",
-            "version": "5.0.3"
+            "version": "5.0.5"
           },
           {
             "name": "cmd-shim",
@@ -4211,7 +4243,7 @@
           },
           {
             "name": "diff",
-            "version": "8.0.3"
+            "version": "8.0.4"
           },
           {
             "name": "digest-header",
@@ -4583,7 +4615,7 @@
           },
           {
             "name": "ip-address",
-            "version": "10.1.0"
+            "version": "10.1.1"
           },
           {
             "name": "ipaddr.js",
@@ -4607,7 +4639,7 @@
           },
           {
             "name": "is-cidr",
-            "version": "6.0.3"
+            "version": "6.0.4"
           },
           {
             "name": "is-core-module",
@@ -4714,6 +4746,14 @@
             "version": "9.0.2"
           },
           {
+            "name": "jupyterlab-jupytext",
+            "version": "1.4.5"
+          },
+          {
+            "name": "jupyterlab_pygments",
+            "version": "0.3.0"
+          },
+          {
             "name": "just-diff",
             "version": "6.0.2"
           },
@@ -4739,15 +4779,15 @@
           },
           {
             "name": "libnpmdiff",
-            "version": "8.1.5"
+            "version": "8.1.7"
           },
           {
             "name": "libnpmexec",
-            "version": "10.2.5"
+            "version": "10.2.7"
           },
           {
             "name": "libnpmfund",
-            "version": "7.0.19"
+            "version": "7.0.21"
           },
           {
             "name": "libnpmorg",
@@ -4755,7 +4795,7 @@
           },
           {
             "name": "libnpmpack",
-            "version": "9.1.5"
+            "version": "9.1.7"
           },
           {
             "name": "libnpmpublish",
@@ -4819,7 +4859,7 @@
           },
           {
             "name": "lru-cache",
-            "version": "11.2.7"
+            "version": "11.3.5"
           },
           {
             "name": "make-fetch-happen",
@@ -4851,7 +4891,7 @@
           },
           {
             "name": "minimatch",
-            "version": "10.2.4"
+            "version": "10.2.5"
           },
           {
             "name": "minimist",
@@ -4871,7 +4911,7 @@
           },
           {
             "name": "minipass-flush",
-            "version": "1.0.5"
+            "version": "1.0.6"
           },
           {
             "name": "minipass-pipeline",
@@ -4919,7 +4959,7 @@
           },
           {
             "name": "node-gyp",
-            "version": "12.2.0"
+            "version": "12.3.0"
           },
           {
             "name": "nopt",
@@ -4927,7 +4967,7 @@
           },
           {
             "name": "npm",
-            "version": "11.12.1"
+            "version": "11.14.0"
           },
           {
             "name": "npm-audit-report",
@@ -5079,7 +5119,7 @@
           },
           {
             "name": "picomatch",
-            "version": "4.0.3"
+            "version": "4.0.4"
           },
           {
             "name": "possible-typed-array-names",
@@ -5255,7 +5295,7 @@
           },
           {
             "name": "socks",
-            "version": "2.8.7"
+            "version": "2.8.8"
           },
           {
             "name": "socks-proxy-agent",
@@ -5323,7 +5363,7 @@
           },
           {
             "name": "tar",
-            "version": "7.5.11"
+            "version": "7.5.13"
           },
           {
             "name": "text-table",
@@ -5347,7 +5387,7 @@
           },
           {
             "name": "tinyglobby",
-            "version": "0.2.15"
+            "version": "0.2.16"
           },
           {
             "name": "toidentifier",
@@ -5396,6 +5436,10 @@
           {
             "name": "unbox-primitive",
             "version": "1.0.2"
+          },
+          {
+            "name": "undici",
+            "version": "6.25.0"
           },
           {
             "name": "unescape",
@@ -5486,7 +5530,7 @@
           },
           {
             "name": "numpy",
-            "version": "1.26.4"
+            "version": "2.4.4"
           },
           {
             "name": "packaging",
@@ -5510,12 +5554,12 @@
         "freebsd": 245,
         "go": 0,
         "java": 0,
-        "node": 425,
+        "node": 436,
         "php": 0,
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 675
+        "total": 686
       }
     }
   }
