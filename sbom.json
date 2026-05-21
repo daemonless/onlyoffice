@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-15T22:57:19Z",
+  "generated": "2026-05-21T17:27:42Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.3.1",
       "arch": "amd64",
-      "generated": "2026-05-15T22:56:06Z",
+      "generated": "2026-05-21T17:25:51Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -59,6 +59,10 @@
           },
           {
             "name": "FreeBSD-libcasper",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libcompiler_rt-dev",
             "version": "15.0"
           },
           {
@@ -171,7 +175,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "cairo",
@@ -219,7 +223,7 @@
           },
           {
             "name": "expat",
-            "version": "2.8.0"
+            "version": "2.8.1"
           },
           {
             "name": "ffmpeg",
@@ -755,7 +759,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.28.3,3"
+            "version": "1.30.1,3"
           },
           {
             "name": "node22",
@@ -2775,7 +2779,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 253,
+        "freebsd": 254,
         "go": 0,
         "java": 0,
         "node": 430,
@@ -2783,13 +2787,13 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 688
+        "total": 689
       }
     },
     "pkg-latest": {
       "app_version": "9.3.1_2",
       "arch": "amd64",
-      "generated": "2026-05-15T22:54:26Z",
+      "generated": "2026-05-21T17:26:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2843,6 +2847,10 @@
           },
           {
             "name": "FreeBSD-libcasper",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-libcompiler_rt-dev",
             "version": "15.0"
           },
           {
@@ -2927,7 +2935,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.3"
+            "version": "3.14.0"
           },
           {
             "name": "avahi-app",
@@ -2955,7 +2963,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "cairo",
@@ -2975,7 +2983,7 @@
           },
           {
             "name": "cups",
-            "version": "2.4.19"
+            "version": "2.4.19_1"
           },
           {
             "name": "curl",
@@ -3095,7 +3103,7 @@
           },
           {
             "name": "gumbo",
-            "version": "0.13.0"
+            "version": "0.13.2_1"
           },
           {
             "name": "harfbuzz",
@@ -3183,7 +3191,7 @@
           },
           {
             "name": "libXext",
-            "version": "1.3.6,1"
+            "version": "1.3.7,1"
           },
           {
             "name": "libXfixes",
@@ -3255,7 +3263,7 @@
           },
           {
             "name": "libdrm",
-            "version": "2.4.131,1"
+            "version": "2.4.133,1"
           },
           {
             "name": "libdvdnav",
@@ -3535,15 +3543,15 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.0,3"
+            "version": "1.30.1_1,3"
           },
           {
             "name": "node22",
-            "version": "22.22.2_2"
+            "version": "22.22.3"
           },
           {
             "name": "npm-node22",
-            "version": "11.14.0_1"
+            "version": "11.14.1"
           },
           {
             "name": "npth",
@@ -3555,7 +3563,7 @@
           },
           {
             "name": "nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "oniguruma",
@@ -3567,7 +3575,7 @@
           },
           {
             "name": "openblas",
-            "version": "0.3.30,2"
+            "version": "0.3.33,2"
           },
           {
             "name": "openexr",
@@ -3583,7 +3591,7 @@
           },
           {
             "name": "openjph",
-            "version": "0.27.1"
+            "version": "0.27.2"
           },
           {
             "name": "opus",
@@ -3643,7 +3651,7 @@
           },
           {
             "name": "postgresql18-client",
-            "version": "18.3"
+            "version": "18.4"
           },
           {
             "name": "pwgen",
@@ -3655,7 +3663,7 @@
           },
           {
             "name": "py311-numpy",
-            "version": "2.4.4_2,1"
+            "version": "2.4.4_3,1"
           },
           {
             "name": "py311-packaging",
@@ -3739,7 +3747,7 @@
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.350"
+            "version": "1.4.350.0"
           },
           {
             "name": "wayland",
@@ -4967,7 +4975,7 @@
           },
           {
             "name": "npm",
-            "version": "11.14.0"
+            "version": "11.14.1"
           },
           {
             "name": "npm-audit-report",
@@ -5551,7 +5559,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 245,
+        "freebsd": 246,
         "go": 0,
         "java": 0,
         "node": 436,
@@ -5559,7 +5567,7 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 686
+        "total": 687
       }
     }
   }
