@@ -56,6 +56,7 @@ RUN mkdir -p /usr/local/www/onlyoffice/example && \
     rm /tmp/ds-example.tar.gz && \
     mkdir -p /usr/local/www/onlyoffice/example/files && \
     chown -R bsd:bsd /usr/local/www/onlyoffice/example && \
+    mkdir -p /usr/local/www/onlyoffice/example/public/assets/document-formats && \
     ln -sf /usr/local/www/onlyoffice/documentserver/document-formats/onlyoffice-docs-formats.json \
         /usr/local/www/onlyoffice/example/public/assets/document-formats/onlyoffice-docs-formats.json && \
     rm -rf /usr/local/www/onlyoffice/example/public/assets/document-templates && \
