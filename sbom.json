@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-21T17:27:42Z",
+  "generated": "2026-05-28T22:50:20Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.3.1",
       "arch": "amd64",
-      "generated": "2026-05-21T17:25:51Z",
+      "generated": "2026-05-28T22:49:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -443,7 +443,7 @@
           },
           {
             "name": "libaec",
-            "version": "1.1.5"
+            "version": "1.1.7"
           },
           {
             "name": "libarchive",
@@ -731,7 +731,7 @@
           },
           {
             "name": "md4c",
-            "version": "0.5.2.20240225"
+            "version": "0.5.3"
           },
           {
             "name": "mesa-libs",
@@ -867,7 +867,7 @@
           },
           {
             "name": "postgresql18-client",
-            "version": "18.3"
+            "version": "18.4"
           },
           {
             "name": "pwgen",
@@ -2793,7 +2793,7 @@
     "pkg-latest": {
       "app_version": "9.3.1_2",
       "arch": "amd64",
-      "generated": "2026-05-21T17:26:31Z",
+      "generated": "2026-05-28T22:49:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2979,7 +2979,7 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.7"
+            "version": "0.35.0"
           },
           {
             "name": "cups",
@@ -3051,7 +3051,7 @@
           },
           {
             "name": "ghostscript10",
-            "version": "10.07.0_1"
+            "version": "10.07.1"
           },
           {
             "name": "giflib",
@@ -3083,11 +3083,11 @@
           },
           {
             "name": "gpgme",
-            "version": "2.0.1"
+            "version": "2.1.0"
           },
           {
             "name": "gpgmepp",
-            "version": "2.0.0"
+            "version": "2.1.0"
           },
           {
             "name": "graphite2",
@@ -3103,7 +3103,7 @@
           },
           {
             "name": "gumbo",
-            "version": "0.13.2_1"
+            "version": "0.13.2_2"
           },
           {
             "name": "harfbuzz",
@@ -3203,7 +3203,7 @@
           },
           {
             "name": "libXi",
-            "version": "1.8.2,1"
+            "version": "1.8.3,1"
           },
           {
             "name": "libXrandr",
@@ -3231,7 +3231,7 @@
           },
           {
             "name": "libaec",
-            "version": "1.1.6"
+            "version": "1.1.7"
           },
           {
             "name": "libarchive",
@@ -3239,7 +3239,7 @@
           },
           {
             "name": "libass",
-            "version": "0.17.4"
+            "version": "0.17.4_1"
           },
           {
             "name": "libassuan",
@@ -3339,7 +3339,7 @@
           },
           {
             "name": "libksba",
-            "version": "1.7.0"
+            "version": "1.8.0"
           },
           {
             "name": "liblangtag",
@@ -3515,7 +3515,7 @@
           },
           {
             "name": "md4c",
-            "version": "0.5.2.20240225"
+            "version": "0.5.3"
           },
           {
             "name": "mesa-libs",
@@ -3551,7 +3551,7 @@
           },
           {
             "name": "npm-node22",
-            "version": "11.14.1"
+            "version": "11.15.0"
           },
           {
             "name": "npth",
@@ -3591,7 +3591,7 @@
           },
           {
             "name": "openjph",
-            "version": "0.27.2"
+            "version": "0.27.3"
           },
           {
             "name": "opus",
@@ -3663,7 +3663,7 @@
           },
           {
             "name": "py311-numpy",
-            "version": "2.4.4_3,1"
+            "version": "2.4.6,1"
           },
           {
             "name": "py311-packaging",
@@ -3779,7 +3779,7 @@
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [],
@@ -3895,11 +3895,11 @@
           },
           {
             "name": "@npmcli/arborist",
-            "version": "9.5.0"
+            "version": "9.6.0"
           },
           {
             "name": "@npmcli/config",
-            "version": "10.9.0"
+            "version": "10.9.1"
           },
           {
             "name": "@npmcli/fs",
@@ -4099,7 +4099,7 @@
           },
           {
             "name": "bin-links",
-            "version": "6.0.0"
+            "version": "6.0.2"
           },
           {
             "name": "binary-extensions",
@@ -4199,7 +4199,7 @@
           },
           {
             "name": "corepack",
-            "version": "0.34.7"
+            "version": "0.35.0"
           },
           {
             "name": "cross-env",
@@ -4551,7 +4551,7 @@
           },
           {
             "name": "hosted-git-info",
-            "version": "9.0.2"
+            "version": "9.0.3"
           },
           {
             "name": "http-cache-semantics",
@@ -4623,7 +4623,7 @@
           },
           {
             "name": "ip-address",
-            "version": "10.1.1"
+            "version": "10.2.0"
           },
           {
             "name": "ipaddr.js",
@@ -4787,15 +4787,15 @@
           },
           {
             "name": "libnpmdiff",
-            "version": "8.1.7"
+            "version": "8.1.8"
           },
           {
             "name": "libnpmexec",
-            "version": "10.2.7"
+            "version": "10.2.8"
           },
           {
             "name": "libnpmfund",
-            "version": "7.0.21"
+            "version": "7.0.22"
           },
           {
             "name": "libnpmorg",
@@ -4803,11 +4803,11 @@
           },
           {
             "name": "libnpmpack",
-            "version": "9.1.7"
+            "version": "9.1.8"
           },
           {
             "name": "libnpmpublish",
-            "version": "11.1.3"
+            "version": "11.2.0"
           },
           {
             "name": "libnpmsearch",
@@ -4867,7 +4867,7 @@
           },
           {
             "name": "lru-cache",
-            "version": "11.3.5"
+            "version": "11.5.0"
           },
           {
             "name": "make-fetch-happen",
@@ -4975,7 +4975,7 @@
           },
           {
             "name": "npm",
-            "version": "11.14.1"
+            "version": "11.15.0"
           },
           {
             "name": "npm-audit-report",
@@ -5303,7 +5303,7 @@
           },
           {
             "name": "socks",
-            "version": "2.8.8"
+            "version": "2.8.9"
           },
           {
             "name": "socks-proxy-agent",
@@ -5371,7 +5371,7 @@
           },
           {
             "name": "tar",
-            "version": "7.5.13"
+            "version": "7.5.15"
           },
           {
             "name": "text-table",
@@ -5538,7 +5538,7 @@
           },
           {
             "name": "numpy",
-            "version": "2.4.4"
+            "version": "2.4.6"
           },
           {
             "name": "packaging",
