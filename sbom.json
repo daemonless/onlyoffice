@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-11T22:46:30Z",
+  "generated": "2026-06-24T13:36:29Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.3.1",
       "arch": "amd64",
-      "generated": "2026-06-11T22:43:57Z",
+      "generated": "2026-06-24T13:33:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -23,7 +23,7 @@
           },
           {
             "name": "FreeBSD-certctl",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-clibs",
@@ -43,15 +43,15 @@
           },
           {
             "name": "FreeBSD-fetch",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libarchive",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libbsdstat",
@@ -71,7 +71,7 @@
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libmagic",
@@ -91,15 +91,15 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0p2"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p2"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-rc",
@@ -107,7 +107,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -119,7 +119,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -127,7 +127,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-zlib",
@@ -139,7 +139,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.16"
+            "version": "7.1.2.25"
           },
           {
             "name": "Imath",
@@ -147,7 +147,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.3"
+            "version": "3.14.1"
           },
           {
             "name": "avahi-app",
@@ -759,7 +759,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.2,3"
+            "version": "1.30.3,3"
           },
           {
             "name": "node22",
@@ -779,7 +779,7 @@
           },
           {
             "name": "nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "oniguruma",
@@ -795,7 +795,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.12"
+            "version": "3.4.13"
           },
           {
             "name": "openh264",
@@ -895,7 +895,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "rabbitmq",
@@ -2793,7 +2793,7 @@
     "pkg-latest": {
       "app_version": "9.3.1_2",
       "arch": "amd64",
-      "generated": "2026-06-11T22:45:18Z",
+      "generated": "2026-06-24T13:35:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2811,7 +2811,7 @@
           },
           {
             "name": "FreeBSD-certctl",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-clibs",
@@ -2831,15 +2831,15 @@
           },
           {
             "name": "FreeBSD-fetch",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libarchive",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libbsdstat",
@@ -2859,7 +2859,7 @@
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-libmagic",
@@ -2879,15 +2879,15 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0p2"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p2"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-rc",
@@ -2895,7 +2895,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2907,7 +2907,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p9"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -2915,7 +2915,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0"
+            "version": "15.0p10"
           },
           {
             "name": "FreeBSD-zlib",
@@ -2935,7 +2935,7 @@
           },
           {
             "name": "aom",
-            "version": "3.14.0"
+            "version": "3.14.1"
           },
           {
             "name": "avahi-app",
@@ -2943,7 +2943,7 @@
           },
           {
             "name": "bash",
-            "version": "5.3.12"
+            "version": "5.3.15"
           },
           {
             "name": "binutils",
@@ -3003,7 +3003,7 @@
           },
           {
             "name": "erlang-runtime27",
-            "version": "27.3.4.12"
+            "version": "27.3.4.13_1"
           },
           {
             "name": "execline",
@@ -3015,7 +3015,7 @@
           },
           {
             "name": "ffmpeg",
-            "version": "8.1.1,1"
+            "version": "8.1.2,1"
           },
           {
             "name": "fftw3",
@@ -3075,7 +3075,7 @@
           },
           {
             "name": "gnupg",
-            "version": "2.4.9"
+            "version": "2.5.20_1"
           },
           {
             "name": "gnutls",
@@ -3107,7 +3107,7 @@
           },
           {
             "name": "harfbuzz",
-            "version": "13.2.1"
+            "version": "14.2.1"
           },
           {
             "name": "hdf5",
@@ -3119,7 +3119,7 @@
           },
           {
             "name": "hwdata",
-            "version": "0.407,1"
+            "version": "0.408,1"
           },
           {
             "name": "icu",
@@ -3260,6 +3260,10 @@
           {
             "name": "libdeflate",
             "version": "1.25"
+          },
+          {
+            "name": "libdisplay-info",
+            "version": "0.3.0"
           },
           {
             "name": "libdrm",
@@ -3407,7 +3411,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.62.2_1"
+            "version": "2.62.3"
           },
           {
             "name": "libspng",
@@ -3506,6 +3510,14 @@
             "version": "9.4.1"
           },
           {
+            "name": "llvm19",
+            "version": "19.1.7_3"
+          },
+          {
+            "name": "lua53",
+            "version": "5.3.6_1"
+          },
+          {
             "name": "lzo2",
             "version": "2.10_2"
           },
@@ -3519,7 +3531,7 @@
           },
           {
             "name": "mesa-libs",
-            "version": "24.1.7_1"
+            "version": "26.0.6"
           },
           {
             "name": "mkfontscale",
@@ -3543,7 +3555,7 @@
           },
           {
             "name": "nginx",
-            "version": "1.30.2_2,3"
+            "version": "1.30.3,3"
           },
           {
             "name": "node22",
@@ -3563,7 +3575,7 @@
           },
           {
             "name": "nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "oniguruma",
@@ -3579,7 +3591,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.12"
+            "version": "3.4.13"
           },
           {
             "name": "openh264",
@@ -3603,7 +3615,7 @@
           },
           {
             "name": "pango",
-            "version": "1.56.4_1"
+            "version": "1.57.1"
           },
           {
             "name": "pcre2",
@@ -3663,7 +3675,7 @@
           },
           {
             "name": "py311-numpy",
-            "version": "2.4.6,1"
+            "version": "2.4.6_1,1"
           },
           {
             "name": "py311-packaging",
@@ -3679,11 +3691,11 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "rabbitmq",
-            "version": "4.3.1"
+            "version": "4.3.2"
           },
           {
             "name": "readline",
@@ -3712,6 +3724,14 @@
           {
             "name": "skalibs",
             "version": "2.14.5.1"
+          },
+          {
+            "name": "spirv-llvm-translator-llvm19",
+            "version": "19.1.19"
+          },
+          {
+            "name": "spirv-tools",
+            "version": "2026.2"
           },
           {
             "name": "sqlite3",
@@ -3747,7 +3767,7 @@
           },
           {
             "name": "vulkan-loader",
-            "version": "1.4.350.0"
+            "version": "1.4.354"
           },
           {
             "name": "wayland",
@@ -5559,7 +5579,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 246,
+        "freebsd": 251,
         "go": 0,
         "java": 0,
         "node": 436,
@@ -5567,7 +5587,7 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 687
+        "total": 692
       }
     }
   }
