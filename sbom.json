@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-24T13:36:29Z",
+  "generated": "2026-06-28T20:28:49Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.3.1",
       "arch": "amd64",
-      "generated": "2026-06-24T13:33:38Z",
+      "generated": "2026-06-28T20:22:50Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2791,9 +2791,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "9.3.1_2",
+      "app_version": "9.4.0",
       "arch": "amd64",
-      "generated": "2026-06-24T13:35:17Z",
+      "generated": "2026-06-28T20:27:37Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2927,7 +2927,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.24"
+            "version": "7.1.2.25"
           },
           {
             "name": "Imath",
@@ -3002,10 +3002,6 @@
             "version": "0.114"
           },
           {
-            "name": "erlang-runtime27",
-            "version": "27.3.4.13_1"
-          },
-          {
             "name": "execline",
             "version": "2.9.8.1"
           },
@@ -3035,7 +3031,7 @@
           },
           {
             "name": "gcc14",
-            "version": "14.2.0_4"
+            "version": "14.2.0_6"
           },
           {
             "name": "gdbm",
@@ -3207,7 +3203,7 @@
           },
           {
             "name": "libXrandr",
-            "version": "1.5.4"
+            "version": "1.5.5"
           },
           {
             "name": "libXrender",
@@ -3239,7 +3235,7 @@
           },
           {
             "name": "libass",
-            "version": "0.17.4_1"
+            "version": "0.17.5"
           },
           {
             "name": "libassuan",
@@ -3299,7 +3295,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.2"
+            "version": "3.6.0"
           },
           {
             "name": "libfontenc",
@@ -3419,7 +3415,7 @@
           },
           {
             "name": "libssh2",
-            "version": "1.11.1,3"
+            "version": "1.11.1_1,3"
           },
           {
             "name": "libtasn1",
@@ -3491,7 +3487,7 @@
           },
           {
             "name": "libxkbcommon",
-            "version": "1.13.1"
+            "version": "1.13.2"
           },
           {
             "name": "libxml2",
@@ -3511,7 +3507,7 @@
           },
           {
             "name": "llvm19",
-            "version": "19.1.7_3"
+            "version": "19.1.7_4"
           },
           {
             "name": "lua53",
@@ -3583,7 +3579,7 @@
           },
           {
             "name": "onlyoffice-documentserver",
-            "version": "9.3.1_2"
+            "version": "9.4.0"
           },
           {
             "name": "openblas",
@@ -3670,32 +3666,28 @@
             "version": "2.08_1,2"
           },
           {
-            "name": "py311-boost-libs",
+            "name": "py312-boost-libs",
             "version": "1.89.0"
           },
           {
-            "name": "py311-numpy",
+            "name": "py312-numpy",
             "version": "2.4.6_1,1"
           },
           {
-            "name": "py311-packaging",
+            "name": "py312-packaging",
             "version": "26.2"
           },
           {
-            "name": "py311-setuptools",
+            "name": "py312-setuptools",
             "version": "63.1.0_3"
           },
           {
-            "name": "py311-supervisor",
+            "name": "py312-supervisor",
             "version": "4.2.5_2,1"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_4"
-          },
-          {
-            "name": "rabbitmq",
-            "version": "4.3.2"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -3759,11 +3751,11 @@
           },
           {
             "name": "vips",
-            "version": "8.18.2_1"
+            "version": "8.18.2_2"
           },
           {
             "name": "vmaf",
-            "version": "3.1.0"
+            "version": "3.2.0"
           },
           {
             "name": "vulkan-loader",
@@ -5579,7 +5571,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 251,
+        "freebsd": 249,
         "go": 0,
         "java": 0,
         "node": 436,
@@ -5587,7 +5579,7 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 692
+        "total": 690
       }
     }
   }
