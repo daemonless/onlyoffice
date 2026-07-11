@@ -9,7 +9,8 @@ FROM ghcr.io/daemonless/nginx-base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PKG_NAME="onlyoffice-documentserver"
-ARG PACKAGES="${PKG_NAME} postgresql18-client node22 npm-node22"
+# rabbitmq explicit: DS 9.4.0 dropped it as a dep; converter still needs the broker
+ARG PACKAGES="${PKG_NAME} rabbitmq postgresql18-client node22 npm-node22"
 ARG UPSTREAM_URL="https://api.github.com/repos/ONLYOFFICE/DocumentServer/releases/latest"
 ARG UPSTREAM_JQ='.tag_name | ltrimstr("v")'
 
