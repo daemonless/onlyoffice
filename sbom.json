@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-16T19:56:57Z",
+  "generated": "2026-07-19T16:07:28Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-07-16T19:55:45Z",
+      "generated": "2026-07-19T16:06:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -79,6 +79,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.0"
           },
           {
@@ -2791,7 +2795,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 251,
+        "freebsd": 252,
         "go": 0,
         "java": 0,
         "node": 436,
@@ -2799,13 +2803,13 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 692
+        "total": 693
       }
     },
     "pkg-latest": {
-      "app_version": "9.4.0",
+      "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-07-16T19:53:20Z",
+      "generated": "2026-07-19T16:05:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2879,6 +2883,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.0"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.0"
           },
           {
@@ -2971,7 +2979,7 @@
           },
           {
             "name": "c-ares",
-            "version": "1.34.6"
+            "version": "1.34.8"
           },
           {
             "name": "ca_root_nss",
@@ -3159,7 +3167,7 @@
           },
           {
             "name": "lame",
-            "version": "3.101_1"
+            "version": "4.0"
           },
           {
             "name": "lcms2",
@@ -3167,7 +3175,7 @@
           },
           {
             "name": "lerc",
-            "version": "4.1.0"
+            "version": "4.1.1"
           },
           {
             "name": "libICE",
@@ -3183,7 +3191,7 @@
           },
           {
             "name": "libXScrnSaver",
-            "version": "1.2.4_1"
+            "version": "1.2.5"
           },
           {
             "name": "libXau",
@@ -3207,7 +3215,7 @@
           },
           {
             "name": "libXfixes",
-            "version": "6.0.1"
+            "version": "6.0.2"
           },
           {
             "name": "libXft",
@@ -3311,7 +3319,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.7.1"
           },
           {
             "name": "libfontenc",
@@ -3419,7 +3427,7 @@
           },
           {
             "name": "librevenge",
-            "version": "0.0.5"
+            "version": "0.0.6"
           },
           {
             "name": "librsvg2-rust",
@@ -3599,7 +3607,7 @@
           },
           {
             "name": "onlyoffice-documentserver",
-            "version": "9.4.0"
+            "version": "9.4.0_1"
           },
           {
             "name": "openblas",
@@ -3627,7 +3635,7 @@
           },
           {
             "name": "p11-kit",
-            "version": "0.26.2"
+            "version": "0.26.4"
           },
           {
             "name": "pango",
@@ -3667,7 +3675,7 @@
           },
           {
             "name": "poppler",
-            "version": "26.04.0"
+            "version": "26.04.0_1"
           },
           {
             "name": "poppler-data",
@@ -3675,7 +3683,7 @@
           },
           {
             "name": "poppler-glib",
-            "version": "26.04.0"
+            "version": "26.04.0_1"
           },
           {
             "name": "postgresql18-client",
@@ -3775,7 +3783,7 @@
           },
           {
             "name": "vips",
-            "version": "8.18.3"
+            "version": "8.18.4"
           },
           {
             "name": "vmaf",
@@ -5595,7 +5603,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 252,
+        "freebsd": 253,
         "go": 0,
         "java": 0,
         "node": 436,
@@ -5603,7 +5611,7 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 693
+        "total": 694
       }
     }
   }
