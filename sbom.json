@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-19T16:07:28Z",
+  "generated": "2026-07-30T23:53:49Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-07-19T16:06:13Z",
+      "generated": "2026-07-30T23:49:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -791,7 +791,7 @@
           },
           {
             "name": "nss",
-            "version": "3.125"
+            "version": "3.126"
           },
           {
             "name": "oniguruma",
@@ -2809,7 +2809,7 @@
     "pkg-latest": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-07-19T16:05:45Z",
+      "generated": "2026-07-30T23:52:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2947,7 +2947,7 @@
           },
           {
             "name": "ImageMagick7",
-            "version": "7.1.2.25_1"
+            "version": "7.1.2.25_2"
           },
           {
             "name": "Imath",
@@ -2971,7 +2971,7 @@
           },
           {
             "name": "boost-libs",
-            "version": "1.89.0_2"
+            "version": "1.89.0_3"
           },
           {
             "name": "brotli",
@@ -3023,7 +3023,7 @@
           },
           {
             "name": "erlang-runtime27",
-            "version": "27.3.4.13_1"
+            "version": "27.3.4.15"
           },
           {
             "name": "execline",
@@ -3075,7 +3075,7 @@
           },
           {
             "name": "giflib",
-            "version": "5.2.2"
+            "version": "6.1.3"
           },
           {
             "name": "glib",
@@ -3255,7 +3255,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.7,1"
+            "version": "3.8.8,1"
           },
           {
             "name": "libass",
@@ -3283,7 +3283,7 @@
           },
           {
             "name": "libdisplay-info",
-            "version": "0.3.0"
+            "version": "0.4.0"
           },
           {
             "name": "libdrm",
@@ -3423,7 +3423,7 @@
           },
           {
             "name": "libraw",
-            "version": "0.21.5_1"
+            "version": "0.22.1"
           },
           {
             "name": "librevenge",
@@ -3431,7 +3431,7 @@
           },
           {
             "name": "librsvg2-rust",
-            "version": "2.62.3"
+            "version": "2.62.3_1"
           },
           {
             "name": "libspng",
@@ -3551,7 +3551,7 @@
           },
           {
             "name": "mesa-libs",
-            "version": "26.1.4"
+            "version": "26.1.5_1"
           },
           {
             "name": "mkfontscale",
@@ -3599,7 +3599,7 @@
           },
           {
             "name": "nss",
-            "version": "3.125"
+            "version": "3.126"
           },
           {
             "name": "oniguruma",
@@ -3663,7 +3663,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.1_1"
           },
           {
             "name": "pkgconf",
@@ -3763,15 +3763,15 @@
           },
           {
             "name": "srt",
-            "version": "1.5.5"
+            "version": "1.5.6"
           },
           {
             "name": "svt-av1",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "tiff",
-            "version": "4.7.1_1"
+            "version": "4.7.2"
           },
           {
             "name": "urw-base35-fonts",
@@ -3783,7 +3783,7 @@
           },
           {
             "name": "vips",
-            "version": "8.18.4"
+            "version": "8.18.4_1"
           },
           {
             "name": "vmaf",
