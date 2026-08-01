@@ -1,1019 +1,1836 @@
 {
-  "generated": "2026-07-30T23:53:49Z",
+  "generated": "2026-08-01T23:35:47Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-07-30T23:49:34Z",
+      "generated": "2026-08-01T23:30:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-audit-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-blocklist",
-            "version": "15.0p3"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-bzip2-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-certctl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-ctf-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-devmatch",
-            "version": "15.0p2"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-fetch",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libarchive",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libbsdstat",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcasper",
-            "version": "15.0p9"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcompiler_rt-dev",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libexecinfo",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libldns",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libmagic",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libucl",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-locales",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ncurses-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-rc",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-tcpd",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ufs-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-utilities",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-xz-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0p11"
+            "version": "15.1p1"
           },
           {
+            "licenses": [
+              "Zlib"
+            ],
             "name": "FreeBSD-zlib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "ImageMagick7",
             "version": "7.1.2.25_1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "Imath",
             "version": "3.2.2_4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "aom",
             "version": "3.14.1_1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "avahi-app",
             "version": "0.8_6"
           },
           {
+            "licenses": [
+              "GPLv3+"
+            ],
             "name": "bash",
             "version": "5.3.15"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "LGPL3"
+            ],
             "name": "binutils",
             "version": "2.44,1"
           },
           {
+            "licenses": [
+              "BSL"
+            ],
             "name": "boost-libs",
             "version": "1.89.0_2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "brotli",
             "version": "1.2.0,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "c-ares",
             "version": "1.34.6"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "ca_root_nss",
             "version": "3.125"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "MPL11"
+            ],
             "name": "cairo",
             "version": "1.18.2,3"
           },
           {
+            "licenses": [
+              "CFITSIO"
+            ],
             "name": "cfitsio",
             "version": "4.6.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "cgif",
             "version": "0.5.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "corepack",
             "version": "0.35.0"
           },
           {
+            "licenses": [
+              "APACHE20",
+              "CUPS"
+            ],
             "name": "cups",
             "version": "2.4.19_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "curl",
             "version": "8.21.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "dav1d",
             "version": "1.5.3_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "dbus",
             "version": "1.16.2_4,1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "dbus-glib",
             "version": "0.114"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "erlang-runtime27",
             "version": "27.3.4.13_1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "execline",
             "version": "2.9.8.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "expat",
             "version": "2.8.2"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL3+"
+            ],
             "name": "ffmpeg",
             "version": "8.1.2_1,1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "fftw3",
             "version": "3.3.10_5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "FTL"
+            ],
             "name": "freetype2",
             "version": "2.14.3"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "fribidi",
             "version": "1.0.16"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "GPLv3RLE"
+            ],
             "name": "gcc14",
             "version": "14.2.0_6"
           },
           {
+            "licenses": [
+              "GPLv3+"
+            ],
             "name": "gdbm",
             "version": "1.26"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "gdk-pixbuf2",
             "version": "2.44.1"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL21+"
+            ],
             "name": "gettext-runtime",
             "version": "1.0_1"
           },
           {
+            "licenses": [
+              "AGPLv3"
+            ],
             "name": "ghostscript10",
             "version": "10.07.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "giflib",
             "version": "5.2.2"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "glib",
             "version": "2.86.4,2"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "gmake",
             "version": "4.4.1"
           },
           {
+            "licenses": [
+              "LGPL3"
+            ],
             "name": "gmp",
             "version": "6.3.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "gnome_subr",
             "version": "1.0"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "LGPL3"
+            ],
             "name": "gnupg",
             "version": "2.5.20_1"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL21+"
+            ],
             "name": "gnutls",
             "version": "3.8.13"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "gpgme",
             "version": "2.1.2"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "gpgmepp",
             "version": "2.1.0"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "graphite2",
             "version": "1.3.15"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "GFDL"
+            ],
             "name": "gsed",
             "version": "4.10"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "gsfonts",
             "version": "8.11_8"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "gumbo",
             "version": "0.13.2_2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "harfbuzz",
             "version": "14.2.1"
           },
           {
+            "licenses": [
+              "BSD4CLAUSE"
+            ],
             "name": "hdf5",
             "version": "1.12.2_2,1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "highway",
             "version": "1.4.0"
           },
           {
+            "licenses": [
+              "MIT",
+              "GPLv2+"
+            ],
             "name": "hwdata",
             "version": "0.409,1"
           },
           {
+            "licenses": [
+              "ICU"
+            ],
             "name": "icu",
             "version": "76.1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "indexinfo",
             "version": "0.3.1_1"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "jbig2dec",
             "version": "0.20_1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "jbigkit",
             "version": "2.1_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "IJG",
+              "ZLIB"
+            ],
             "name": "jpeg-turbo",
             "version": "3.1.4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jq",
             "version": "1.8.2"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "lame",
             "version": "3.100_5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lcms2",
             "version": "2.19.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "lerc",
             "version": "4.1.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libICE",
             "version": "1.1.2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libSM",
             "version": "1.2.6,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libX11",
             "version": "1.8.13_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXScrnSaver",
             "version": "1.2.4_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXau",
             "version": "1.0.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXcursor",
             "version": "1.2.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdamage",
             "version": "1.1.7"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdmcp",
             "version": "1.1.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXext",
             "version": "1.3.7,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXfixes",
             "version": "6.0.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXft",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXi",
             "version": "1.8.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrandr",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrender",
             "version": "0.9.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXt",
             "version": "1.3.1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXv",
             "version": "1.0.13,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXxf86vm",
             "version": "1.1.7"
           },
           {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
             "name": "libada",
             "version": "3.4.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libaec",
             "version": "1.1.7"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libarchive",
             "version": "3.8.7,1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "libass",
             "version": "0.17.5"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libassuan",
             "version": "3.0.2"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libbluray",
             "version": "1.4.1,1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libdaemon",
             "version": "0.14_1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libdatrie",
             "version": "0.2.14_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdeflate",
             "version": "1.25"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdisplay-info",
             "version": "0.3.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdrm",
             "version": "2.4.133,1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libdvdnav",
             "version": "7.0.0"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libdvdread",
             "version": "7.0.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libedit",
             "version": "3.1.20260512,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libepoll-shim",
             "version": "0.0.20240608"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "libetonyek01",
             "version": "0.1.13,1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libevent",
             "version": "2.1.13"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libexif",
             "version": "0.6.26"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libffi",
             "version": "3.6.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libfontenc",
             "version": "1.1.9"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL21+"
+            ],
             "name": "libgcrypt",
             "version": "1.12.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libgd",
             "version": "2.3.3_13,1"
           },
           {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
             "name": "libglvnd",
             "version": "1.7.0"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "libgpg-error",
             "version": "1.61"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "libheif",
             "version": "1.22.2_1"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libiconv",
             "version": "1.18_1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL3+"
+            ],
             "name": "libidn",
             "version": "1.43"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libidn2",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libjxl",
             "version": "0.12.0"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "GPLv3",
+              "LGPL3"
+            ],
             "name": "libksba",
             "version": "1.8.0"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL3"
+            ],
             "name": "liblangtag",
             "version": "0.6.7_1"
           },
           {
+            "licenses": [
+              "LGPL3"
+            ],
             "name": "liblqr-1",
             "version": "0.4.2"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libltdl",
             "version": "2.5.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
             "name": "liblz4",
             "version": "1.10.0_2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libnghttp2",
             "version": "1.69.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libnghttp3",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libngtcp2",
             "version": "1.24.0"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21"
+            ],
             "name": "libodfgen01",
             "version": "0.1.8_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libogg",
             "version": "1.3.6,4"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libpaper",
             "version": "1.1.28_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libpciaccess",
             "version": "0.19"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libplacebo",
             "version": "7.360.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libpsl",
             "version": "0.22.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libraqm",
             "version": "0.10.3"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "CDDL"
+            ],
             "name": "libraw",
             "version": "0.21.5_1"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21"
+            ],
             "name": "librevenge",
             "version": "0.0.5"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "librsvg2-rust",
             "version": "2.62.3"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libspng",
             "version": "0.7.4"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libssh2",
             "version": "1.11.1_1,3"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3"
+            ],
             "name": "libtasn1",
             "version": "4.21.0"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libthai",
             "version": "0.1.30"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libudev-devd",
             "version": "0.6.0"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libudfread",
             "version": "1.2.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "libultrahdr",
             "version": "1.4.0"
           },
           {
+            "licenses": [
+              "ZLIB"
+            ],
             "name": "libunibreak",
             "version": "7.0,1"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "GFDL",
+              "LGPL3+"
+            ],
             "name": "libunistring",
             "version": "1.4.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libunwind",
             "version": "20250904"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libuv",
             "version": "1.52.1"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "libv4l",
             "version": "1.23.0_5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libva",
             "version": "2.24.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libvdpau",
             "version": "1.5"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libvorbis",
             "version": "1.3.7_2,3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libvpx",
             "version": "1.16.0"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "libwmf",
             "version": "0.2.15"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libx264",
             "version": "0.164.3095"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxkbcommon",
             "version": "1.13.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxml2",
             "version": "2.15.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxshmfence",
             "version": "1.3.3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libzip",
             "version": "1.11.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "llhttp",
             "version": "9.4.2"
           },
           {
+            "licenses": [
+              "PD",
+              "MIT",
+              "BSD3CLAUSE",
+              "LLVM",
+              "LLVM2",
+              "REGEX"
+            ],
             "name": "llvm19",
             "version": "19.1.7_4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lua53",
             "version": "5.3.6_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "lzo2",
             "version": "2.10_2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "matio",
             "version": "1.5.30"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "md4c",
             "version": "0.5.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "mesa-libs",
             "version": "26.1.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "mkfontscale",
             "version": "1.2.4"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpc",
             "version": "1.4.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpfr",
             "version": "4.2.2,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL3"
+            ],
             "name": "nettle",
             "version": "3.10.2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "nginx",
-            "version": "1.30.3_2,3"
+            "version": "1.30.4,3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "node22",
             "version": "22.23.1"
           },
           {
+            "licenses": [
+              "ART20"
+            ],
             "name": "npm-node22",
             "version": "11.18.0"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "npth",
             "version": "1.8"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "nspr",
             "version": "4.39"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "nss",
             "version": "3.126"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "licenses": [
+              "AGPLv3"
+            ],
             "name": "onlyoffice-documentserver",
             "version": "9.4.0_1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "openblas",
             "version": "0.3.33,2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "openexr",
             "version": "3.4.13_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openh264",
             "version": "2.6.0,2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openjpeg",
             "version": "2.5.4_2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openjph",
             "version": "0.30.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "opus",
             "version": "1.6.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "p11-kit",
             "version": "0.26.2"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "pango",
             "version": "1.57.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
+            "licenses": [
+              "ART10",
+              "GPLv1+"
+            ],
             "name": "perl5",
             "version": "5.42.2"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "pinentry",
             "version": "1.3.3"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "pinentry-curses",
             "version": "1.3.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "pixman",
             "version": "0.46.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "pkg",
             "version": "2.7.5"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "pkgconf",
             "version": "2.4.3_1,1"
           },
           {
+            "licenses": [
+              "Libpng"
+            ],
             "name": "png",
             "version": "1.6.58"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "poppler",
             "version": "26.04.0_1"
           },
           {
+            "licenses": [
+              "MIT",
+              "GPLv2",
+              "ADOBE"
+            ],
             "name": "poppler-data",
             "version": "0.4.12"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "poppler-glib",
             "version": "26.04.0_1"
           },
           {
+            "licenses": [
+              "PostgreSQL"
+            ],
             "name": "postgresql18-client",
             "version": "18.4"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "pwgen",
             "version": "2.08_1,2"
           },
           {
+            "licenses": [
+              "BSL"
+            ],
             "name": "py312-boost-libs",
             "version": "1.89.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-numpy",
             "version": "2.4.6_1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "APACHE20"
+            ],
             "name": "py312-packaging",
             "version": "26.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-setuptools",
             "version": "63.1.0_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "MEDUSA",
+              "REPOZE"
+            ],
             "name": "py312-supervisor",
             "version": "4.2.5_2,1"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "python312",
             "version": "3.12.13_3"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "rabbitmq",
             "version": "4.3.2"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "readline",
             "version": "8.3.3"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "s6",
             "version": "2.14.0.1"
           },
           {
+            "licenses": [
+              "ZLIB"
+            ],
             "name": "sdl2",
             "version": "2.32.10_2"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "shaderc",
             "version": "2026.2_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "shared-mime-info",
             "version": "2.4_2"
           },
           {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
             "name": "simdjson",
             "version": "4.6.4"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
+            "licenses": [
+              "NCSA"
+            ],
             "name": "spirv-llvm-translator-llvm19",
             "version": "19.1.20"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "spirv-tools",
             "version": "2026.2"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "sqlite3",
             "version": "3.53.3,1"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "srt",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "MIT",
+              "BSD3CLAUSE"
+            ],
             "name": "svt-av1",
             "version": "4.1.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "tiff",
             "version": "4.7.1_1"
           },
           {
+            "licenses": [
+              "AGPLv3"
+            ],
             "name": "urw-base35-fonts",
             "version": "20200910"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "uvwasi",
             "version": "0.0.23"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "vips",
             "version": "8.18.3"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE+PATENT"
+            ],
             "name": "vmaf",
             "version": "3.2.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "vulkan-loader",
             "version": "1.4.356"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "wayland",
             "version": "1.25.0"
           },
           {
+            "licenses": [
+              "EULA"
+            ],
             "name": "webfonts",
             "version": "0.30_14"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "webp",
             "version": "1.6.0"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "x265",
             "version": "4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xkeyboard-config",
             "version": "2.48"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xorgproto",
             "version": "2025.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "xxhash",
             "version": "0.8.3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "GPLv2"
+            ],
             "name": "zstd",
             "version": "1.5.7_2"
           }
@@ -1023,1746 +1840,2182 @@
         "node": [
           {
             "name": "@aashutoshrathi/word-wrap",
+            "purl": "",
             "version": "1.2.6"
           },
           {
             "name": "@eslint-community/eslint-utils",
+            "purl": "",
             "version": "4.4.0"
           },
           {
             "name": "@eslint-community/regexpp",
+            "purl": "",
             "version": "4.10.0"
           },
           {
             "name": "@eslint/eslintrc",
+            "purl": "",
             "version": "2.1.4"
           },
           {
             "name": "@eslint/js",
+            "purl": "",
             "version": "8.56.0"
           },
           {
             "name": "@gar/promise-retry",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "@humanwhocodes/config-array",
+            "purl": "",
             "version": "0.11.14"
           },
           {
             "name": "@humanwhocodes/module-importer",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "@humanwhocodes/object-schema",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "@isaacs/fs-minipass",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "@isaacs/string-locale-compare",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "@jupyterlite/app",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-consoles",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-edit",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-lab",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-notebooks",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-repl",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-tree",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/pyodide-kernel-extension",
+            "purl": "",
             "version": "0.5.2"
           },
           {
             "name": "@mercadoeletronico/wopi-proof-validator",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "@my-scope/package-a",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "@my-scope/package-b",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "@noble/hashes",
+            "purl": "",
             "version": "1.8.0"
           },
           {
             "name": "@nodelib/fs.scandir",
+            "purl": "",
             "version": "2.1.5"
           },
           {
             "name": "@nodelib/fs.stat",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "@nodelib/fs.walk",
+            "purl": "",
             "version": "1.2.8"
           },
           {
             "name": "@npmcli/agent",
+            "purl": "",
             "version": "4.0.2"
           },
           {
             "name": "@npmcli/arborist",
+            "purl": "",
             "version": "9.9.0"
           },
           {
             "name": "@npmcli/config",
+            "purl": "",
             "version": "10.12.0"
           },
           {
             "name": "@npmcli/fs",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "@npmcli/git",
+            "purl": "",
             "version": "7.0.2"
           },
           {
             "name": "@npmcli/installed-package-contents",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@npmcli/map-workspaces",
+            "purl": "",
             "version": "5.0.3"
           },
           {
             "name": "@npmcli/metavuln-calculator",
+            "purl": "",
             "version": "9.0.3"
           },
           {
             "name": "@npmcli/name-from-folder",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@npmcli/node-gyp",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "@npmcli/package-json",
+            "purl": "",
             "version": "7.0.5"
           },
           {
             "name": "@npmcli/promise-spawn",
+            "purl": "",
             "version": "9.0.1"
           },
           {
             "name": "@npmcli/query",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "@npmcli/redact",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@npmcli/run-script",
+            "purl": "",
             "version": "10.0.4"
           },
           {
             "name": "@paralleldrive/cuid2",
+            "purl": "",
             "version": "2.2.2"
           },
           {
             "name": "@sigstore/bundle",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@sigstore/core",
+            "purl": "",
             "version": "3.2.1"
           },
           {
             "name": "@sigstore/protobuf-specs",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@sigstore/sign",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "@sigstore/tuf",
+            "purl": "",
             "version": "4.0.2"
           },
           {
             "name": "@sigstore/verify",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "@tufjs/canonical-json",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "@tufjs/models",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "@types/json5",
+            "purl": "",
             "version": "0.0.29"
           },
           {
             "name": "@ungap/structured-clone",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "MathJax-grunt-cleaner",
+            "purl": "",
             "version": "0.1.0"
           },
           {
             "name": "OnlineEditorsExampleNodeJS",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "abbrev",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "accepts",
+            "purl": "",
             "version": "1.3.8"
           },
           {
             "name": "acorn",
+            "purl": "",
             "version": "8.11.3"
           },
           {
             "name": "acorn-jsx",
+            "purl": "",
             "version": "5.3.2"
           },
           {
             "name": "agent-base",
+            "purl": "",
             "version": "7.1.4"
           },
           {
             "name": "ajv",
+            "purl": "",
             "version": "6.12.6"
           },
           {
             "name": "ansi-regex",
+            "purl": "",
             "version": "5.0.1"
           },
           {
             "name": "ansi-styles",
+            "purl": "",
             "version": "4.3.0"
           },
           {
             "name": "any-promise",
+            "purl": "",
             "version": "1.3.0"
           },
           {
             "name": "aproba",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "archy",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "argparse",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "array-buffer-byte-length",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "array-flatten",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "array-includes",
+            "purl": "",
             "version": "3.1.7"
           },
           {
             "name": "array.prototype.filter",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "array.prototype.findlastindex",
+            "purl": "",
             "version": "1.2.4"
           },
           {
             "name": "array.prototype.flat",
+            "purl": "",
             "version": "1.3.2"
           },
           {
             "name": "array.prototype.flatmap",
+            "purl": "",
             "version": "1.3.2"
           },
           {
             "name": "arraybuffer.prototype.slice",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "asap",
+            "purl": "",
             "version": "2.0.6"
           },
           {
             "name": "async",
+            "purl": "",
             "version": "3.2.5"
           },
           {
             "name": "available-typed-arrays",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "balanced-match",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "bin-links",
+            "purl": "",
             "version": "6.0.2"
           },
           {
             "name": "binary-extensions",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "body-parser",
+            "purl": "",
             "version": "1.20.3"
           },
           {
             "name": "brace-expansion",
+            "purl": "",
             "version": "1.1.12"
           },
           {
             "name": "buffer-equal-constant-time",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "bytes",
+            "purl": "",
             "version": "3.1.2"
           },
           {
             "name": "cacache",
+            "purl": "",
             "version": "20.0.4"
           },
           {
             "name": "call-bind",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "callsites",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "chalk",
+            "purl": "",
             "version": "4.1.2"
           },
           {
             "name": "chownr",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "ci-info",
+            "purl": "",
             "version": "4.4.0"
           },
           {
             "name": "cidr-regex",
+            "purl": "",
             "version": "5.0.5"
           },
           {
             "name": "cmd-shim",
+            "purl": "",
             "version": "8.0.0"
           },
           {
             "name": "color-convert",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "color-name",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "common-ancestor-path",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "concat-map",
+            "purl": "",
             "version": "0.0.1"
           },
           {
             "name": "config",
+            "purl": "",
             "version": "3.3.12"
           },
           {
             "name": "confusing-browser-globals",
+            "purl": "",
             "version": "1.0.11"
           },
           {
             "name": "content-disposition",
+            "purl": "",
             "version": "0.5.4"
           },
           {
             "name": "content-type",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "cookie",
+            "purl": "",
             "version": "0.7.1"
           },
           {
             "name": "cookie-signature",
+            "purl": "",
             "version": "1.0.6"
           },
           {
             "name": "copy-to",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "corepack",
+            "purl": "",
             "version": "0.35.0"
           },
           {
             "name": "cross-env",
+            "purl": "",
             "version": "6.0.3"
           },
           {
             "name": "cross-spawn",
+            "purl": "",
             "version": "7.0.6"
           },
           {
             "name": "cssesc",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "date-format",
+            "purl": "",
             "version": "4.0.14"
           },
           {
             "name": "debug",
+            "purl": "",
             "version": "2.6.9"
           },
           {
             "name": "deep-is",
+            "purl": "",
             "version": "0.1.4"
           },
           {
             "name": "default-user-agent",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "define-data-property",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "define-properties",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "depd",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "destroy",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "dezalgo",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "diff",
+            "purl": "",
             "version": "8.0.4"
           },
           {
             "name": "digest-header",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "doctrine",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "ecdsa-sig-formatter",
+            "purl": "",
             "version": "1.0.11"
           },
           {
             "name": "ee-first",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "ejs",
+            "purl": "",
             "version": "3.1.10"
           },
           {
             "name": "encodeurl",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "end-of-stream",
+            "purl": "",
             "version": "1.4.4"
           },
           {
             "name": "env-paths",
+            "purl": "",
             "version": "2.2.1"
           },
           {
             "name": "es-abstract",
+            "purl": "",
             "version": "1.22.4"
           },
           {
             "name": "es-array-method-boxes-properly",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "es-define-property",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "es-errors",
+            "purl": "",
             "version": "1.3.0"
           },
           {
             "name": "es-set-tostringtag",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "es-shim-unscopables",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "es-to-primitive",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "escape-html",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "escape-string-regexp",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "eslint",
+            "purl": "",
             "version": "8.56.0"
           },
           {
             "name": "eslint-config-airbnb-base",
+            "purl": "",
             "version": "15.0.0"
           },
           {
             "name": "eslint-import-resolver-node",
+            "purl": "",
             "version": "0.3.9"
           },
           {
             "name": "eslint-module-utils",
+            "purl": "",
             "version": "2.8.0"
           },
           {
             "name": "eslint-plugin-import",
+            "purl": "",
             "version": "2.29.1"
           },
           {
             "name": "eslint-scope",
+            "purl": "",
             "version": "7.2.2"
           },
           {
             "name": "eslint-visitor-keys",
+            "purl": "",
             "version": "3.4.3"
           },
           {
             "name": "espree",
+            "purl": "",
             "version": "9.6.1"
           },
           {
             "name": "esquery",
+            "purl": "",
             "version": "1.5.0"
           },
           {
             "name": "esrecurse",
+            "purl": "",
             "version": "4.3.0"
           },
           {
             "name": "estraverse",
+            "purl": "",
             "version": "5.3.0"
           },
           {
             "name": "esutils",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "etag",
+            "purl": "",
             "version": "1.8.1"
           },
           {
             "name": "exponential-backoff",
+            "purl": "",
             "version": "3.1.3"
           },
           {
             "name": "express",
+            "purl": "",
             "version": "4.21.2"
           },
           {
             "name": "extend-shallow",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "fast-deep-equal",
+            "purl": "",
             "version": "3.1.3"
           },
           {
             "name": "fast-json-stable-stringify",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "fast-levenshtein",
+            "purl": "",
             "version": "2.0.6"
           },
           {
             "name": "fast-xml-parser",
+            "purl": "",
             "version": "4.5.0"
           },
           {
             "name": "fastest-levenshtein",
+            "purl": "",
             "version": "1.0.16"
           },
           {
             "name": "fastq",
+            "purl": "",
             "version": "1.13.0"
           },
           {
             "name": "fdir",
+            "purl": "",
             "version": "6.5.0"
           },
           {
             "name": "file-entry-cache",
+            "purl": "",
             "version": "6.0.1"
           },
           {
             "name": "filelist",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "finalhandler",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "find-up",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "flat-cache",
+            "purl": "",
             "version": "3.0.4"
           },
           {
             "name": "flatted",
+            "purl": "",
             "version": "3.3.1"
           },
           {
             "name": "for-each",
+            "purl": "",
             "version": "0.3.3"
           },
           {
             "name": "formidable",
+            "purl": "",
             "version": "3.5.4"
           },
           {
             "name": "formstream",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "forwarded",
+            "purl": "",
             "version": "0.2.0"
           },
           {
             "name": "fresh",
+            "purl": "",
             "version": "0.5.2"
           },
           {
             "name": "fs-extra",
+            "purl": "",
             "version": "8.1.0"
           },
           {
             "name": "fs-minipass",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "fs.realpath",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "function-bind",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "function.prototype.name",
+            "purl": "",
             "version": "1.1.6"
           },
           {
             "name": "functions-have-names",
+            "purl": "",
             "version": "1.2.3"
           },
           {
             "name": "get-intrinsic",
+            "purl": "",
             "version": "1.2.4"
           },
           {
             "name": "get-symbol-description",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "glob",
+            "purl": "",
             "version": "13.0.6"
           },
           {
             "name": "glob-parent",
+            "purl": "",
             "version": "6.0.2"
           },
           {
             "name": "globals",
+            "purl": "",
             "version": "13.24.0"
           },
           {
             "name": "globalthis",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "gopd",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "graceful-fs",
+            "purl": "",
             "version": "4.2.11"
           },
           {
             "name": "graphemer",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "has-bigints",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "has-flag",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "has-property-descriptors",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "has-proto",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "has-symbols",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "has-tostringtag",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "hasown",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "he",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "hosted-git-info",
+            "purl": "",
             "version": "9.0.3"
           },
           {
             "name": "http-cache-semantics",
+            "purl": "",
             "version": "4.2.0"
           },
           {
             "name": "http-errors",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "http-proxy-agent",
+            "purl": "",
             "version": "7.0.2"
           },
           {
             "name": "https-proxy-agent",
+            "purl": "",
             "version": "7.0.6"
           },
           {
             "name": "humanize-ms",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "iconv-lite",
+            "purl": "",
             "version": "0.4.24"
           },
           {
             "name": "ignore",
+            "purl": "",
             "version": "5.3.1"
           },
           {
             "name": "ignore-walk",
+            "purl": "",
             "version": "8.0.0"
           },
           {
             "name": "import-fresh",
+            "purl": "",
             "version": "3.3.0"
           },
           {
             "name": "imurmurhash",
+            "purl": "",
             "version": "0.1.4"
           },
           {
             "name": "inflight",
+            "purl": "",
             "version": "1.0.6"
           },
           {
             "name": "inherits",
+            "purl": "",
             "version": "2.0.4"
           },
           {
             "name": "ini",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "init-package-json",
+            "purl": "",
             "version": "8.2.5"
           },
           {
             "name": "installtools",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "int64-buffer",
+            "purl": "",
             "version": "0.99.1007"
           },
           {
             "name": "internal-slot",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "ip-address",
+            "purl": "",
             "version": "10.2.0"
           },
           {
             "name": "ipaddr.js",
+            "purl": "",
             "version": "1.9.1"
           },
           {
             "name": "is-array-buffer",
+            "purl": "",
             "version": "3.0.4"
           },
           {
             "name": "is-bigint",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "is-boolean-object",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "is-callable",
+            "purl": "",
             "version": "1.2.7"
           },
           {
             "name": "is-cidr",
+            "purl": "",
             "version": "6.0.4"
           },
           {
             "name": "is-core-module",
+            "purl": "",
             "version": "2.13.1"
           },
           {
             "name": "is-date-object",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "is-extendable",
+            "purl": "",
             "version": "0.1.1"
           },
           {
             "name": "is-extglob",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "is-glob",
+            "purl": "",
             "version": "4.0.3"
           },
           {
             "name": "is-negative-zero",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "is-number-object",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "is-path-inside",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "is-regex",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "is-shared-array-buffer",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "is-string",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "is-symbol",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "is-typed-array",
+            "purl": "",
             "version": "1.1.13"
           },
           {
             "name": "is-weakref",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "isarray",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "isexe",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "jake",
+            "purl": "",
             "version": "10.8.7"
           },
           {
             "name": "js-yaml",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "json-parse-even-better-errors",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "json-schema-traverse",
+            "purl": "",
             "version": "0.4.1"
           },
           {
             "name": "json-stable-stringify-without-jsonify",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "json-stringify-nice",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "json5",
+            "purl": "",
             "version": "2.2.3"
           },
           {
             "name": "jsonfile",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "jsonparse",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "jsonwebtoken",
+            "purl": "",
             "version": "9.0.2"
           },
           {
             "name": "jupyterlab-jupytext",
+            "purl": "",
             "version": "1.4.5"
           },
           {
             "name": "jupyterlab_pygments",
+            "purl": "",
             "version": "0.3.0"
           },
           {
             "name": "just-diff",
+            "purl": "",
             "version": "6.0.2"
           },
           {
             "name": "just-diff-apply",
+            "purl": "",
             "version": "5.5.0"
           },
           {
             "name": "jwa",
+            "purl": "",
             "version": "1.4.1"
           },
           {
             "name": "jws",
+            "purl": "",
             "version": "3.2.2"
           },
           {
             "name": "levn",
+            "purl": "",
             "version": "0.4.1"
           },
           {
             "name": "libnpmaccess",
+            "purl": "",
             "version": "10.0.3"
           },
           {
             "name": "libnpmdiff",
+            "purl": "",
             "version": "8.1.11"
           },
           {
             "name": "libnpmexec",
+            "purl": "",
             "version": "10.3.1"
           },
           {
             "name": "libnpmfund",
+            "purl": "",
             "version": "7.0.25"
           },
           {
             "name": "libnpmorg",
+            "purl": "",
             "version": "8.0.1"
           },
           {
             "name": "libnpmpack",
+            "purl": "",
             "version": "9.1.11"
           },
           {
             "name": "libnpmpublish",
+            "purl": "",
             "version": "11.2.0"
           },
           {
             "name": "libnpmsearch",
+            "purl": "",
             "version": "9.0.1"
           },
           {
             "name": "libnpmteam",
+            "purl": "",
             "version": "8.0.2"
           },
           {
             "name": "libnpmversion",
+            "purl": "",
             "version": "8.0.4"
           },
           {
             "name": "ljharb-monorepo-symlink-test",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "locate-path",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "lodash.includes",
+            "purl": "",
             "version": "4.3.0"
           },
           {
             "name": "lodash.isboolean",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "lodash.isinteger",
+            "purl": "",
             "version": "4.0.4"
           },
           {
             "name": "lodash.isnumber",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "lodash.isplainobject",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "lodash.isstring",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "lodash.merge",
+            "purl": "",
             "version": "4.6.2"
           },
           {
             "name": "lodash.once",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "log4js",
+            "purl": "",
             "version": "6.9.1"
           },
           {
             "name": "lru-cache",
+            "purl": "",
             "version": "11.5.1"
           },
           {
             "name": "make-fetch-happen",
+            "purl": "",
             "version": "15.0.6"
           },
           {
             "name": "media-typer",
+            "purl": "",
             "version": "0.3.0"
           },
           {
             "name": "merge-descriptors",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "methods",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "mime",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "mime-db",
+            "purl": "",
             "version": "1.52.0"
           },
           {
             "name": "mime-types",
+            "purl": "",
             "version": "2.1.35"
           },
           {
             "name": "minimatch",
+            "purl": "",
             "version": "10.2.5"
           },
           {
             "name": "minimist",
+            "purl": "",
             "version": "1.2.7"
           },
           {
             "name": "minipass",
+            "purl": "",
             "version": "3.3.6"
           },
           {
             "name": "minipass-collect",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "minipass-fetch",
+            "purl": "",
             "version": "5.0.2"
           },
           {
             "name": "minipass-flush",
+            "purl": "",
             "version": "1.0.6"
           },
           {
             "name": "minipass-pipeline",
+            "purl": "",
             "version": "1.2.4"
           },
           {
             "name": "minipass-sized",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "minizlib",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "mkdirp",
+            "purl": "",
             "version": "0.5.6"
           },
           {
             "name": "monaco-editor",
+            "purl": "",
             "version": "0.18.1"
           },
           {
             "name": "ms",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "mute-stream",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "mylib",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "mz",
+            "purl": "",
             "version": "2.7.0"
           },
           {
             "name": "natural-compare",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "negotiator",
+            "purl": "",
             "version": "0.6.3"
           },
           {
             "name": "node-gyp",
+            "purl": "",
             "version": "12.4.0"
           },
           {
             "name": "nopt",
+            "purl": "",
             "version": "9.0.0"
           },
           {
             "name": "npm",
+            "purl": "",
             "version": "11.18.0"
           },
           {
             "name": "npm-audit-report",
+            "purl": "",
             "version": "7.0.0"
           },
           {
             "name": "npm-bundled",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "npm-install-checks",
+            "purl": "",
             "version": "8.0.0"
           },
           {
             "name": "npm-normalize-package-bin",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "npm-package-arg",
+            "purl": "",
             "version": "13.0.2"
           },
           {
             "name": "npm-packlist",
+            "purl": "",
             "version": "10.0.4"
           },
           {
             "name": "npm-pick-manifest",
+            "purl": "",
             "version": "11.0.3"
           },
           {
             "name": "npm-profile",
+            "purl": "",
             "version": "12.0.2"
           },
           {
             "name": "npm-registry-fetch",
+            "purl": "",
             "version": "19.1.1"
           },
           {
             "name": "npm-user-validate",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "object-assign",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "object-inspect",
+            "purl": "",
             "version": "1.13.1"
           },
           {
             "name": "object-keys",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "object.assign",
+            "purl": "",
             "version": "4.1.5"
           },
           {
             "name": "object.entries",
+            "purl": "",
             "version": "1.1.6"
           },
           {
             "name": "object.fromentries",
+            "purl": "",
             "version": "2.0.7"
           },
           {
             "name": "object.groupby",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "object.values",
+            "purl": "",
             "version": "1.1.7"
           },
           {
             "name": "on-finished",
+            "purl": "",
             "version": "2.4.1"
           },
           {
             "name": "once",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "optionator",
+            "purl": "",
             "version": "0.9.3"
           },
           {
             "name": "os-name",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "osx-release",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "p-limit",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "p-locate",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "p-map",
+            "purl": "",
             "version": "7.0.4"
           },
           {
             "name": "pacote",
+            "purl": "",
             "version": "21.5.1"
           },
           {
             "name": "parent-module",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "parse-conflict-json",
+            "purl": "",
             "version": "5.0.1"
           },
           {
             "name": "parseurl",
+            "purl": "",
             "version": "1.3.3"
           },
           {
             "name": "path-exists",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "path-is-absolute",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "path-key",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "path-parse",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "path-scurry",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "path-to-regexp",
+            "purl": "",
             "version": "0.1.12"
           },
           {
             "name": "pause-stream",
+            "purl": "",
             "version": "0.0.11"
           },
           {
             "name": "picomatch",
+            "purl": "",
             "version": "4.0.4"
           },
           {
             "name": "possible-typed-array-names",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "postcss-selector-parser",
+            "purl": "",
             "version": "7.1.4"
           },
           {
             "name": "prelude-ls",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "proc-log",
+            "purl": "",
             "version": "6.1.0"
           },
           {
             "name": "proggy",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "promise-all-reject-late",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "promise-call-limit",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "promzard",
+            "purl": "",
             "version": "3.0.1"
           },
           {
             "name": "proxy-addr",
+            "purl": "",
             "version": "2.0.7"
           },
           {
             "name": "pump",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "punycode",
+            "purl": "",
             "version": "2.3.1"
           },
           {
             "name": "qrcode-terminal",
+            "purl": "",
             "version": "0.12.0"
           },
           {
             "name": "qs",
+            "purl": "",
             "version": "6.7.3"
           },
           {
             "name": "queue-microtask",
+            "purl": "",
             "version": "1.2.3"
           },
           {
             "name": "range-parser",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "raw-body",
+            "purl": "",
             "version": "2.5.2"
           },
           {
             "name": "read",
+            "purl": "",
             "version": "5.0.1"
           },
           {
             "name": "read-cmd-shim",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "regexp.prototype.flags",
+            "purl": "",
             "version": "1.5.2"
           },
           {
             "name": "resolve",
+            "purl": "",
             "version": "1.22.8"
           },
           {
             "name": "resolve-from",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "reusify",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "rfdc",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "rimraf",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "rsa-pem-from-mod-exp",
+            "purl": "",
             "version": "0.8.6"
           },
           {
             "name": "run-parallel",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "safe-array-concat",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "safe-buffer",
+            "purl": "",
             "version": "5.1.1"
           },
           {
             "name": "safe-regex-test",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "safer-buffer",
+            "purl": "",
             "version": "2.1.2"
           },
           {
             "name": "semver",
+            "purl": "",
             "version": "7.5.2"
           },
           {
             "name": "send",
+            "purl": "",
             "version": "0.19.0"
           },
           {
             "name": "serve-favicon",
+            "purl": "",
             "version": "2.5.0"
           },
           {
             "name": "serve-static",
+            "purl": "",
             "version": "1.16.2"
           },
           {
             "name": "set-function-length",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "set-function-name",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "setprototypeof",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "shebang-command",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "shebang-regex",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "side-channel",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "signal-exit",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "sigstore",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "smart-buffer",
+            "purl": "",
             "version": "4.2.0"
           },
           {
             "name": "socks",
+            "purl": "",
             "version": "2.8.9"
           },
           {
             "name": "socks-proxy-agent",
+            "purl": "",
             "version": "8.0.5"
           },
           {
             "name": "spdx-exceptions",
+            "purl": "",
             "version": "2.5.0"
           },
           {
             "name": "spdx-expression-parse",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "spdx-license-ids",
+            "purl": "",
             "version": "3.0.23"
           },
           {
             "name": "ssri",
+            "purl": "",
             "version": "13.0.1"
           },
           {
             "name": "statuses",
+            "purl": "",
             "version": "1.5.0"
           },
           {
             "name": "streamroller",
+            "purl": "",
             "version": "3.1.5"
           },
           {
             "name": "string.prototype.trim",
+            "purl": "",
             "version": "1.2.8"
           },
           {
             "name": "string.prototype.trimend",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "string.prototype.trimstart",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "strip-ansi",
+            "purl": "",
             "version": "6.0.1"
           },
           {
             "name": "strip-bom",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "strip-json-comments",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "strnum",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "supports-color",
+            "purl": "",
             "version": "10.2.2"
           },
           {
             "name": "supports-preserve-symlinks-flag",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "tar",
+            "purl": "",
             "version": "7.5.19"
           },
           {
             "name": "text-table",
+            "purl": "",
             "version": "0.2.0"
           },
           {
             "name": "thenify",
+            "purl": "",
             "version": "3.3.1"
           },
           {
             "name": "thenify-all",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "through",
+            "purl": "",
             "version": "2.3.8"
           },
           {
             "name": "tiny-relative-date",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "tinyglobby",
+            "purl": "",
             "version": "0.2.17"
           },
           {
             "name": "toidentifier",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "treeverse",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "tsconfig-paths",
+            "purl": "",
             "version": "3.15.0"
           },
           {
             "name": "tuf-js",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "type-check",
+            "purl": "",
             "version": "0.4.0"
           },
           {
             "name": "type-fest",
+            "purl": "",
             "version": "0.20.2"
           },
           {
             "name": "type-is",
+            "purl": "",
             "version": "1.6.18"
           },
           {
             "name": "typed-array-buffer",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "typed-array-byte-length",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "typed-array-byte-offset",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "typed-array-length",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "unbox-primitive",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "undici",
+            "purl": "",
             "version": "6.27.0"
           },
           {
             "name": "unescape",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "universalify",
+            "purl": "",
             "version": "0.1.2"
           },
           {
             "name": "unpipe",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "uri-js",
+            "purl": "",
             "version": "4.4.1"
           },
           {
             "name": "urllib",
+            "purl": "",
             "version": "2.44.0"
           },
           {
             "name": "utf7",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "util-deprecate",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "utility",
+            "purl": "",
             "version": "1.18.0"
           },
           {
             "name": "utils-merge",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "validate-npm-package-name",
+            "purl": "",
             "version": "7.0.2"
           },
           {
             "name": "vary",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "walk-up-path",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "which",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "which-boxed-primitive",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "which-typed-array",
+            "purl": "",
             "version": "1.1.14"
           },
           {
             "name": "win-release",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "wrappy",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "write-file-atomic",
+            "purl": "",
             "version": "7.0.1"
           },
           {
             "name": "yallist",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "yocto-queue",
+            "purl": "",
             "version": "0.1.0"
           }
         ],
@@ -2770,22 +4023,27 @@
         "python": [
           {
             "name": "example",
+            "purl": "",
             "version": "21.12"
           },
           {
             "name": "numpy",
+            "purl": "",
             "version": "2.4.6"
           },
           {
             "name": "packaging",
+            "purl": "",
             "version": "26.2"
           },
           {
             "name": "setuptools",
+            "purl": "",
             "version": "63.1.0"
           },
           {
             "name": "supervisor",
+            "purl": "",
             "version": "4.2.5"
           }
         ],
@@ -2795,7 +4053,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 252,
+        "freebsd": 254,
         "go": 0,
         "java": 0,
         "node": 436,
@@ -2803,1025 +4061,1845 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 693
+        "total": 695
       }
     },
     "pkg-latest": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-07-30T23:52:32Z",
+      "generated": "2026-08-01T23:29:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-audit-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-blocklist",
-            "version": "15.0p3"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-bzip2-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-certctl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-ctf-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-devmatch",
-            "version": "15.0p2"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-fetch",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-kerberos-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libarchive",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libbsdstat",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcasper",
-            "version": "15.0p9"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libcompiler_rt-dev",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libexecinfo",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libldns",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libmagic",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-libucl",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-locales",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-mtree",
-            "version": "15.0"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ncurses-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.0p10"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-rc",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-tcpd",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-ufs-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-utilities",
-            "version": "15.0p11"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-xz-lib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "CDDL-1.0"
+            ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0p11"
+            "version": "15.1p1"
           },
           {
+            "licenses": [
+              "Zlib"
+            ],
             "name": "FreeBSD-zlib",
-            "version": "15.0"
+            "version": "15.1"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0p7"
+            "version": "15.1p2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "ImageMagick7",
             "version": "7.1.2.25_2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "Imath",
             "version": "3.2.2_4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "aom",
             "version": "3.14.1_1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "avahi-app",
             "version": "0.8_6"
           },
           {
+            "licenses": [
+              "GPLv3+"
+            ],
             "name": "bash",
             "version": "5.3.15"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "LGPL3"
+            ],
             "name": "binutils",
             "version": "2.44,1"
           },
           {
+            "licenses": [
+              "BSL"
+            ],
             "name": "boost-libs",
             "version": "1.89.0_3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "brotli",
             "version": "1.2.0,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "c-ares",
             "version": "1.34.8"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "ca_root_nss",
             "version": "3.125"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "MPL11"
+            ],
             "name": "cairo",
             "version": "1.18.2,3"
           },
           {
+            "licenses": [
+              "CFITSIO"
+            ],
             "name": "cfitsio",
             "version": "4.6.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "cgif",
             "version": "0.5.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "corepack",
             "version": "0.35.0"
           },
           {
+            "licenses": [
+              "APACHE20",
+              "CUPS"
+            ],
             "name": "cups",
             "version": "2.4.19_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "curl",
             "version": "8.21.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "dav1d",
             "version": "1.5.3_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "dbus",
             "version": "1.16.2_4,1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "dbus-glib",
             "version": "0.114"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "erlang-runtime27",
             "version": "27.3.4.15"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "execline",
             "version": "2.9.8.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "expat",
             "version": "2.8.2"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL3+"
+            ],
             "name": "ffmpeg",
             "version": "8.1.2_1,1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "fftw3",
             "version": "3.3.10_5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "fontconfig",
             "version": "2.17.1,1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "FTL"
+            ],
             "name": "freetype2",
             "version": "2.14.3"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "fribidi",
             "version": "1.0.16"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "GPLv3RLE"
+            ],
             "name": "gcc14",
             "version": "14.2.0_6"
           },
           {
+            "licenses": [
+              "GPLv3+"
+            ],
             "name": "gdbm",
             "version": "1.26"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "gdk-pixbuf2",
             "version": "2.44.1"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL21+"
+            ],
             "name": "gettext-runtime",
             "version": "1.0_1"
           },
           {
+            "licenses": [
+              "AGPLv3"
+            ],
             "name": "ghostscript10",
             "version": "10.07.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "giflib",
             "version": "6.1.3"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "glib",
             "version": "2.86.4,2"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "gmake",
             "version": "4.4.1"
           },
           {
+            "licenses": [
+              "LGPL3"
+            ],
             "name": "gmp",
             "version": "6.3.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "gnome_subr",
             "version": "1.0"
           },
           {
+            "licenses": [
+              "GPLv3",
+              "LGPL3"
+            ],
             "name": "gnupg",
-            "version": "2.5.20_1"
+            "version": "2.5.21"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "LGPL21+"
+            ],
             "name": "gnutls",
             "version": "3.8.13"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "gpgme",
             "version": "2.1.2"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "gpgmepp",
             "version": "2.1.0"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "graphite2",
             "version": "1.3.15"
           },
           {
+            "licenses": [
+              "GPLv3+",
+              "GFDL"
+            ],
             "name": "gsed",
             "version": "4.10"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "gsfonts",
             "version": "8.11_8"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "gumbo",
             "version": "0.13.2_2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "harfbuzz",
             "version": "14.2.1"
           },
           {
+            "licenses": [
+              "BSD4CLAUSE"
+            ],
             "name": "hdf5",
             "version": "1.12.2_2,1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "highway",
             "version": "1.4.0"
           },
           {
+            "licenses": [
+              "MIT",
+              "GPLv2+"
+            ],
             "name": "hwdata",
             "version": "0.409,1"
           },
           {
+            "licenses": [
+              "ICU"
+            ],
             "name": "icu",
             "version": "76.1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "indexinfo",
             "version": "0.3.1_1"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "jbig2dec",
             "version": "0.20_1"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "jbigkit",
             "version": "2.1_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "IJG",
+              "ZLIB"
+            ],
             "name": "jpeg-turbo",
             "version": "3.1.4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "jq",
             "version": "1.8.2"
           },
           {
+            "licenses": [
+              "LGPL20+"
+            ],
             "name": "lame",
             "version": "4.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lcms2",
             "version": "2.19.1"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "lerc",
             "version": "4.1.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libICE",
             "version": "1.1.2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libSM",
             "version": "1.2.6,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libX11",
             "version": "1.8.13_1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXScrnSaver",
             "version": "1.2.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXau",
             "version": "1.0.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXcursor",
             "version": "1.2.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdamage",
             "version": "1.1.7"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXdmcp",
             "version": "1.1.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXext",
             "version": "1.3.7,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXfixes",
             "version": "6.0.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXft",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXi",
             "version": "1.8.3,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrandr",
             "version": "1.5.5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXrender",
             "version": "0.9.12"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXt",
             "version": "1.3.1,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXv",
             "version": "1.0.13,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libXxf86vm",
             "version": "1.1.7"
           },
           {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
             "name": "libada",
             "version": "3.4.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libaec",
             "version": "1.1.7"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libarchive",
             "version": "3.8.8,1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "libass",
             "version": "0.17.5"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libassuan",
             "version": "3.0.2"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libbluray",
             "version": "1.4.1,1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libdaemon",
             "version": "0.14_1"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libdatrie",
             "version": "0.2.14_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdeflate",
             "version": "1.25"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdisplay-info",
             "version": "0.4.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libdrm",
             "version": "2.4.133,1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libdvdnav",
             "version": "7.0.0"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libdvdread",
             "version": "7.0.0"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libedit",
             "version": "3.1.20260512,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libepoll-shim",
             "version": "0.0.20240608"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "libetonyek01",
             "version": "0.1.13,1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libevent",
             "version": "2.1.13"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libexif",
             "version": "0.6.26"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libffi",
             "version": "3.7.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libfontenc",
             "version": "1.1.9"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL21+"
+            ],
             "name": "libgcrypt",
             "version": "1.12.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libgd",
             "version": "2.3.3_13,1"
           },
           {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
             "name": "libglvnd",
             "version": "1.7.0"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "libgpg-error",
             "version": "1.61"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "libheif",
             "version": "1.22.2_1"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libiconv",
             "version": "1.18_1"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL3+"
+            ],
             "name": "libidn",
             "version": "1.43"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "libidn2",
             "version": "2.3.8"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libjxl",
             "version": "0.12.0"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "GPLv3",
+              "LGPL3"
+            ],
             "name": "libksba",
             "version": "1.8.0"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL3"
+            ],
             "name": "liblangtag",
             "version": "0.6.7_1"
           },
           {
+            "licenses": [
+              "LGPL3"
+            ],
             "name": "liblqr-1",
             "version": "0.4.2"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libltdl",
             "version": "2.5.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "GPLv2"
+            ],
             "name": "liblz4",
             "version": "1.10.0_2,1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libnghttp2",
             "version": "1.69.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libnghttp3",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libngtcp2",
             "version": "1.24.0"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21"
+            ],
             "name": "libodfgen01",
             "version": "0.1.8_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libogg",
             "version": "1.3.6,4"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libpaper",
             "version": "1.1.28_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libpciaccess",
             "version": "0.19"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libplacebo",
             "version": "7.360.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libpsl",
             "version": "0.22.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libraqm",
-            "version": "0.10.3"
+            "version": "0.11.0"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "CDDL"
+            ],
             "name": "libraw",
             "version": "0.22.1"
           },
           {
+            "licenses": [
+              "MPL20",
+              "LGPL21"
+            ],
             "name": "librevenge",
             "version": "0.0.6"
           },
           {
+            "licenses": [
+              "LGPL20"
+            ],
             "name": "librsvg2-rust",
             "version": "2.62.3_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libspng",
             "version": "0.7.4"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libssh2",
             "version": "1.11.1_1,3"
           },
           {
+            "licenses": [
+              "LGPL21+",
+              "GPLv3"
+            ],
             "name": "libtasn1",
             "version": "4.21.0"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "libthai",
             "version": "0.1.30"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "libudev-devd",
             "version": "0.6.0"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "libudfread",
             "version": "1.2.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "libultrahdr",
             "version": "1.4.0"
           },
           {
+            "licenses": [
+              "ZLIB"
+            ],
             "name": "libunibreak",
             "version": "7.0,1"
           },
           {
+            "licenses": [
+              "GPLv2",
+              "GFDL",
+              "LGPL3+"
+            ],
             "name": "libunistring",
             "version": "1.4.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libunwind",
             "version": "20250904"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libuv",
             "version": "1.52.1"
           },
           {
+            "licenses": [
+              "LGPL21",
+              "GPLv2"
+            ],
             "name": "libv4l",
             "version": "1.23.0_5"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libva",
             "version": "2.24.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libvdpau",
             "version": "1.5"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libvorbis",
             "version": "1.3.7_2,3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libvpx",
             "version": "1.16.0"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "libwmf",
             "version": "0.2.15"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "libx264",
             "version": "0.164.3095"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxcb",
             "version": "1.17.0"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxkbcommon",
             "version": "1.13.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxml2",
             "version": "2.15.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "libxshmfence",
             "version": "1.3.3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "libzip",
             "version": "1.11.4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "llhttp",
             "version": "9.4.2"
           },
           {
+            "licenses": [
+              "PD",
+              "MIT",
+              "BSD3CLAUSE",
+              "LLVM",
+              "LLVM2",
+              "REGEX"
+            ],
             "name": "llvm19",
             "version": "19.1.7_4"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "lua53",
             "version": "5.3.6_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "lzo2",
             "version": "2.10_2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "matio",
             "version": "1.5.30"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "md4c",
             "version": "0.5.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "mesa-libs",
             "version": "26.1.5_1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "mkfontscale",
             "version": "1.2.4"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpc",
             "version": "1.4.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "mpdecimal",
             "version": "4.0.1"
           },
           {
+            "licenses": [
+              "LGPL3+"
+            ],
             "name": "mpfr",
             "version": "4.2.2,1"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "mpg123",
             "version": "1.33.6"
           },
           {
+            "licenses": [
+              "GPLv2+",
+              "LGPL3"
+            ],
             "name": "nettle",
             "version": "3.10.2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "nginx",
-            "version": "1.30.3_2,3"
+            "version": "1.30.4,3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "node22",
             "version": "22.23.1"
           },
           {
+            "licenses": [
+              "ART20"
+            ],
             "name": "npm-node22",
             "version": "11.18.0"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "npth",
             "version": "1.8"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "nspr",
             "version": "4.39"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "nss",
             "version": "3.126"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "oniguruma",
             "version": "6.9.10"
           },
           {
+            "licenses": [
+              "AGPLv3"
+            ],
             "name": "onlyoffice-documentserver",
             "version": "9.4.0_1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "openblas",
             "version": "0.3.33,2"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "openexr",
             "version": "3.4.13_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openh264",
             "version": "2.6.0,2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openjpeg",
             "version": "2.5.4_2"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "openjph",
             "version": "0.30.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "opus",
             "version": "1.6.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "p11-kit",
             "version": "0.26.4"
           },
           {
+            "licenses": [
+              "LGPL21+"
+            ],
             "name": "pango",
             "version": "1.57.1"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "pcre2",
             "version": "10.47_1"
           },
           {
+            "licenses": [
+              "ART10",
+              "GPLv1+"
+            ],
             "name": "perl5",
             "version": "5.42.2"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "pinentry",
             "version": "1.3.3"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "pinentry-curses",
             "version": "1.3.3"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "pixman",
             "version": "0.46.4"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "pkg",
             "version": "2.8.1_1"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "pkgconf",
             "version": "2.4.3_1,1"
           },
           {
+            "licenses": [
+              "Libpng"
+            ],
             "name": "png",
             "version": "1.6.58"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "poppler",
             "version": "26.04.0_1"
           },
           {
+            "licenses": [
+              "MIT",
+              "GPLv2",
+              "ADOBE"
+            ],
             "name": "poppler-data",
             "version": "0.4.12"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "poppler-glib",
             "version": "26.04.0_1"
           },
           {
+            "licenses": [
+              "PostgreSQL"
+            ],
             "name": "postgresql18-client",
             "version": "18.4"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "pwgen",
             "version": "2.08_1,2"
           },
           {
+            "licenses": [
+              "BSL"
+            ],
             "name": "py312-boost-libs",
             "version": "1.89.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "py312-numpy",
             "version": "2.4.6_1,1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "APACHE20"
+            ],
             "name": "py312-packaging",
             "version": "26.2"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "py312-setuptools",
             "version": "63.1.0_3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "MEDUSA",
+              "REPOZE"
+            ],
             "name": "py312-supervisor",
             "version": "4.2.5_2,1"
           },
           {
+            "licenses": [
+              "PSFL"
+            ],
             "name": "python312",
             "version": "3.12.13_3"
           },
           {
+            "licenses": [
+              "MPL20"
+            ],
             "name": "rabbitmq",
             "version": "4.3.2"
           },
           {
+            "licenses": [
+              "GPLv3"
+            ],
             "name": "readline",
             "version": "8.3.3"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "s6",
             "version": "2.14.0.1"
           },
           {
+            "licenses": [
+              "ZLIB"
+            ],
             "name": "sdl2",
             "version": "2.32.10_2"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "shaderc",
             "version": "2026.2_1"
           },
           {
+            "licenses": [
+              "GPLv2"
+            ],
             "name": "shared-mime-info",
             "version": "2.4_2"
           },
           {
+            "licenses": [
+              "MIT",
+              "APACHE20"
+            ],
             "name": "simdjson",
             "version": "4.6.4"
           },
           {
+            "licenses": [
+              "ISCL"
+            ],
             "name": "skalibs",
             "version": "2.14.5.1"
           },
           {
+            "licenses": [
+              "NCSA"
+            ],
             "name": "spirv-llvm-translator-llvm19",
             "version": "19.1.20"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "spirv-tools",
             "version": "2026.2"
           },
           {
+            "licenses": [
+              "PD"
+            ],
             "name": "sqlite3",
             "version": "3.53.3,1"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "srt",
             "version": "1.5.6"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE",
+              "MIT",
+              "BSD3CLAUSE"
+            ],
             "name": "svt-av1",
             "version": "4.2.0"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "tiff",
             "version": "4.7.2"
           },
           {
+            "licenses": [
+              "AGPLv3"
+            ],
             "name": "urw-base35-fonts",
             "version": "20200910"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "uvwasi",
             "version": "0.0.23"
           },
           {
+            "licenses": [
+              "LGPL21"
+            ],
             "name": "vips",
             "version": "8.18.4_1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE+PATENT"
+            ],
             "name": "vmaf",
             "version": "3.2.0"
           },
           {
+            "licenses": [
+              "APACHE20"
+            ],
             "name": "vulkan-loader",
             "version": "1.4.356"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "wayland",
             "version": "1.25.0"
           },
           {
+            "licenses": [
+              "EULA"
+            ],
             "name": "webfonts",
             "version": "0.30_14"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE"
+            ],
             "name": "webp",
             "version": "1.6.0"
           },
           {
+            "licenses": [
+              "GPLv2+"
+            ],
             "name": "x265",
             "version": "4.1"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xkeyboard-config",
             "version": "2.48"
           },
           {
+            "licenses": [
+              "MIT"
+            ],
             "name": "xorgproto",
             "version": "2025.1"
           },
           {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "xxhash",
             "version": "0.8.3"
           },
           {
+            "licenses": [
+              "BSD3CLAUSE",
+              "GPLv2"
+            ],
             "name": "zstd",
             "version": "1.5.7_2"
           }
@@ -3831,1746 +5909,2182 @@
         "node": [
           {
             "name": "@aashutoshrathi/word-wrap",
+            "purl": "",
             "version": "1.2.6"
           },
           {
             "name": "@eslint-community/eslint-utils",
+            "purl": "",
             "version": "4.4.0"
           },
           {
             "name": "@eslint-community/regexpp",
+            "purl": "",
             "version": "4.10.0"
           },
           {
             "name": "@eslint/eslintrc",
+            "purl": "",
             "version": "2.1.4"
           },
           {
             "name": "@eslint/js",
+            "purl": "",
             "version": "8.56.0"
           },
           {
             "name": "@gar/promise-retry",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "@humanwhocodes/config-array",
+            "purl": "",
             "version": "0.11.14"
           },
           {
             "name": "@humanwhocodes/module-importer",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "@humanwhocodes/object-schema",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "@isaacs/fs-minipass",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "@isaacs/string-locale-compare",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "@jupyterlite/app",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-consoles",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-edit",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-lab",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-notebooks",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-repl",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/app-tree",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@jupyterlite/pyodide-kernel-extension",
+            "purl": "",
             "version": "0.5.2"
           },
           {
             "name": "@mercadoeletronico/wopi-proof-validator",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "@my-scope/package-a",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "@my-scope/package-b",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "@noble/hashes",
+            "purl": "",
             "version": "1.8.0"
           },
           {
             "name": "@nodelib/fs.scandir",
+            "purl": "",
             "version": "2.1.5"
           },
           {
             "name": "@nodelib/fs.stat",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "@nodelib/fs.walk",
+            "purl": "",
             "version": "1.2.8"
           },
           {
             "name": "@npmcli/agent",
+            "purl": "",
             "version": "4.0.2"
           },
           {
             "name": "@npmcli/arborist",
+            "purl": "",
             "version": "9.9.0"
           },
           {
             "name": "@npmcli/config",
+            "purl": "",
             "version": "10.12.0"
           },
           {
             "name": "@npmcli/fs",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "@npmcli/git",
+            "purl": "",
             "version": "7.0.2"
           },
           {
             "name": "@npmcli/installed-package-contents",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@npmcli/map-workspaces",
+            "purl": "",
             "version": "5.0.3"
           },
           {
             "name": "@npmcli/metavuln-calculator",
+            "purl": "",
             "version": "9.0.3"
           },
           {
             "name": "@npmcli/name-from-folder",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@npmcli/node-gyp",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "@npmcli/package-json",
+            "purl": "",
             "version": "7.0.5"
           },
           {
             "name": "@npmcli/promise-spawn",
+            "purl": "",
             "version": "9.0.1"
           },
           {
             "name": "@npmcli/query",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "@npmcli/redact",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@npmcli/run-script",
+            "purl": "",
             "version": "10.0.4"
           },
           {
             "name": "@paralleldrive/cuid2",
+            "purl": "",
             "version": "2.2.2"
           },
           {
             "name": "@sigstore/bundle",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "@sigstore/core",
+            "purl": "",
             "version": "3.2.1"
           },
           {
             "name": "@sigstore/protobuf-specs",
+            "purl": "",
             "version": "0.5.1"
           },
           {
             "name": "@sigstore/sign",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "@sigstore/tuf",
+            "purl": "",
             "version": "4.0.2"
           },
           {
             "name": "@sigstore/verify",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "@tufjs/canonical-json",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "@tufjs/models",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "@types/json5",
+            "purl": "",
             "version": "0.0.29"
           },
           {
             "name": "@ungap/structured-clone",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "MathJax-grunt-cleaner",
+            "purl": "",
             "version": "0.1.0"
           },
           {
             "name": "OnlineEditorsExampleNodeJS",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "abbrev",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "accepts",
+            "purl": "",
             "version": "1.3.8"
           },
           {
             "name": "acorn",
+            "purl": "",
             "version": "8.11.3"
           },
           {
             "name": "acorn-jsx",
+            "purl": "",
             "version": "5.3.2"
           },
           {
             "name": "agent-base",
+            "purl": "",
             "version": "7.1.4"
           },
           {
             "name": "ajv",
+            "purl": "",
             "version": "6.12.6"
           },
           {
             "name": "ansi-regex",
+            "purl": "",
             "version": "5.0.1"
           },
           {
             "name": "ansi-styles",
+            "purl": "",
             "version": "4.3.0"
           },
           {
             "name": "any-promise",
+            "purl": "",
             "version": "1.3.0"
           },
           {
             "name": "aproba",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "archy",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "argparse",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "array-buffer-byte-length",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "array-flatten",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "array-includes",
+            "purl": "",
             "version": "3.1.7"
           },
           {
             "name": "array.prototype.filter",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "array.prototype.findlastindex",
+            "purl": "",
             "version": "1.2.4"
           },
           {
             "name": "array.prototype.flat",
+            "purl": "",
             "version": "1.3.2"
           },
           {
             "name": "array.prototype.flatmap",
+            "purl": "",
             "version": "1.3.2"
           },
           {
             "name": "arraybuffer.prototype.slice",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "asap",
+            "purl": "",
             "version": "2.0.6"
           },
           {
             "name": "async",
+            "purl": "",
             "version": "3.2.5"
           },
           {
             "name": "available-typed-arrays",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "balanced-match",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "bin-links",
+            "purl": "",
             "version": "6.0.2"
           },
           {
             "name": "binary-extensions",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "body-parser",
+            "purl": "",
             "version": "1.20.3"
           },
           {
             "name": "brace-expansion",
+            "purl": "",
             "version": "1.1.12"
           },
           {
             "name": "buffer-equal-constant-time",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "bytes",
+            "purl": "",
             "version": "3.1.2"
           },
           {
             "name": "cacache",
+            "purl": "",
             "version": "20.0.4"
           },
           {
             "name": "call-bind",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "callsites",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "chalk",
+            "purl": "",
             "version": "4.1.2"
           },
           {
             "name": "chownr",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "ci-info",
+            "purl": "",
             "version": "4.4.0"
           },
           {
             "name": "cidr-regex",
+            "purl": "",
             "version": "5.0.5"
           },
           {
             "name": "cmd-shim",
+            "purl": "",
             "version": "8.0.0"
           },
           {
             "name": "color-convert",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "color-name",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "common-ancestor-path",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "concat-map",
+            "purl": "",
             "version": "0.0.1"
           },
           {
             "name": "config",
+            "purl": "",
             "version": "3.3.12"
           },
           {
             "name": "confusing-browser-globals",
+            "purl": "",
             "version": "1.0.11"
           },
           {
             "name": "content-disposition",
+            "purl": "",
             "version": "0.5.4"
           },
           {
             "name": "content-type",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "cookie",
+            "purl": "",
             "version": "0.7.1"
           },
           {
             "name": "cookie-signature",
+            "purl": "",
             "version": "1.0.6"
           },
           {
             "name": "copy-to",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "corepack",
+            "purl": "",
             "version": "0.35.0"
           },
           {
             "name": "cross-env",
+            "purl": "",
             "version": "6.0.3"
           },
           {
             "name": "cross-spawn",
+            "purl": "",
             "version": "7.0.6"
           },
           {
             "name": "cssesc",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "date-format",
+            "purl": "",
             "version": "4.0.14"
           },
           {
             "name": "debug",
+            "purl": "",
             "version": "2.6.9"
           },
           {
             "name": "deep-is",
+            "purl": "",
             "version": "0.1.4"
           },
           {
             "name": "default-user-agent",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "define-data-property",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "define-properties",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "depd",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "destroy",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "dezalgo",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "diff",
+            "purl": "",
             "version": "8.0.4"
           },
           {
             "name": "digest-header",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "doctrine",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "ecdsa-sig-formatter",
+            "purl": "",
             "version": "1.0.11"
           },
           {
             "name": "ee-first",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "ejs",
+            "purl": "",
             "version": "3.1.10"
           },
           {
             "name": "encodeurl",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "end-of-stream",
+            "purl": "",
             "version": "1.4.4"
           },
           {
             "name": "env-paths",
+            "purl": "",
             "version": "2.2.1"
           },
           {
             "name": "es-abstract",
+            "purl": "",
             "version": "1.22.4"
           },
           {
             "name": "es-array-method-boxes-properly",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "es-define-property",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "es-errors",
+            "purl": "",
             "version": "1.3.0"
           },
           {
             "name": "es-set-tostringtag",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "es-shim-unscopables",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "es-to-primitive",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "escape-html",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "escape-string-regexp",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "eslint",
+            "purl": "",
             "version": "8.56.0"
           },
           {
             "name": "eslint-config-airbnb-base",
+            "purl": "",
             "version": "15.0.0"
           },
           {
             "name": "eslint-import-resolver-node",
+            "purl": "",
             "version": "0.3.9"
           },
           {
             "name": "eslint-module-utils",
+            "purl": "",
             "version": "2.8.0"
           },
           {
             "name": "eslint-plugin-import",
+            "purl": "",
             "version": "2.29.1"
           },
           {
             "name": "eslint-scope",
+            "purl": "",
             "version": "7.2.2"
           },
           {
             "name": "eslint-visitor-keys",
+            "purl": "",
             "version": "3.4.3"
           },
           {
             "name": "espree",
+            "purl": "",
             "version": "9.6.1"
           },
           {
             "name": "esquery",
+            "purl": "",
             "version": "1.5.0"
           },
           {
             "name": "esrecurse",
+            "purl": "",
             "version": "4.3.0"
           },
           {
             "name": "estraverse",
+            "purl": "",
             "version": "5.3.0"
           },
           {
             "name": "esutils",
+            "purl": "",
             "version": "2.0.3"
           },
           {
             "name": "etag",
+            "purl": "",
             "version": "1.8.1"
           },
           {
             "name": "exponential-backoff",
+            "purl": "",
             "version": "3.1.3"
           },
           {
             "name": "express",
+            "purl": "",
             "version": "4.21.2"
           },
           {
             "name": "extend-shallow",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "fast-deep-equal",
+            "purl": "",
             "version": "3.1.3"
           },
           {
             "name": "fast-json-stable-stringify",
+            "purl": "",
             "version": "2.1.0"
           },
           {
             "name": "fast-levenshtein",
+            "purl": "",
             "version": "2.0.6"
           },
           {
             "name": "fast-xml-parser",
+            "purl": "",
             "version": "4.5.0"
           },
           {
             "name": "fastest-levenshtein",
+            "purl": "",
             "version": "1.0.16"
           },
           {
             "name": "fastq",
+            "purl": "",
             "version": "1.13.0"
           },
           {
             "name": "fdir",
+            "purl": "",
             "version": "6.5.0"
           },
           {
             "name": "file-entry-cache",
+            "purl": "",
             "version": "6.0.1"
           },
           {
             "name": "filelist",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "finalhandler",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "find-up",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "flat-cache",
+            "purl": "",
             "version": "3.0.4"
           },
           {
             "name": "flatted",
+            "purl": "",
             "version": "3.3.1"
           },
           {
             "name": "for-each",
+            "purl": "",
             "version": "0.3.3"
           },
           {
             "name": "formidable",
+            "purl": "",
             "version": "3.5.4"
           },
           {
             "name": "formstream",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "forwarded",
+            "purl": "",
             "version": "0.2.0"
           },
           {
             "name": "fresh",
+            "purl": "",
             "version": "0.5.2"
           },
           {
             "name": "fs-extra",
+            "purl": "",
             "version": "8.1.0"
           },
           {
             "name": "fs-minipass",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "fs.realpath",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "function-bind",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "function.prototype.name",
+            "purl": "",
             "version": "1.1.6"
           },
           {
             "name": "functions-have-names",
+            "purl": "",
             "version": "1.2.3"
           },
           {
             "name": "get-intrinsic",
+            "purl": "",
             "version": "1.2.4"
           },
           {
             "name": "get-symbol-description",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "glob",
+            "purl": "",
             "version": "13.0.6"
           },
           {
             "name": "glob-parent",
+            "purl": "",
             "version": "6.0.2"
           },
           {
             "name": "globals",
+            "purl": "",
             "version": "13.24.0"
           },
           {
             "name": "globalthis",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "gopd",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "graceful-fs",
+            "purl": "",
             "version": "4.2.11"
           },
           {
             "name": "graphemer",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "has-bigints",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "has-flag",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "has-property-descriptors",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "has-proto",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "has-symbols",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "has-tostringtag",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "hasown",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "he",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "hosted-git-info",
+            "purl": "",
             "version": "9.0.3"
           },
           {
             "name": "http-cache-semantics",
+            "purl": "",
             "version": "4.2.0"
           },
           {
             "name": "http-errors",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "http-proxy-agent",
+            "purl": "",
             "version": "7.0.2"
           },
           {
             "name": "https-proxy-agent",
+            "purl": "",
             "version": "7.0.6"
           },
           {
             "name": "humanize-ms",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "iconv-lite",
+            "purl": "",
             "version": "0.4.24"
           },
           {
             "name": "ignore",
+            "purl": "",
             "version": "5.3.1"
           },
           {
             "name": "ignore-walk",
+            "purl": "",
             "version": "8.0.0"
           },
           {
             "name": "import-fresh",
+            "purl": "",
             "version": "3.3.0"
           },
           {
             "name": "imurmurhash",
+            "purl": "",
             "version": "0.1.4"
           },
           {
             "name": "inflight",
+            "purl": "",
             "version": "1.0.6"
           },
           {
             "name": "inherits",
+            "purl": "",
             "version": "2.0.4"
           },
           {
             "name": "ini",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "init-package-json",
+            "purl": "",
             "version": "8.2.5"
           },
           {
             "name": "installtools",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "int64-buffer",
+            "purl": "",
             "version": "0.99.1007"
           },
           {
             "name": "internal-slot",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "ip-address",
+            "purl": "",
             "version": "10.2.0"
           },
           {
             "name": "ipaddr.js",
+            "purl": "",
             "version": "1.9.1"
           },
           {
             "name": "is-array-buffer",
+            "purl": "",
             "version": "3.0.4"
           },
           {
             "name": "is-bigint",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "is-boolean-object",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "is-callable",
+            "purl": "",
             "version": "1.2.7"
           },
           {
             "name": "is-cidr",
+            "purl": "",
             "version": "6.0.4"
           },
           {
             "name": "is-core-module",
+            "purl": "",
             "version": "2.13.1"
           },
           {
             "name": "is-date-object",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "is-extendable",
+            "purl": "",
             "version": "0.1.1"
           },
           {
             "name": "is-extglob",
+            "purl": "",
             "version": "2.1.1"
           },
           {
             "name": "is-glob",
+            "purl": "",
             "version": "4.0.3"
           },
           {
             "name": "is-negative-zero",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "is-number-object",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "is-path-inside",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "is-regex",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "is-shared-array-buffer",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "is-string",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "is-symbol",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "is-typed-array",
+            "purl": "",
             "version": "1.1.13"
           },
           {
             "name": "is-weakref",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "isarray",
+            "purl": "",
             "version": "2.0.5"
           },
           {
             "name": "isexe",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "jake",
+            "purl": "",
             "version": "10.8.7"
           },
           {
             "name": "js-yaml",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "json-parse-even-better-errors",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "json-schema-traverse",
+            "purl": "",
             "version": "0.4.1"
           },
           {
             "name": "json-stable-stringify-without-jsonify",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "json-stringify-nice",
+            "purl": "",
             "version": "1.1.4"
           },
           {
             "name": "json5",
+            "purl": "",
             "version": "2.2.3"
           },
           {
             "name": "jsonfile",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "jsonparse",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "jsonwebtoken",
+            "purl": "",
             "version": "9.0.2"
           },
           {
             "name": "jupyterlab-jupytext",
+            "purl": "",
             "version": "1.4.5"
           },
           {
             "name": "jupyterlab_pygments",
+            "purl": "",
             "version": "0.3.0"
           },
           {
             "name": "just-diff",
+            "purl": "",
             "version": "6.0.2"
           },
           {
             "name": "just-diff-apply",
+            "purl": "",
             "version": "5.5.0"
           },
           {
             "name": "jwa",
+            "purl": "",
             "version": "1.4.1"
           },
           {
             "name": "jws",
+            "purl": "",
             "version": "3.2.2"
           },
           {
             "name": "levn",
+            "purl": "",
             "version": "0.4.1"
           },
           {
             "name": "libnpmaccess",
+            "purl": "",
             "version": "10.0.3"
           },
           {
             "name": "libnpmdiff",
+            "purl": "",
             "version": "8.1.11"
           },
           {
             "name": "libnpmexec",
+            "purl": "",
             "version": "10.3.1"
           },
           {
             "name": "libnpmfund",
+            "purl": "",
             "version": "7.0.25"
           },
           {
             "name": "libnpmorg",
+            "purl": "",
             "version": "8.0.1"
           },
           {
             "name": "libnpmpack",
+            "purl": "",
             "version": "9.1.11"
           },
           {
             "name": "libnpmpublish",
+            "purl": "",
             "version": "11.2.0"
           },
           {
             "name": "libnpmsearch",
+            "purl": "",
             "version": "9.0.1"
           },
           {
             "name": "libnpmteam",
+            "purl": "",
             "version": "8.0.2"
           },
           {
             "name": "libnpmversion",
+            "purl": "",
             "version": "8.0.4"
           },
           {
             "name": "ljharb-monorepo-symlink-test",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "locate-path",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "lodash.includes",
+            "purl": "",
             "version": "4.3.0"
           },
           {
             "name": "lodash.isboolean",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "lodash.isinteger",
+            "purl": "",
             "version": "4.0.4"
           },
           {
             "name": "lodash.isnumber",
+            "purl": "",
             "version": "3.0.3"
           },
           {
             "name": "lodash.isplainobject",
+            "purl": "",
             "version": "4.0.6"
           },
           {
             "name": "lodash.isstring",
+            "purl": "",
             "version": "4.0.1"
           },
           {
             "name": "lodash.merge",
+            "purl": "",
             "version": "4.6.2"
           },
           {
             "name": "lodash.once",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "log4js",
+            "purl": "",
             "version": "6.9.1"
           },
           {
             "name": "lru-cache",
+            "purl": "",
             "version": "11.5.1"
           },
           {
             "name": "make-fetch-happen",
+            "purl": "",
             "version": "15.0.6"
           },
           {
             "name": "media-typer",
+            "purl": "",
             "version": "0.3.0"
           },
           {
             "name": "merge-descriptors",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "methods",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "mime",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "mime-db",
+            "purl": "",
             "version": "1.52.0"
           },
           {
             "name": "mime-types",
+            "purl": "",
             "version": "2.1.35"
           },
           {
             "name": "minimatch",
+            "purl": "",
             "version": "10.2.5"
           },
           {
             "name": "minimist",
+            "purl": "",
             "version": "1.2.7"
           },
           {
             "name": "minipass",
+            "purl": "",
             "version": "3.3.6"
           },
           {
             "name": "minipass-collect",
+            "purl": "",
             "version": "2.0.1"
           },
           {
             "name": "minipass-fetch",
+            "purl": "",
             "version": "5.0.2"
           },
           {
             "name": "minipass-flush",
+            "purl": "",
             "version": "1.0.6"
           },
           {
             "name": "minipass-pipeline",
+            "purl": "",
             "version": "1.2.4"
           },
           {
             "name": "minipass-sized",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "minizlib",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "mkdirp",
+            "purl": "",
             "version": "0.5.6"
           },
           {
             "name": "monaco-editor",
+            "purl": "",
             "version": "0.18.1"
           },
           {
             "name": "ms",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "mute-stream",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "mylib",
+            "purl": "",
             "version": "0.0.0"
           },
           {
             "name": "mz",
+            "purl": "",
             "version": "2.7.0"
           },
           {
             "name": "natural-compare",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "negotiator",
+            "purl": "",
             "version": "0.6.3"
           },
           {
             "name": "node-gyp",
+            "purl": "",
             "version": "12.4.0"
           },
           {
             "name": "nopt",
+            "purl": "",
             "version": "9.0.0"
           },
           {
             "name": "npm",
+            "purl": "",
             "version": "11.18.0"
           },
           {
             "name": "npm-audit-report",
+            "purl": "",
             "version": "7.0.0"
           },
           {
             "name": "npm-bundled",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "npm-install-checks",
+            "purl": "",
             "version": "8.0.0"
           },
           {
             "name": "npm-normalize-package-bin",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "npm-package-arg",
+            "purl": "",
             "version": "13.0.2"
           },
           {
             "name": "npm-packlist",
+            "purl": "",
             "version": "10.0.4"
           },
           {
             "name": "npm-pick-manifest",
+            "purl": "",
             "version": "11.0.3"
           },
           {
             "name": "npm-profile",
+            "purl": "",
             "version": "12.0.2"
           },
           {
             "name": "npm-registry-fetch",
+            "purl": "",
             "version": "19.1.1"
           },
           {
             "name": "npm-user-validate",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "object-assign",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "object-inspect",
+            "purl": "",
             "version": "1.13.1"
           },
           {
             "name": "object-keys",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "object.assign",
+            "purl": "",
             "version": "4.1.5"
           },
           {
             "name": "object.entries",
+            "purl": "",
             "version": "1.1.6"
           },
           {
             "name": "object.fromentries",
+            "purl": "",
             "version": "2.0.7"
           },
           {
             "name": "object.groupby",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "object.values",
+            "purl": "",
             "version": "1.1.7"
           },
           {
             "name": "on-finished",
+            "purl": "",
             "version": "2.4.1"
           },
           {
             "name": "once",
+            "purl": "",
             "version": "1.4.0"
           },
           {
             "name": "optionator",
+            "purl": "",
             "version": "0.9.3"
           },
           {
             "name": "os-name",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "osx-release",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "p-limit",
+            "purl": "",
             "version": "3.1.0"
           },
           {
             "name": "p-locate",
+            "purl": "",
             "version": "5.0.0"
           },
           {
             "name": "p-map",
+            "purl": "",
             "version": "7.0.4"
           },
           {
             "name": "pacote",
+            "purl": "",
             "version": "21.5.1"
           },
           {
             "name": "parent-module",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "parse-conflict-json",
+            "purl": "",
             "version": "5.0.1"
           },
           {
             "name": "parseurl",
+            "purl": "",
             "version": "1.3.3"
           },
           {
             "name": "path-exists",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "path-is-absolute",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "path-key",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "path-parse",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "path-scurry",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "path-to-regexp",
+            "purl": "",
             "version": "0.1.12"
           },
           {
             "name": "pause-stream",
+            "purl": "",
             "version": "0.0.11"
           },
           {
             "name": "picomatch",
+            "purl": "",
             "version": "4.0.4"
           },
           {
             "name": "possible-typed-array-names",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "postcss-selector-parser",
+            "purl": "",
             "version": "7.1.4"
           },
           {
             "name": "prelude-ls",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "proc-log",
+            "purl": "",
             "version": "6.1.0"
           },
           {
             "name": "proggy",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "promise-all-reject-late",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "promise-call-limit",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "promzard",
+            "purl": "",
             "version": "3.0.1"
           },
           {
             "name": "proxy-addr",
+            "purl": "",
             "version": "2.0.7"
           },
           {
             "name": "pump",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "punycode",
+            "purl": "",
             "version": "2.3.1"
           },
           {
             "name": "qrcode-terminal",
+            "purl": "",
             "version": "0.12.0"
           },
           {
             "name": "qs",
+            "purl": "",
             "version": "6.7.3"
           },
           {
             "name": "queue-microtask",
+            "purl": "",
             "version": "1.2.3"
           },
           {
             "name": "range-parser",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "raw-body",
+            "purl": "",
             "version": "2.5.2"
           },
           {
             "name": "read",
+            "purl": "",
             "version": "5.0.1"
           },
           {
             "name": "read-cmd-shim",
+            "purl": "",
             "version": "6.0.0"
           },
           {
             "name": "regexp.prototype.flags",
+            "purl": "",
             "version": "1.5.2"
           },
           {
             "name": "resolve",
+            "purl": "",
             "version": "1.22.8"
           },
           {
             "name": "resolve-from",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "reusify",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "rfdc",
+            "purl": "",
             "version": "1.3.1"
           },
           {
             "name": "rimraf",
+            "purl": "",
             "version": "3.0.2"
           },
           {
             "name": "rsa-pem-from-mod-exp",
+            "purl": "",
             "version": "0.8.6"
           },
           {
             "name": "run-parallel",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "safe-array-concat",
+            "purl": "",
             "version": "1.1.0"
           },
           {
             "name": "safe-buffer",
+            "purl": "",
             "version": "5.1.1"
           },
           {
             "name": "safe-regex-test",
+            "purl": "",
             "version": "1.0.3"
           },
           {
             "name": "safer-buffer",
+            "purl": "",
             "version": "2.1.2"
           },
           {
             "name": "semver",
+            "purl": "",
             "version": "7.5.2"
           },
           {
             "name": "send",
+            "purl": "",
             "version": "0.19.0"
           },
           {
             "name": "serve-favicon",
+            "purl": "",
             "version": "2.5.0"
           },
           {
             "name": "serve-static",
+            "purl": "",
             "version": "1.16.2"
           },
           {
             "name": "set-function-length",
+            "purl": "",
             "version": "1.2.1"
           },
           {
             "name": "set-function-name",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "setprototypeof",
+            "purl": "",
             "version": "1.2.0"
           },
           {
             "name": "shebang-command",
+            "purl": "",
             "version": "2.0.0"
           },
           {
             "name": "shebang-regex",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "side-channel",
+            "purl": "",
             "version": "1.0.4"
           },
           {
             "name": "signal-exit",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "sigstore",
+            "purl": "",
             "version": "4.1.1"
           },
           {
             "name": "smart-buffer",
+            "purl": "",
             "version": "4.2.0"
           },
           {
             "name": "socks",
+            "purl": "",
             "version": "2.8.9"
           },
           {
             "name": "socks-proxy-agent",
+            "purl": "",
             "version": "8.0.5"
           },
           {
             "name": "spdx-exceptions",
+            "purl": "",
             "version": "2.5.0"
           },
           {
             "name": "spdx-expression-parse",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "spdx-license-ids",
+            "purl": "",
             "version": "3.0.23"
           },
           {
             "name": "ssri",
+            "purl": "",
             "version": "13.0.1"
           },
           {
             "name": "statuses",
+            "purl": "",
             "version": "1.5.0"
           },
           {
             "name": "streamroller",
+            "purl": "",
             "version": "3.1.5"
           },
           {
             "name": "string.prototype.trim",
+            "purl": "",
             "version": "1.2.8"
           },
           {
             "name": "string.prototype.trimend",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "string.prototype.trimstart",
+            "purl": "",
             "version": "1.0.7"
           },
           {
             "name": "strip-ansi",
+            "purl": "",
             "version": "6.0.1"
           },
           {
             "name": "strip-bom",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "strip-json-comments",
+            "purl": "",
             "version": "3.1.1"
           },
           {
             "name": "strnum",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "supports-color",
+            "purl": "",
             "version": "10.2.2"
           },
           {
             "name": "supports-preserve-symlinks-flag",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "tar",
+            "purl": "",
             "version": "7.5.19"
           },
           {
             "name": "text-table",
+            "purl": "",
             "version": "0.2.0"
           },
           {
             "name": "thenify",
+            "purl": "",
             "version": "3.3.1"
           },
           {
             "name": "thenify-all",
+            "purl": "",
             "version": "1.6.0"
           },
           {
             "name": "through",
+            "purl": "",
             "version": "2.3.8"
           },
           {
             "name": "tiny-relative-date",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "tinyglobby",
+            "purl": "",
             "version": "0.2.17"
           },
           {
             "name": "toidentifier",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "treeverse",
+            "purl": "",
             "version": "3.0.0"
           },
           {
             "name": "tsconfig-paths",
+            "purl": "",
             "version": "3.15.0"
           },
           {
             "name": "tuf-js",
+            "purl": "",
             "version": "4.1.0"
           },
           {
             "name": "type-check",
+            "purl": "",
             "version": "0.4.0"
           },
           {
             "name": "type-fest",
+            "purl": "",
             "version": "0.20.2"
           },
           {
             "name": "type-is",
+            "purl": "",
             "version": "1.6.18"
           },
           {
             "name": "typed-array-buffer",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "typed-array-byte-length",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "typed-array-byte-offset",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "typed-array-length",
+            "purl": "",
             "version": "1.0.5"
           },
           {
             "name": "unbox-primitive",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "undici",
+            "purl": "",
             "version": "6.27.0"
           },
           {
             "name": "unescape",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "universalify",
+            "purl": "",
             "version": "0.1.2"
           },
           {
             "name": "unpipe",
+            "purl": "",
             "version": "1.0.0"
           },
           {
             "name": "uri-js",
+            "purl": "",
             "version": "4.4.1"
           },
           {
             "name": "urllib",
+            "purl": "",
             "version": "2.44.0"
           },
           {
             "name": "utf7",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "util-deprecate",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "utility",
+            "purl": "",
             "version": "1.18.0"
           },
           {
             "name": "utils-merge",
+            "purl": "",
             "version": "1.0.1"
           },
           {
             "name": "validate-npm-package-name",
+            "purl": "",
             "version": "7.0.2"
           },
           {
             "name": "vary",
+            "purl": "",
             "version": "1.1.2"
           },
           {
             "name": "walk-up-path",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "which",
+            "purl": "",
             "version": "2.0.2"
           },
           {
             "name": "which-boxed-primitive",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "which-typed-array",
+            "purl": "",
             "version": "1.1.14"
           },
           {
             "name": "win-release",
+            "purl": "",
             "version": "1.1.1"
           },
           {
             "name": "wrappy",
+            "purl": "",
             "version": "1.0.2"
           },
           {
             "name": "write-file-atomic",
+            "purl": "",
             "version": "7.0.1"
           },
           {
             "name": "yallist",
+            "purl": "",
             "version": "4.0.0"
           },
           {
             "name": "yocto-queue",
+            "purl": "",
             "version": "0.1.0"
           }
         ],
@@ -5578,22 +8092,27 @@
         "python": [
           {
             "name": "example",
+            "purl": "",
             "version": "21.12"
           },
           {
             "name": "numpy",
+            "purl": "",
             "version": "2.4.6"
           },
           {
             "name": "packaging",
+            "purl": "",
             "version": "26.2"
           },
           {
             "name": "setuptools",
+            "purl": "",
             "version": "63.1.0"
           },
           {
             "name": "supervisor",
+            "purl": "",
             "version": "4.2.5"
           }
         ],
@@ -5603,7 +8122,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 253,
+        "freebsd": 255,
         "go": 0,
         "java": 0,
         "node": 436,
@@ -5611,7 +8130,7 @@
         "python": 5,
         "ruby": 0,
         "rust": 0,
-        "total": 694
+        "total": 696
       }
     }
   }
