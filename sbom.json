@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-01T23:35:47Z",
+  "generated": "2026-08-10T07:43:22Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-08-01T23:30:33Z",
+      "generated": "2026-08-10T07:38:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -395,7 +395,7 @@
               "APACHE20"
             ],
             "name": "erlang-runtime27",
-            "version": "27.3.4.13_1"
+            "version": "27.3.4.16"
           },
           {
             "licenses": [
@@ -1515,7 +1515,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -1689,7 +1689,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.4"
+            "version": "4.6.6"
           },
           {
             "licenses": [
@@ -4067,7 +4067,7 @@
     "pkg-latest": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-08-01T23:29:17Z",
+      "generated": "2026-08-10T07:37:29Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4422,7 +4422,7 @@
               "CUPS"
             ],
             "name": "cups",
-            "version": "2.4.19_1"
+            "version": "2.4.19_2"
           },
           {
             "licenses": [
@@ -4457,7 +4457,7 @@
               "APACHE20"
             ],
             "name": "erlang-runtime27",
-            "version": "27.3.4.15"
+            "version": "27.3.4.16"
           },
           {
             "licenses": [
@@ -4559,7 +4559,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -4670,7 +4670,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.409,1"
+            "version": "0.410,1"
           },
           {
             "licenses": [
@@ -4812,7 +4812,7 @@
               "MIT"
             ],
             "name": "libXft",
-            "version": "2.3.8"
+            "version": "2.3.9"
           },
           {
             "licenses": [
@@ -4932,7 +4932,7 @@
               "MIT"
             ],
             "name": "libdrm",
-            "version": "2.4.133,1"
+            "version": "2.4.134,1"
           },
           {
             "licenses": [
@@ -5180,7 +5180,7 @@
               "CDDL"
             ],
             "name": "libraw",
-            "version": "0.22.1"
+            "version": "0.22.2"
           },
           {
             "licenses": [
@@ -5231,7 +5231,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libudev-devd",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "licenses": [
@@ -5414,7 +5414,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.1.5_1"
+            "version": "26.1.5_2"
           },
           {
             "licenses": [
@@ -5449,7 +5449,7 @@
               "LGPL21"
             ],
             "name": "mpg123",
-            "version": "1.33.6"
+            "version": "1.33.7"
           },
           {
             "licenses": [
@@ -5464,7 +5464,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.4,3"
+            "version": "1.30.4_2,3"
           },
           {
             "licenses": [
@@ -5562,7 +5562,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
@@ -5584,7 +5584,7 @@
               "GPLv1+"
             ],
             "name": "perl5",
-            "version": "5.42.2"
+            "version": "5.42.3"
           },
           {
             "licenses": [
@@ -5743,7 +5743,7 @@
               "APACHE20"
             ],
             "name": "shaderc",
-            "version": "2026.2_1"
+            "version": "2026.3"
           },
           {
             "licenses": [
@@ -5758,7 +5758,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.4"
+            "version": "4.6.6"
           },
           {
             "licenses": [
@@ -5772,14 +5772,14 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.20"
+            "version": "19.1.21"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.2"
+            "version": "2026.3.r1"
           },
           {
             "licenses": [
@@ -5844,7 +5844,7 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.356"
+            "version": "1.4.357"
           },
           {
             "licenses": [
