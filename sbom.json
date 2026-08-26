@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-10T07:43:22Z",
+  "generated": "2026-08-26T08:12:21Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-08-10T07:38:08Z",
+      "generated": "2026-08-26T08:08:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -323,7 +323,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -986,7 +986,7 @@
               "LGPL3+"
             ],
             "name": "libidn",
-            "version": "1.43"
+            "version": "1.44"
           },
           {
             "licenses": [
@@ -1430,7 +1430,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.126"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -1458,7 +1458,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.13_1"
+            "version": "3.4.15"
           },
           {
             "licenses": [
@@ -1587,7 +1587,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql18-client",
-            "version": "18.4"
+            "version": "18.6"
           },
           {
             "licenses": [
@@ -1639,7 +1639,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1689,7 +1689,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.6"
+            "version": "4.6.8"
           },
           {
             "licenses": [
@@ -4067,7 +4067,7 @@
     "pkg-latest": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-08-10T07:37:29Z",
+      "generated": "2026-08-26T08:08:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4328,7 +4328,7 @@
               "BSD3CLAUSE"
             ],
             "name": "Imath",
-            "version": "3.2.2_4"
+            "version": "3.2.3"
           },
           {
             "licenses": [
@@ -4364,7 +4364,7 @@
               "BSL"
             ],
             "name": "boost-libs",
-            "version": "1.89.0_3"
+            "version": "1.91.0"
           },
           {
             "licenses": [
@@ -4385,7 +4385,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -4471,7 +4471,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
@@ -4479,7 +4479,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_1,1"
+            "version": "8.1.2_2,1"
           },
           {
             "licenses": [
@@ -4516,7 +4516,7 @@
               "GPLv3RLE"
             ],
             "name": "gcc14",
-            "version": "14.2.0_6"
+            "version": "14.2.0_7"
           },
           {
             "licenses": [
@@ -4967,7 +4967,7 @@
               "MPL20"
             ],
             "name": "libetonyek01",
-            "version": "0.1.13,1"
+            "version": "0.1.13_1,1"
           },
           {
             "licenses": [
@@ -4988,7 +4988,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -5048,7 +5048,7 @@
               "LGPL3+"
             ],
             "name": "libidn",
-            "version": "1.43"
+            "version": "1.44"
           },
           {
             "licenses": [
@@ -5108,21 +5108,21 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp3",
-            "version": "1.17.0"
+            "version": "1.18.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libngtcp2",
-            "version": "1.24.0"
+            "version": "1.25.0"
           },
           {
             "licenses": [
@@ -5165,7 +5165,7 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
@@ -5325,7 +5325,7 @@
               "GPLv2"
             ],
             "name": "libx264",
-            "version": "0.164.3095"
+            "version": "0.165.3223_1"
           },
           {
             "licenses": [
@@ -5400,7 +5400,7 @@
               "BSD2CLAUSE"
             ],
             "name": "matio",
-            "version": "1.5.30"
+            "version": "1.6.0"
           },
           {
             "licenses": [
@@ -5414,7 +5414,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.1.5_2"
+            "version": "26.2.1"
           },
           {
             "licenses": [
@@ -5464,14 +5464,14 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.4_2,3"
+            "version": "1.30.4_4,3"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "node22",
-            "version": "22.23.1"
+            "version": "22.23.2"
           },
           {
             "licenses": [
@@ -5499,7 +5499,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.126"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -5520,14 +5520,14 @@
               "BSD3CLAUSE"
             ],
             "name": "openblas",
-            "version": "0.3.33,2"
+            "version": "0.3.34_1,2"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.13_1"
+            "version": "3.4.15"
           },
           {
             "licenses": [
@@ -5612,14 +5612,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.1_1"
+            "version": "2.8.4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "pkgconf",
-            "version": "2.4.3_1,1"
+            "version": "3.0.5,1"
           },
           {
             "licenses": [
@@ -5656,7 +5656,7 @@
               "PostgreSQL"
             ],
             "name": "postgresql18-client",
-            "version": "18.4"
+            "version": "18.6"
           },
           {
             "licenses": [
@@ -5670,7 +5670,7 @@
               "BSL"
             ],
             "name": "py312-boost-libs",
-            "version": "1.89.0"
+            "version": "1.91.0"
           },
           {
             "licenses": [
@@ -5689,26 +5689,19 @@
           },
           {
             "licenses": [
-              "MIT"
-            ],
-            "name": "py312-setuptools",
-            "version": "63.1.0_3"
-          },
-          {
-            "licenses": [
               "BSD3CLAUSE",
               "MEDUSA",
               "REPOZE"
             ],
             "name": "py312-supervisor",
-            "version": "4.2.5_2,1"
+            "version": "4.3.0,1"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_3"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -5758,7 +5751,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.6"
+            "version": "4.6.8"
           },
           {
             "licenses": [
@@ -5779,14 +5772,14 @@
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.3.r1"
+            "version": "2026.3"
           },
           {
             "licenses": [
               "PD"
             ],
             "name": "sqlite3",
-            "version": "3.53.3,1"
+            "version": "3.53.4,1"
           },
           {
             "licenses": [
@@ -5830,7 +5823,7 @@
               "LGPL21"
             ],
             "name": "vips",
-            "version": "8.18.4_1"
+            "version": "8.18.5"
           },
           {
             "licenses": [
@@ -5844,14 +5837,14 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.357"
+            "version": "1.4.360"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "wayland",
-            "version": "1.25.0"
+            "version": "1.26.0"
           },
           {
             "licenses": [
@@ -8106,14 +8099,9 @@
             "version": "26.2"
           },
           {
-            "name": "setuptools",
-            "purl": "",
-            "version": "63.1.0"
-          },
-          {
             "name": "supervisor",
             "purl": "",
-            "version": "4.2.5"
+            "version": "4.3.0"
           }
         ],
         "ruby": [],
@@ -8122,15 +8110,15 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 255,
+        "freebsd": 254,
         "go": 0,
         "java": 0,
         "node": 436,
         "php": 0,
-        "python": 5,
+        "python": 4,
         "ruby": 0,
         "rust": 0,
-        "total": 696
+        "total": 694
       }
     }
   }
