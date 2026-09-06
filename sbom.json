@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-26T08:12:21Z",
+  "generated": "2026-09-06T21:37:18Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-08-26T08:08:18Z",
+      "generated": "2026-09-06T21:30:37Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -168,7 +168,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -196,7 +196,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -323,7 +323,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -374,7 +374,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -395,7 +395,7 @@
               "APACHE20"
             ],
             "name": "erlang-runtime27",
-            "version": "27.3.4.16"
+            "version": "27.3.4.17"
           },
           {
             "licenses": [
@@ -1402,7 +1402,7 @@
               "MIT"
             ],
             "name": "node22",
-            "version": "22.23.1"
+            "version": "22.23.2"
           },
           {
             "licenses": [
@@ -1430,7 +1430,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.127"
+            "version": "3.128_1"
           },
           {
             "licenses": [
@@ -1646,7 +1646,7 @@
               "MPL20"
             ],
             "name": "rabbitmq",
-            "version": "4.3.2"
+            "version": "4.3.5"
           },
           {
             "licenses": [
@@ -4065,9 +4065,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "9.4.0_1",
+      "app_version": "9.4.0_2",
       "arch": "amd64",
-      "generated": "2026-08-26T08:08:43Z",
+      "generated": "2026-09-06T21:31:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4230,7 +4230,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4258,7 +4258,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -4335,7 +4335,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.14.1_1"
+            "version": "3.15.0"
           },
           {
             "licenses": [
@@ -4385,7 +4385,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -4400,7 +4400,7 @@
               "CFITSIO"
             ],
             "name": "cfitsio",
-            "version": "4.6.4"
+            "version": "4.7.0"
           },
           {
             "licenses": [
@@ -4414,7 +4414,7 @@
               "MIT"
             ],
             "name": "corepack",
-            "version": "0.35.0"
+            "version": "0.35.0_1"
           },
           {
             "licenses": [
@@ -4436,7 +4436,7 @@
               "BSD2CLAUSE"
             ],
             "name": "dav1d",
-            "version": "1.5.3_1"
+            "version": "1.5.4"
           },
           {
             "licenses": [
@@ -4457,7 +4457,7 @@
               "APACHE20"
             ],
             "name": "erlang-runtime27",
-            "version": "27.3.4.16"
+            "version": "27.3.4.17"
           },
           {
             "licenses": [
@@ -4479,7 +4479,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_2,1"
+            "version": "8.1.2_3,1"
           },
           {
             "licenses": [
@@ -4641,7 +4641,7 @@
               "APACHE20"
             ],
             "name": "gumbo",
-            "version": "0.13.2_2"
+            "version": "0.14.0"
           },
           {
             "licenses": [
@@ -4735,7 +4735,7 @@
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.1.1"
+            "version": "4.2.0"
           },
           {
             "licenses": [
@@ -4897,7 +4897,7 @@
               "LGPL21"
             ],
             "name": "libbluray",
-            "version": "1.4.1,1"
+            "version": "1.5.0,1"
           },
           {
             "licenses": [
@@ -4918,7 +4918,7 @@
               "MIT"
             ],
             "name": "libdeflate",
-            "version": "1.25"
+            "version": "1.26"
           },
           {
             "licenses": [
@@ -4946,7 +4946,7 @@
               "GPLv2"
             ],
             "name": "libdvdread",
-            "version": "7.0.0"
+            "version": "7.1.1"
           },
           {
             "licenses": [
@@ -5003,7 +5003,7 @@
               "LGPL21+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.2"
+            "version": "1.12.3_2"
           },
           {
             "licenses": [
@@ -5033,7 +5033,7 @@
               "LGPL3+"
             ],
             "name": "libheif",
-            "version": "1.22.2_1"
+            "version": "1.22.2_2"
           },
           {
             "licenses": [
@@ -5242,10 +5242,11 @@
           },
           {
             "licenses": [
+              "MIT",
               "APACHE20"
             ],
             "name": "libultrahdr",
-            "version": "1.4.0"
+            "version": "2.0.2"
           },
           {
             "licenses": [
@@ -5311,7 +5312,7 @@
               "BSD3CLAUSE"
             ],
             "name": "libvpx",
-            "version": "1.16.0"
+            "version": "1.17.0"
           },
           {
             "licenses": [
@@ -5367,7 +5368,7 @@
               "MIT"
             ],
             "name": "llhttp",
-            "version": "9.4.2"
+            "version": "9.4.3"
           },
           {
             "licenses": [
@@ -5414,7 +5415,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.2.1"
+            "version": "26.2.2"
           },
           {
             "licenses": [
@@ -5464,7 +5465,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.4_4,3"
+            "version": "1.30.4_5,3"
           },
           {
             "licenses": [
@@ -5478,7 +5479,7 @@
               "ART20"
             ],
             "name": "npm-node22",
-            "version": "11.18.0"
+            "version": "11.19.1"
           },
           {
             "licenses": [
@@ -5499,7 +5500,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.127"
+            "version": "3.128_1"
           },
           {
             "licenses": [
@@ -5513,7 +5514,7 @@
               "AGPLv3"
             ],
             "name": "onlyoffice-documentserver",
-            "version": "9.4.0_1"
+            "version": "9.4.0_2"
           },
           {
             "licenses": [
@@ -5527,7 +5528,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15"
+            "version": "3.4.15_1"
           },
           {
             "licenses": [
@@ -5548,7 +5549,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.30.1"
+            "version": "0.31.0"
           },
           {
             "licenses": [
@@ -5685,7 +5686,7 @@
               "APACHE20"
             ],
             "name": "py312-packaging",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "licenses": [
@@ -5708,7 +5709,7 @@
               "MPL20"
             ],
             "name": "rabbitmq",
-            "version": "4.3.2"
+            "version": "4.3.5"
           },
           {
             "licenses": [
@@ -5751,7 +5752,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.8"
+            "version": "4.6.9"
           },
           {
             "licenses": [
@@ -5765,7 +5766,7 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.21"
+            "version": "19.1.22"
           },
           {
             "licenses": [
@@ -5823,7 +5824,7 @@
               "LGPL21"
             ],
             "name": "vips",
-            "version": "8.18.5"
+            "version": "8.18.5_1"
           },
           {
             "licenses": [
@@ -6038,7 +6039,7 @@
           {
             "name": "@npmcli/arborist",
             "purl": "",
-            "version": "9.9.0"
+            "version": "9.9.1"
           },
           {
             "name": "@npmcli/config",
@@ -6948,7 +6949,7 @@
           {
             "name": "ip-address",
             "purl": "",
-            "version": "10.2.0"
+            "version": "10.5.0"
           },
           {
             "name": "ipaddr.js",
@@ -7153,17 +7154,17 @@
           {
             "name": "libnpmdiff",
             "purl": "",
-            "version": "8.1.11"
+            "version": "8.1.12"
           },
           {
             "name": "libnpmexec",
             "purl": "",
-            "version": "10.3.1"
+            "version": "10.3.2"
           },
           {
             "name": "libnpmfund",
             "purl": "",
-            "version": "7.0.25"
+            "version": "7.0.26"
           },
           {
             "name": "libnpmorg",
@@ -7173,7 +7174,7 @@
           {
             "name": "libnpmpack",
             "purl": "",
-            "version": "9.1.11"
+            "version": "9.1.13"
           },
           {
             "name": "libnpmpublish",
@@ -7388,7 +7389,7 @@
           {
             "name": "npm",
             "purl": "",
-            "version": "11.18.0"
+            "version": "11.19.1"
           },
           {
             "name": "npm-audit-report",
@@ -7883,7 +7884,7 @@
           {
             "name": "tar",
             "purl": "",
-            "version": "7.5.19"
+            "version": "7.5.22"
           },
           {
             "name": "text-table",
@@ -7978,7 +7979,7 @@
           {
             "name": "undici",
             "purl": "",
-            "version": "6.27.0"
+            "version": "6.28.0"
           },
           {
             "name": "unescape",
@@ -8096,7 +8097,7 @@
           {
             "name": "packaging",
             "purl": "",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "name": "supervisor",
