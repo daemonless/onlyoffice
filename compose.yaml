@@ -10,7 +10,6 @@ x-daemonless:
   freshports_url: "https://www.freshports.org/www/onlyoffice-documentserver/"
   user: "bsd"
   mlock: false
-  type: stack
   # PostgreSQL sidecar for the AppJail director bundle; host networking so
   # the document server reaches it on 127.0.0.1, as under podman.
   appjail:
