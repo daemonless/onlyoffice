@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-06T21:37:18Z",
+  "generated": "2026-09-12T17:28:24Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_1",
       "arch": "amd64",
-      "generated": "2026-09-06T21:30:37Z",
+      "generated": "2026-09-12T17:20:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1689,7 +1689,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.8"
+            "version": "4.6.11"
           },
           {
             "licenses": [
@@ -4067,7 +4067,7 @@
     "pkg-latest": {
       "app_version": "9.4.0_2",
       "arch": "amd64",
-      "generated": "2026-09-06T21:31:30Z",
+      "generated": "2026-09-12T17:24:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4407,14 +4407,14 @@
               "MIT"
             ],
             "name": "cgif",
-            "version": "0.5.3"
+            "version": "0.5.4"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "corepack",
-            "version": "0.35.0_1"
+            "version": "0.36.0"
           },
           {
             "licenses": [
@@ -4429,7 +4429,7 @@
               "MIT"
             ],
             "name": "curl",
-            "version": "8.21.0"
+            "version": "8.22.0"
           },
           {
             "licenses": [
@@ -4471,7 +4471,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.3"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -4479,7 +4479,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_3,1"
+            "version": "9.0.1,1"
           },
           {
             "licenses": [
@@ -4670,7 +4670,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.410,1"
+            "version": "0.411,1"
           },
           {
             "licenses": [
@@ -5071,7 +5071,7 @@
               "LGPL3"
             ],
             "name": "libksba",
-            "version": "1.8.0"
+            "version": "1.8.1"
           },
           {
             "licenses": [
@@ -5195,7 +5195,7 @@
               "LGPL20"
             ],
             "name": "librsvg2-rust",
-            "version": "2.62.3_1"
+            "version": "2.62.3_2"
           },
           {
             "licenses": [
@@ -5347,7 +5347,7 @@
               "MIT"
             ],
             "name": "libxml2",
-            "version": "2.15.3"
+            "version": "2.15.4"
           },
           {
             "licenses": [
@@ -5752,7 +5752,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.9"
+            "version": "4.6.11"
           },
           {
             "licenses": [
@@ -5824,7 +5824,7 @@
               "LGPL21"
             ],
             "name": "vips",
-            "version": "8.18.5_1"
+            "version": "8.18.6"
           },
           {
             "licenses": [
@@ -6419,7 +6419,7 @@
           {
             "name": "corepack",
             "purl": "",
-            "version": "0.35.0"
+            "version": "0.36.0"
           },
           {
             "name": "cross-env",
