@@ -10,23 +10,46 @@ x-daemonless:
   freshports_url: "https://www.freshports.org/www/onlyoffice-documentserver/"
   user: "bsd"
   mlock: false
-  appjail: true
+  type: stack
+  # PostgreSQL sidecar for the AppJail director bundle; host networking so
+  # the document server reaches it on 127.0.0.1, as under podman.
+  appjail:
+    director:
+      options:
+        - alias:
+        - ip4_inherit:
+    depends_on:
+      - name: onlyoffice-postgresql
+        image: ghcr.io/daemonless/postgres:latest
+        template: postgres-template.conf
+        env:
+          POSTGRES_DB: onlyoffice
+          POSTGRES_USER: onlyoffice
+          POSTGRES_PASSWORD: "!ENV '${DB_PASSWORD}'"
+          POSTGRES_HOST_AUTH_METHOD: trust
+        volumes:
+          db_data: /config
 
   docs:
     manual: true
     env:
-      DB_HOST: "PostgreSQL hostname (default: onlyoffice-postgresql)"
+      CONFIG_LOCATION: "Path to store document server data, logs, and configuration"
+      DB_DATA_LOCATION: "Path to store PostgreSQL data files"
+      DB_PASSWORD: "PostgreSQL password"
+      EXAMPLE_SERVER_URL: "Public hostname:port the browser uses to reach the document server (e.g. myhost:8080)"
+      TZ:
+        desc: "Timezone for the container"
+        optional: true
+      DB_HOST: "PostgreSQL hostname (default: 127.0.0.1)"
       DB_PORT: "PostgreSQL port (default: 5432)"
       DB_NAME: "Database name"
       DB_USER: "Database user"
       DB_PWD: "Database password"
-      EXAMPLE_SERVER_URL: "Public hostname:port the browser uses to reach the document server (e.g. myhost:8080)"
       AMQP_URI: "RabbitMQ URI (bundled RabbitMQ used by default)"
       JWT_ENABLED: "Enable JWT token validation (true/false)"
       JWT_SECRET: "JWT secret string"
       JWT_HEADER: "JWT header name"
       WOPI_ENABLED: "Enable WOPI protocol for Nextcloud/SharePoint integration (true/false)"
-      TZ: "Timezone for the container"
     volumes:
       /config: "Persistent data, logs, and configuration"
     ports:
@@ -45,15 +68,15 @@ services:
       - DB_PORT=5432
       - DB_NAME=onlyoffice
       - DB_USER=onlyoffice
-      - DB_PWD=onlyoffice
+      - DB_PWD=${DB_PASSWORD}
       - HTTP_PORT=8080
-      - EXAMPLE_SERVER_URL=your-hostname:8080
+      - EXAMPLE_SERVER_URL=${EXAMPLE_SERVER_URL}
       #- JWT_ENABLED=true
       #- JWT_SECRET=your-secret-here
       #- JWT_HEADER=Authorization
-      - TZ=UTC
+      - TZ=${TZ:-UTC}
     volumes:
-      - /path/to/containers/onlyoffice:/config
+      - ${CONFIG_LOCATION}:/config
 
   onlyoffice-postgresql:
     image: ghcr.io/daemonless/postgres:latest
@@ -65,7 +88,7 @@ services:
     environment:
       - POSTGRES_DB=onlyoffice
       - POSTGRES_USER=onlyoffice
-      - POSTGRES_PASSWORD=onlyoffice
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
-      - /path/to/containers/onlyoffice-postgresql:/config
+      - ${DB_DATA_LOCATION}:/config
