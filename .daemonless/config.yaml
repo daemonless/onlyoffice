@@ -8,11 +8,10 @@ cit:
 
 build:
   variants:
+    # pkg-latest disabled: www/onlyoffice-documentserver fails to build on the
+    # ports main branch (npm ENOTCACHED), so it is absent from the latest repo.
+    # Kept as an alias of pkg so the published tag does not disappear.
     - tag: pkg
       containerfile: Containerfile.pkg
       default: true
-      aliases: ["latest"]
-    - tag: pkg-latest
-      containerfile: Containerfile.pkg
-      args:
-        BASE_VERSION: "15-latest"
+      aliases: ["latest", "pkg-latest"]
