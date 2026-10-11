@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-09T23:23:05Z",
+  "generated": "2026-10-11T07:51:14Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
-      "app_version": "9.4.0_1",
+      "app_version": "9.4.0_4",
       "arch": "amd64",
-      "generated": "2026-10-09T23:19:27Z",
+      "generated": "2026-10-11T07:46:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -273,21 +273,21 @@
               "APACHE20"
             ],
             "name": "ImageMagick7",
-            "version": "7.1.2.25_1"
+            "version": "7.1.2.25_2"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "Imath",
-            "version": "3.2.2_4"
+            "version": "3.2.3_1"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.14.1_1"
+            "version": "3.15.1"
           },
           {
             "licenses": [
@@ -301,7 +301,7 @@
               "GPLv3+"
             ],
             "name": "bash",
-            "version": "5.3.15"
+            "version": "5.3.20"
           },
           {
             "licenses": [
@@ -316,7 +316,7 @@
               "BSL"
             ],
             "name": "boost-libs",
-            "version": "1.89.0_2"
+            "version": "1.92.0"
           },
           {
             "licenses": [
@@ -330,7 +330,7 @@
               "MIT"
             ],
             "name": "c-ares",
-            "version": "1.34.6"
+            "version": "1.34.8"
           },
           {
             "licenses": [
@@ -352,21 +352,21 @@
               "CFITSIO"
             ],
             "name": "cfitsio",
-            "version": "4.6.4"
+            "version": "4.7.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "cgif",
-            "version": "0.5.3"
+            "version": "0.5.4"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "corepack",
-            "version": "0.35.0"
+            "version": "0.36.0"
           },
           {
             "licenses": [
@@ -374,7 +374,7 @@
               "CUPS"
             ],
             "name": "cups",
-            "version": "2.4.19_1"
+            "version": "2.4.19_2"
           },
           {
             "licenses": [
@@ -402,7 +402,7 @@
               "GPLv2+"
             ],
             "name": "dbus-glib",
-            "version": "0.114"
+            "version": "0.116"
           },
           {
             "licenses": [
@@ -423,7 +423,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -431,7 +431,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_1,1"
+            "version": "9.0.2,1"
           },
           {
             "licenses": [
@@ -460,7 +460,7 @@
               "LGPL21"
             ],
             "name": "fribidi",
-            "version": "1.0.16"
+            "version": "1.0.17"
           },
           {
             "licenses": [
@@ -468,7 +468,7 @@
               "GPLv3RLE"
             ],
             "name": "gcc14",
-            "version": "14.2.0_6"
+            "version": "14.2.0_7"
           },
           {
             "licenses": [
@@ -497,21 +497,21 @@
               "AGPLv3"
             ],
             "name": "ghostscript10",
-            "version": "10.07.1"
+            "version": "10.08.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "giflib",
-            "version": "5.2.2"
+            "version": "6.1.3"
           },
           {
             "licenses": [
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -540,7 +540,7 @@
               "LGPL3"
             ],
             "name": "gnupg",
-            "version": "2.5.20_1"
+            "version": "2.5.21"
           },
           {
             "licenses": [
@@ -593,7 +593,7 @@
               "APACHE20"
             ],
             "name": "gumbo",
-            "version": "0.13.2_2"
+            "version": "0.14.1"
           },
           {
             "licenses": [
@@ -622,7 +622,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.409,1"
+            "version": "0.411,1"
           },
           {
             "licenses": [
@@ -673,7 +673,7 @@
               "LGPL20+"
             ],
             "name": "lame",
-            "version": "3.100_5"
+            "version": "4.0"
           },
           {
             "licenses": [
@@ -687,7 +687,7 @@
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "licenses": [
@@ -715,7 +715,7 @@
               "MIT"
             ],
             "name": "libXScrnSaver",
-            "version": "1.2.4_1"
+            "version": "1.2.5"
           },
           {
             "licenses": [
@@ -757,14 +757,14 @@
               "MIT"
             ],
             "name": "libXfixes",
-            "version": "6.0.1"
+            "version": "6.0.2"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libXft",
-            "version": "2.3.8"
+            "version": "2.3.9"
           },
           {
             "licenses": [
@@ -828,7 +828,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libarchive",
-            "version": "3.8.7,1"
+            "version": "3.8.8,1"
           },
           {
             "licenses": [
@@ -849,7 +849,7 @@
               "LGPL21"
             ],
             "name": "libbluray",
-            "version": "1.4.1,1"
+            "version": "1.5.1,1"
           },
           {
             "licenses": [
@@ -870,21 +870,21 @@
               "MIT"
             ],
             "name": "libdeflate",
-            "version": "1.25"
+            "version": "1.26"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libdisplay-info",
-            "version": "0.3.0"
+            "version": "0.4.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libdrm",
-            "version": "2.4.133,1"
+            "version": "2.4.134,1"
           },
           {
             "licenses": [
@@ -898,7 +898,7 @@
               "GPLv2"
             ],
             "name": "libdvdread",
-            "version": "7.0.0"
+            "version": "7.1.1"
           },
           {
             "licenses": [
@@ -919,7 +919,7 @@
               "MPL20"
             ],
             "name": "libetonyek01",
-            "version": "0.1.13,1"
+            "version": "0.1.13_1,1"
           },
           {
             "licenses": [
@@ -940,7 +940,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -955,7 +955,7 @@
               "LGPL21+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.2"
+            "version": "1.12.4"
           },
           {
             "licenses": [
@@ -985,7 +985,7 @@
               "LGPL3+"
             ],
             "name": "libheif",
-            "version": "1.22.2_1"
+            "version": "1.22.2_3"
           },
           {
             "licenses": [
@@ -1023,7 +1023,7 @@
               "LGPL3"
             ],
             "name": "libksba",
-            "version": "1.8.0"
+            "version": "1.8.1"
           },
           {
             "licenses": [
@@ -1045,7 +1045,7 @@
               "LGPL21"
             ],
             "name": "libltdl",
-            "version": "2.5.4"
+            "version": "2.6.2"
           },
           {
             "licenses": [
@@ -1060,21 +1060,21 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp3",
-            "version": "1.17.0"
+            "version": "1.18.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libngtcp2",
-            "version": "1.24.0"
+            "version": "1.25.0"
           },
           {
             "licenses": [
@@ -1117,14 +1117,14 @@
               "MIT"
             ],
             "name": "libpsl",
-            "version": "0.22.0"
+            "version": "0.23.3"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libraqm",
-            "version": "0.10.3"
+            "version": "0.11.0"
           },
           {
             "licenses": [
@@ -1132,7 +1132,7 @@
               "CDDL"
             ],
             "name": "libraw",
-            "version": "0.21.5_1"
+            "version": "0.22.2"
           },
           {
             "licenses": [
@@ -1140,14 +1140,14 @@
               "LGPL21"
             ],
             "name": "librevenge",
-            "version": "0.0.5"
+            "version": "0.0.6"
           },
           {
             "licenses": [
               "LGPL20"
             ],
             "name": "librsvg2-rust",
-            "version": "2.62.3"
+            "version": "2.62.3_2"
           },
           {
             "licenses": [
@@ -1183,7 +1183,7 @@
               "BSD2CLAUSE"
             ],
             "name": "libudev-devd",
-            "version": "0.6.0"
+            "version": "0.7.0"
           },
           {
             "licenses": [
@@ -1194,10 +1194,11 @@
           },
           {
             "licenses": [
+              "MIT",
               "APACHE20"
             ],
             "name": "libultrahdr",
-            "version": "1.4.0"
+            "version": "2.0.2"
           },
           {
             "licenses": [
@@ -1263,21 +1264,21 @@
               "BSD3CLAUSE"
             ],
             "name": "libvpx",
-            "version": "1.16.0"
+            "version": "1.17.0"
           },
           {
             "licenses": [
               "GPLv2+"
             ],
             "name": "libwmf",
-            "version": "0.2.15"
+            "version": "0.2.16"
           },
           {
             "licenses": [
               "GPLv2"
             ],
             "name": "libx264",
-            "version": "0.164.3095"
+            "version": "0.165.3223_1"
           },
           {
             "licenses": [
@@ -1298,7 +1299,7 @@
               "MIT"
             ],
             "name": "libxml2",
-            "version": "2.15.3"
+            "version": "2.15.4"
           },
           {
             "licenses": [
@@ -1319,7 +1320,7 @@
               "MIT"
             ],
             "name": "llhttp",
-            "version": "9.4.2"
+            "version": "9.4.3"
           },
           {
             "licenses": [
@@ -1352,7 +1353,7 @@
               "BSD2CLAUSE"
             ],
             "name": "matio",
-            "version": "1.5.30"
+            "version": "1.6.0"
           },
           {
             "licenses": [
@@ -1366,7 +1367,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.1.3"
+            "version": "26.2.2"
           },
           {
             "licenses": [
@@ -1398,6 +1399,13 @@
           },
           {
             "licenses": [
+              "LGPL21"
+            ],
+            "name": "mpg123",
+            "version": "1.33.7"
+          },
+          {
+            "licenses": [
               "GPLv2+",
               "LGPL3"
             ],
@@ -1416,14 +1424,14 @@
               "MIT"
             ],
             "name": "node22",
-            "version": "22.23.2"
+            "version": "22.23.2_1"
           },
           {
             "licenses": [
               "ART20"
             ],
             "name": "npm-node22",
-            "version": "11.18.0"
+            "version": "12.0.2"
           },
           {
             "licenses": [
@@ -1458,21 +1466,21 @@
               "AGPLv3"
             ],
             "name": "onlyoffice-documentserver",
-            "version": "9.4.0_1"
+            "version": "9.4.0_4"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "openblas",
-            "version": "0.3.33,2"
+            "version": "0.3.34_1,2"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15"
+            "version": "3.4.16"
           },
           {
             "licenses": [
@@ -1493,7 +1501,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.30.1"
+            "version": "0.32.0"
           },
           {
             "licenses": [
@@ -1507,7 +1515,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.2"
+            "version": "0.26.5_1"
           },
           {
             "licenses": [
@@ -1557,14 +1565,14 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.4"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "pkgconf",
-            "version": "2.4.3_1,1"
+            "version": "3.0.7,1"
           },
           {
             "licenses": [
@@ -1615,7 +1623,7 @@
               "BSL"
             ],
             "name": "py312-boost-libs",
-            "version": "1.89.0"
+            "version": "1.92.0"
           },
           {
             "licenses": [
@@ -1630,14 +1638,7 @@
               "APACHE20"
             ],
             "name": "py312-packaging",
-            "version": "26.2"
-          },
-          {
-            "licenses": [
-              "MIT"
-            ],
-            "name": "py312-setuptools",
-            "version": "63.1.0_3"
+            "version": "26.3"
           },
           {
             "licenses": [
@@ -1646,14 +1647,14 @@
               "REPOZE"
             ],
             "name": "py312-supervisor",
-            "version": "4.2.5_2,1"
+            "version": "4.3.0,1"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
@@ -1667,7 +1668,7 @@
               "GPLv3"
             ],
             "name": "readline",
-            "version": "8.3.3"
+            "version": "8.3.6"
           },
           {
             "licenses": [
@@ -1688,7 +1689,7 @@
               "APACHE20"
             ],
             "name": "shaderc",
-            "version": "2026.2_1"
+            "version": "2026.4"
           },
           {
             "licenses": [
@@ -1703,7 +1704,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.11"
+            "version": "5.0.1"
           },
           {
             "licenses": [
@@ -1717,28 +1718,28 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.20"
+            "version": "19.1.22"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.2"
+            "version": "2026.3"
           },
           {
             "licenses": [
               "PD"
             ],
             "name": "sqlite3",
-            "version": "3.53.3,1"
+            "version": "3.53.4,1"
           },
           {
             "licenses": [
               "LGPL21"
             ],
             "name": "srt",
-            "version": "1.5.6"
+            "version": "1.5.7_1"
           },
           {
             "licenses": [
@@ -1747,14 +1748,14 @@
               "BSD3CLAUSE"
             ],
             "name": "svt-av1",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "tiff",
-            "version": "4.7.1_1"
+            "version": "4.7.2"
           },
           {
             "licenses": [
@@ -1775,28 +1776,28 @@
               "LGPL21"
             ],
             "name": "vips",
-            "version": "8.18.3"
+            "version": "8.18.6"
           },
           {
             "licenses": [
               "BSD2CLAUSE+PATENT"
             ],
             "name": "vmaf",
-            "version": "3.2.0"
+            "version": "3.2.1"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.356"
+            "version": "1.4.360"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "wayland",
-            "version": "1.25.0"
+            "version": "1.26.0"
           },
           {
             "licenses": [
@@ -1838,7 +1839,7 @@
               "BSD2CLAUSE"
             ],
             "name": "xxhash",
-            "version": "0.8.3"
+            "version": "0.8.4"
           },
           {
             "licenses": [
@@ -1985,62 +1986,62 @@
           {
             "name": "@npmcli/agent",
             "purl": "",
-            "version": "4.0.2"
+            "version": "5.0.2"
           },
           {
             "name": "@npmcli/arborist",
             "purl": "",
-            "version": "9.9.0"
+            "version": "10.0.2"
           },
           {
             "name": "@npmcli/config",
             "purl": "",
-            "version": "10.12.0"
+            "version": "11.0.1"
           },
           {
             "name": "@npmcli/fs",
             "purl": "",
-            "version": "5.0.0"
+            "version": "6.0.0"
           },
           {
             "name": "@npmcli/git",
             "purl": "",
-            "version": "7.0.2"
+            "version": "8.0.0"
           },
           {
             "name": "@npmcli/installed-package-contents",
             "purl": "",
-            "version": "4.0.0"
+            "version": "5.0.0"
           },
           {
             "name": "@npmcli/map-workspaces",
             "purl": "",
-            "version": "5.0.3"
+            "version": "6.0.0"
           },
           {
             "name": "@npmcli/metavuln-calculator",
             "purl": "",
-            "version": "9.0.3"
+            "version": "10.0.0"
           },
           {
             "name": "@npmcli/name-from-folder",
             "purl": "",
-            "version": "4.0.0"
+            "version": "5.0.0"
           },
           {
             "name": "@npmcli/node-gyp",
             "purl": "",
-            "version": "5.0.0"
+            "version": "6.0.0"
           },
           {
             "name": "@npmcli/package-json",
             "purl": "",
-            "version": "7.0.5"
+            "version": "8.0.0"
           },
           {
             "name": "@npmcli/promise-spawn",
             "purl": "",
-            "version": "9.0.1"
+            "version": "10.0.0"
           },
           {
             "name": "@npmcli/query",
@@ -2050,12 +2051,12 @@
           {
             "name": "@npmcli/redact",
             "purl": "",
-            "version": "4.0.0"
+            "version": "5.0.0"
           },
           {
             "name": "@npmcli/run-script",
             "purl": "",
-            "version": "10.0.4"
+            "version": "11.0.0"
           },
           {
             "name": "@paralleldrive/cuid2",
@@ -2065,12 +2066,12 @@
           {
             "name": "@sigstore/bundle",
             "purl": "",
-            "version": "4.0.0"
+            "version": "5.0.0"
           },
           {
             "name": "@sigstore/core",
             "purl": "",
-            "version": "3.2.1"
+            "version": "4.0.1"
           },
           {
             "name": "@sigstore/protobuf-specs",
@@ -2080,17 +2081,17 @@
           {
             "name": "@sigstore/sign",
             "purl": "",
-            "version": "4.1.1"
+            "version": "5.0.0"
           },
           {
             "name": "@sigstore/tuf",
             "purl": "",
-            "version": "4.0.2"
+            "version": "5.0.0"
           },
           {
             "name": "@sigstore/verify",
             "purl": "",
-            "version": "3.1.1"
+            "version": "4.1.0"
           },
           {
             "name": "@tufjs/canonical-json",
@@ -2100,7 +2101,7 @@
           {
             "name": "@tufjs/models",
             "purl": "",
-            "version": "4.1.0"
+            "version": "5.0.0"
           },
           {
             "name": "@types/json5",
@@ -2125,7 +2126,7 @@
           {
             "name": "abbrev",
             "purl": "",
-            "version": "4.0.0"
+            "version": "5.0.0"
           },
           {
             "name": "accepts",
@@ -2145,7 +2146,7 @@
           {
             "name": "agent-base",
             "purl": "",
-            "version": "7.1.4"
+            "version": "9.0.0"
           },
           {
             "name": "ajv",
@@ -2245,7 +2246,7 @@
           {
             "name": "bin-links",
             "purl": "",
-            "version": "6.0.2"
+            "version": "7.0.0"
           },
           {
             "name": "binary-extensions",
@@ -2275,7 +2276,7 @@
           {
             "name": "cacache",
             "purl": "",
-            "version": "20.0.4"
+            "version": "21.0.1"
           },
           {
             "name": "call-bind",
@@ -2305,12 +2306,12 @@
           {
             "name": "cidr-regex",
             "purl": "",
-            "version": "5.0.5"
+            "version": "6.0.0"
           },
           {
             "name": "cmd-shim",
             "purl": "",
-            "version": "8.0.0"
+            "version": "9.0.2"
           },
           {
             "name": "color-convert",
@@ -2370,7 +2371,7 @@
           {
             "name": "corepack",
             "purl": "",
-            "version": "0.35.0"
+            "version": "0.36.0"
           },
           {
             "name": "cross-env",
@@ -2810,7 +2811,7 @@
           {
             "name": "hosted-git-info",
             "purl": "",
-            "version": "9.0.3"
+            "version": "10.1.1"
           },
           {
             "name": "http-cache-semantics",
@@ -2825,12 +2826,12 @@
           {
             "name": "http-proxy-agent",
             "purl": "",
-            "version": "7.0.2"
+            "version": "9.1.0"
           },
           {
             "name": "https-proxy-agent",
             "purl": "",
-            "version": "7.0.6"
+            "version": "9.1.0"
           },
           {
             "name": "humanize-ms",
@@ -2850,7 +2851,7 @@
           {
             "name": "ignore-walk",
             "purl": "",
-            "version": "8.0.0"
+            "version": "9.0.0"
           },
           {
             "name": "import-fresh",
@@ -2875,12 +2876,12 @@
           {
             "name": "ini",
             "purl": "",
-            "version": "6.0.0"
+            "version": "7.0.0"
           },
           {
             "name": "init-package-json",
             "purl": "",
-            "version": "8.2.5"
+            "version": "9.0.0"
           },
           {
             "name": "installtools",
@@ -2930,7 +2931,7 @@
           {
             "name": "is-cidr",
             "purl": "",
-            "version": "6.0.4"
+            "version": "7.0.0"
           },
           {
             "name": "is-core-module",
@@ -3025,7 +3026,7 @@
           {
             "name": "json-parse-even-better-errors",
             "purl": "",
-            "version": "5.0.0"
+            "version": "6.0.0"
           },
           {
             "name": "json-schema-traverse",
@@ -3100,52 +3101,52 @@
           {
             "name": "libnpmaccess",
             "purl": "",
-            "version": "10.0.3"
+            "version": "11.0.0"
           },
           {
             "name": "libnpmdiff",
             "purl": "",
-            "version": "8.1.11"
+            "version": "9.0.2"
           },
           {
             "name": "libnpmexec",
             "purl": "",
-            "version": "10.3.1"
+            "version": "11.0.2"
           },
           {
             "name": "libnpmfund",
             "purl": "",
-            "version": "7.0.25"
+            "version": "8.0.2"
           },
           {
             "name": "libnpmorg",
             "purl": "",
-            "version": "8.0.1"
+            "version": "9.0.0"
           },
           {
             "name": "libnpmpack",
             "purl": "",
-            "version": "9.1.11"
+            "version": "10.0.2"
           },
           {
             "name": "libnpmpublish",
             "purl": "",
-            "version": "11.2.0"
+            "version": "12.0.0"
           },
           {
             "name": "libnpmsearch",
             "purl": "",
-            "version": "9.0.1"
+            "version": "10.0.0"
           },
           {
             "name": "libnpmteam",
             "purl": "",
-            "version": "8.0.2"
+            "version": "9.0.0"
           },
           {
             "name": "libnpmversion",
             "purl": "",
-            "version": "8.0.4"
+            "version": "9.0.0"
           },
           {
             "name": "ljharb-monorepo-symlink-test",
@@ -3205,12 +3206,12 @@
           {
             "name": "lru-cache",
             "purl": "",
-            "version": "11.5.1"
+            "version": "11.5.2"
           },
           {
             "name": "make-fetch-happen",
             "purl": "",
-            "version": "15.0.6"
+            "version": "16.0.1"
           },
           {
             "name": "media-typer",
@@ -3265,7 +3266,7 @@
           {
             "name": "minipass-fetch",
             "purl": "",
-            "version": "5.0.2"
+            "version": "6.0.0"
           },
           {
             "name": "minipass-flush",
@@ -3305,7 +3306,7 @@
           {
             "name": "mute-stream",
             "purl": "",
-            "version": "3.0.0"
+            "version": "4.0.0"
           },
           {
             "name": "mylib",
@@ -3330,67 +3331,67 @@
           {
             "name": "node-gyp",
             "purl": "",
-            "version": "12.4.0"
+            "version": "13.0.0"
           },
           {
             "name": "nopt",
             "purl": "",
-            "version": "9.0.0"
+            "version": "10.0.1"
           },
           {
             "name": "npm",
             "purl": "",
-            "version": "11.18.0"
+            "version": "12.0.2"
           },
           {
             "name": "npm-audit-report",
             "purl": "",
-            "version": "7.0.0"
+            "version": "8.0.0"
           },
           {
             "name": "npm-bundled",
             "purl": "",
-            "version": "5.0.0"
+            "version": "6.0.0"
           },
           {
             "name": "npm-install-checks",
             "purl": "",
-            "version": "8.0.0"
+            "version": "9.0.0"
           },
           {
             "name": "npm-normalize-package-bin",
             "purl": "",
-            "version": "5.0.0"
+            "version": "6.0.0"
           },
           {
             "name": "npm-package-arg",
             "purl": "",
-            "version": "13.0.2"
+            "version": "14.0.0"
           },
           {
             "name": "npm-packlist",
             "purl": "",
-            "version": "10.0.4"
+            "version": "11.3.0"
           },
           {
             "name": "npm-pick-manifest",
             "purl": "",
-            "version": "11.0.3"
+            "version": "12.0.0"
           },
           {
             "name": "npm-profile",
             "purl": "",
-            "version": "12.0.2"
+            "version": "13.0.1"
           },
           {
             "name": "npm-registry-fetch",
             "purl": "",
-            "version": "19.1.1"
+            "version": "20.0.1"
           },
           {
             "name": "npm-user-validate",
             "purl": "",
-            "version": "4.0.0"
+            "version": "5.0.0"
           },
           {
             "name": "object-assign",
@@ -3470,12 +3471,12 @@
           {
             "name": "p-map",
             "purl": "",
-            "version": "7.0.4"
+            "version": "7.0.5"
           },
           {
             "name": "pacote",
             "purl": "",
-            "version": "21.5.1"
+            "version": "22.0.0"
           },
           {
             "name": "parent-module",
@@ -3485,7 +3486,7 @@
           {
             "name": "parse-conflict-json",
             "purl": "",
-            "version": "5.0.1"
+            "version": "6.0.0"
           },
           {
             "name": "parseurl",
@@ -3530,7 +3531,7 @@
           {
             "name": "picomatch",
             "purl": "",
-            "version": "4.0.4"
+            "version": "4.0.5"
           },
           {
             "name": "possible-typed-array-names",
@@ -3550,7 +3551,7 @@
           {
             "name": "proc-log",
             "purl": "",
-            "version": "6.1.0"
+            "version": "7.0.0"
           },
           {
             "name": "proggy",
@@ -3570,12 +3571,17 @@
           {
             "name": "promzard",
             "purl": "",
-            "version": "3.0.1"
+            "version": "4.0.0"
           },
           {
             "name": "proxy-addr",
             "purl": "",
             "version": "2.0.7"
+          },
+          {
+            "name": "proxy-agent-negotiate",
+            "purl": "",
+            "version": "1.1.0"
           },
           {
             "name": "pump",
@@ -3615,12 +3621,12 @@
           {
             "name": "read",
             "purl": "",
-            "version": "5.0.1"
+            "version": "6.0.0"
           },
           {
             "name": "read-cmd-shim",
             "purl": "",
-            "version": "6.0.0"
+            "version": "7.0.0"
           },
           {
             "name": "regexp.prototype.flags",
@@ -3740,7 +3746,7 @@
           {
             "name": "sigstore",
             "purl": "",
-            "version": "4.1.1"
+            "version": "5.0.0"
           },
           {
             "name": "smart-buffer",
@@ -3755,7 +3761,7 @@
           {
             "name": "socks-proxy-agent",
             "purl": "",
-            "version": "8.0.5"
+            "version": "10.1.0"
           },
           {
             "name": "spdx-exceptions",
@@ -3775,7 +3781,7 @@
           {
             "name": "ssri",
             "purl": "",
-            "version": "13.0.1"
+            "version": "14.0.0"
           },
           {
             "name": "statuses",
@@ -3885,7 +3891,7 @@
           {
             "name": "tuf-js",
             "purl": "",
-            "version": "4.1.0"
+            "version": "6.0.0"
           },
           {
             "name": "type-check",
@@ -3980,7 +3986,7 @@
           {
             "name": "validate-npm-package-name",
             "purl": "",
-            "version": "7.0.2"
+            "version": "8.0.0"
           },
           {
             "name": "vary",
@@ -4020,7 +4026,7 @@
           {
             "name": "write-file-atomic",
             "purl": "",
-            "version": "7.0.1"
+            "version": "8.0.0"
           },
           {
             "name": "yallist",
@@ -4048,17 +4054,12 @@
           {
             "name": "packaging",
             "purl": "",
-            "version": "26.2"
-          },
-          {
-            "name": "setuptools",
-            "purl": "",
-            "version": "63.1.0"
+            "version": "26.3"
           },
           {
             "name": "supervisor",
             "purl": "",
-            "version": "4.2.5"
+            "version": "4.3.0"
           }
         ],
         "ruby": [],
@@ -4070,9 +4071,9 @@
         "freebsd": 256,
         "go": 0,
         "java": 0,
-        "node": 436,
+        "node": 437,
         "php": 0,
-        "python": 5,
+        "python": 4,
         "ruby": 0,
         "rust": 0,
         "total": 697
