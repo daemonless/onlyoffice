@@ -1,2 +1,7 @@
 #!/bin/sh
+# The node is rabbit@localhost, not rabbit@<hostname>: on a DHCP network the
+# container's own name maps to 0.0.0.0 (the address is not known when podman
+# writes /etc/hosts), and Erlang refuses that for the node's host
+# ({epmd_error,"onlyoffice",address}); RabbitMQ never started on fjord's lan.
+export RABBITMQ_NODENAME=rabbit@localhost
 exec /usr/local/sbin/rabbitmq-server
