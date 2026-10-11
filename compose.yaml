@@ -10,8 +10,18 @@ x-daemonless:
   freshports_url: "https://www.freshports.org/www/onlyoffice-documentserver/"
   user: "bsd"
   mlock: false
-  # PostgreSQL sidecar for the AppJail director bundle; host networking so
-  # the document server reaches it on 127.0.0.1, as under podman.
+  # The document server is the one people open; postgres stays on the
+  # stack's private network, where it is found by the name fjord puts in
+  # DB_HOST (127.0.0.1 on host networking). The service is named after the
+  # app because the AppJail bundle names its main jail that way, and fjord
+  # refuses a network plan naming a service the bundle does not have.
+  networking:
+    onlyoffice: default
+    "*": private
+  hostnames:
+    onlyoffice-postgresql: DB_HOST
+  # PostgreSQL sidecar for the AppJail director bundle, named as the service
+  # is so fjord finds its jail by the service's name.
   appjail:
     director:
       options:
@@ -39,7 +49,10 @@ x-daemonless:
       TZ:
         desc: "Timezone for the container"
         optional: true
-      DB_HOST: "PostgreSQL hostname (default: 127.0.0.1)"
+      DB_HOST:
+        desc: "Where the document server finds PostgreSQL (fjord sets this; 127.0.0.1 on host networking)"
+        level: advanced
+        optional: true
       DB_PORT: "PostgreSQL port (default: 5432)"
       DB_NAME: "Database name"
       DB_USER: "Database user"
@@ -55,7 +68,7 @@ x-daemonless:
       80: "HTTP (document server + example app at /example/). Map host port 8080→80"
 
 services:
-  onlyoffice-documentserver:
+  onlyoffice:
     image: ghcr.io/daemonless/onlyoffice:pkg
     container_name: onlyoffice-documentserver
     network_mode: host
@@ -63,7 +76,7 @@ services:
     depends_on:
       - onlyoffice-postgresql
     environment:
-      - DB_HOST=127.0.0.1
+      - DB_HOST=${DB_HOST:-127.0.0.1}
       - DB_PORT=5432
       - DB_NAME=onlyoffice
       - DB_USER=onlyoffice
