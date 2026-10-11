@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T07:51:14Z",
+  "generated": "2026-10-11T21:03:19Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_4",
       "arch": "amd64",
-      "generated": "2026-10-11T07:46:47Z",
+      "generated": "2026-10-11T20:59:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1417,7 +1417,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.4,3"
+            "version": "1.30.5_2,3"
           },
           {
             "licenses": [
@@ -1452,7 +1452,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -1529,7 +1529,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -1661,7 +1661,7 @@
               "MPL20"
             ],
             "name": "rabbitmq",
-            "version": "4.3.5"
+            "version": "4.3.6"
           },
           {
             "licenses": [
