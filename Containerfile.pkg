@@ -71,9 +71,10 @@ RUN mkdir -p /usr/local/www/onlyoffice/example && \
 
 # Copy service definitions and init scripts
 COPY root/ /
+RUN chmod +x /daemonless/libexec/* /daemonless/init.d/*
 
 # Make scripts executable
-RUN chmod +x /etc/cont-init.d/* /etc/services.d/*/run /healthz 2>/dev/null || true
+RUN chmod +x /healthz
 
 # Environment (compatible with upstream onlyoffice/documentserver)
 ENV DB_HOST=onlyoffice-postgresql \
