@@ -37,7 +37,7 @@ x-daemonless:
           POSTGRES_PASSWORD: "!ENV '${DB_PASSWORD}'"
           POSTGRES_HOST_AUTH_METHOD: trust
         volumes:
-          db_data: /config
+          db_data: /var/lib/postgresql/data
 
   docs:
     manual: true
@@ -103,4 +103,4 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
-      - ${DB_DATA_LOCATION}:/config
+      - ${DB_DATA_LOCATION}:/var/lib/postgresql/data

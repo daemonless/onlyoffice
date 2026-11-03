@@ -81,7 +81,7 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
           - POSTGRES_PASSWORD=onlyoffice
           - POSTGRES_HOST_AUTH_METHOD=trust
         volumes:
-          - "/path/to/containers/onlyoffice-postgresql:/config"
+          - "/path/to/containers/onlyoffice-postgresql:/var/lib/postgresql/data"
     ```
 
     **2.** Deploy:
@@ -122,7 +122,7 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
       -e POSTGRES_USER=onlyoffice \
       -e POSTGRES_PASSWORD=onlyoffice \
       -e POSTGRES_HOST_AUTH_METHOD=trust \
-      -v /path/to/containers/onlyoffice-postgresql:/config \
+      -v /path/to/containers/onlyoffice-postgresql:/var/lib/postgresql/data \
       ghcr.io/daemonless/postgres:latest
 
     podman run -d --name onlyoffice-documentserver \
@@ -224,7 +224,7 @@ ONLYOFFICE Document Server integrates with Nextcloud via the official ONLYOFFICE
           - POSTGRES_PASSWORD=onlyoffice
           - POSTGRES_HOST_AUTH_METHOD=trust
         volumes:
-          - "/path/to/containers/onlyoffice-postgresql:/config"
+          - "/path/to/containers/onlyoffice-postgresql:/var/lib/postgresql/data"
 
       nextcloud:
         image: ghcr.io/daemonless/nextcloud:latest
@@ -250,7 +250,7 @@ ONLYOFFICE Document Server integrates with Nextcloud via the official ONLYOFFICE
       -e POSTGRES_USER=onlyoffice \
       -e POSTGRES_PASSWORD=onlyoffice \
       -e POSTGRES_HOST_AUTH_METHOD=trust \
-      -v /path/to/containers/onlyoffice-postgresql:/config \
+      -v /path/to/containers/onlyoffice-postgresql:/var/lib/postgresql/data \
       ghcr.io/daemonless/postgres:latest
 
     # Document Server
