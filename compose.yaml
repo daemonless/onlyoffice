@@ -4,7 +4,7 @@ x-daemonless:
   title: "ONLYOFFICE Document Server"
   icon: ":simple-onlyoffice:"
   category: "Productivity"
-  description: "Online office suite providing collaborative editors for documents, spreadsheets, and presentations. Fully compatible with Office Open XML formats (.docx, .xlsx, .pptx). Requires PostgreSQL — see the onlyoffice-postgresql service below."
+  description: "Standalone collaborative document, spreadsheet, and presentation editors (.docx, .xlsx, .pptx) for Nextcloud, Seafile, OwnCloud, and other WOPI/API hosts. For a complete office portal with users, files, Projects, CRM, and Calendar, see ONLYOFFICE Workspace."
   upstream_url: "https://github.com/ONLYOFFICE/DocumentServer"
   web_url: "https://www.onlyoffice.com/"
   freshports_url: "https://www.freshports.org/www/onlyoffice-documentserver/"

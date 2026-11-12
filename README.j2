@@ -11,6 +11,8 @@ description: "Deploy ONLYOFFICE Document Server on FreeBSD natively using Podman
 
 Self-hosted online office suite for documents, spreadsheets, and presentations — fully compatible with .docx, .xlsx, and .pptx. Running natively on FreeBSD.
 
+> **Document Server vs. Workspace:** This image provides the standalone online editors for Nextcloud, OwnCloud, Seafile, and other WOPI/API hosts — it has no user accounts or file manager of its own. For a complete self-hosted office portal with users, folders, Projects, CRM, and Calendar, see **[ONLYOFFICE Workspace]({% if render_mode == "mkdocs" %}/images/onlyoffice-workspace/{% else %}https://daemonless.io/images/onlyoffice-workspace/{% endif %})** (`daemonless/onlyoffice-workspace`).
+
 {% if render_mode == "mkdocs" %}
 !!! tip "What is ONLYOFFICE?"
     ONLYOFFICE Document Server is a self-hosted collaborative office suite with real-time co-editing. It integrates with Nextcloud, Seafile, and other platforms via WOPI or a direct API. The Daemonless image runs entirely on native FreeBSD — no Linux emulation required.
