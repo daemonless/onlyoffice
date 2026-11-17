@@ -16,7 +16,7 @@ ARG UPSTREAM_JQ='.tag_name | ltrimstr("v")'
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="ONLYOFFICE Document Server" \
-      org.opencontainers.image.description="Online office suite providing collaborative editors for documents, spreadsheets, and presentations. Fully compatible with Office Open XML formats (.docx, .xlsx, .pptx). Requires PostgreSQL — see the onlyoffice-postgresql service below." \
+      org.opencontainers.image.description="Standalone collaborative document, spreadsheet, and presentation editors (.docx, .xlsx, .pptx) for Nextcloud, Seafile, OwnCloud, and other WOPI/API hosts. For a complete office portal with users, files, Projects, CRM, and Calendar, see ONLYOFFICE Workspace." \
       org.opencontainers.image.source="https://github.com/daemonless/onlyoffice" \
       org.opencontainers.image.url="https://www.onlyoffice.com/" \
       org.opencontainers.image.documentation="https://helpcenter.onlyoffice.com/" \

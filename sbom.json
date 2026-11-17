@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T17:03:59Z",
+  "generated": "2026-11-17T23:46:43Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_4",
       "arch": "amd64",
-      "generated": "2026-11-04T16:58:55Z",
+      "generated": "2026-11-17T23:42:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -280,7 +280,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.2"
+            "version": "3.15.3"
           },
           {
             "licenses": [
@@ -413,8 +413,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL3+"
+              "LGPL3+",
+              "GPLv3+"
             ],
             "name": "ffmpeg",
             "version": "9.0.2,1"
@@ -472,8 +472,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL21+"
+              "LGPL21+",
+              "GPLv3+"
             ],
             "name": "gettext-runtime",
             "version": "1.0_1"
@@ -530,8 +530,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "LGPL21+"
+              "LGPL21+",
+              "GPLv3+"
             ],
             "name": "gnutls",
             "version": "3.8.13"
@@ -561,8 +561,8 @@
           },
           {
             "licenses": [
-              "GPLv3+",
-              "GFDL"
+              "GFDL",
+              "GPLv3+"
             ],
             "name": "gsed",
             "version": "4.10"
@@ -1000,7 +1000,7 @@
               "BSD3CLAUSE"
             ],
             "name": "libjxl",
-            "version": "0.12.0"
+            "version": "0.12.0_1"
           },
           {
             "licenses": [
@@ -1438,7 +1438,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.132"
+            "version": "3.133"
           },
           {
             "licenses": [
@@ -1466,7 +1466,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.16"
+            "version": "3.4.18"
           },
           {
             "licenses": [
@@ -1551,7 +1551,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.2"
           },
           {
             "licenses": [
@@ -1640,14 +1640,14 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
               "MPL20"
             ],
             "name": "rabbitmq",
-            "version": "4.3.6"
+            "version": "4.3.7"
           },
           {
             "licenses": [
