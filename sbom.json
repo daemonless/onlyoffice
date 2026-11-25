@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-24T10:47:28Z",
+  "generated": "2026-11-25T13:59:09Z",
   "image": "onlyoffice",
   "tags": {
     "pkg": {
       "app_version": "9.4.0_4",
       "arch": "amd64",
-      "generated": "2026-11-24T10:43:23Z",
+      "generated": "2026-11-25T13:54:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -91,7 +91,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libarchive",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -126,7 +126,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libldns",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -168,14 +168,14 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p4"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -203,7 +203,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p6"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -238,7 +238,7 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p5"
+            "version": "15.1p7"
           },
           {
             "licenses": [
@@ -1403,7 +1403,7 @@
               "BSD2CLAUSE"
             ],
             "name": "nginx",
-            "version": "1.30.6,3"
+            "version": "1.30.7,3"
           },
           {
             "licenses": [
